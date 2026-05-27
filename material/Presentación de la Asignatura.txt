@@ -1,0 +1,25 @@
+SEGURIDAD DE LA INFORMACIÓN
+Profesor: Antonio Ocón Carreras (ocon@cicei.ulpgc.es)
+Proyecto Docente
+Bibliografía:
+Apuntes de Seguridad de la Información (Ocón y Rosa)
+Criptografía y Seguridad en Computadores (Lucena)
+
+Planificación Semanal:
+Tema 1: Visión Integral - Fundamentos(1 semana)
+Tema 2: Herramientas en Seguridad Digital (criptografía) (5 semanas)
+Tema 3: seguridad en SSOO (Amenazas a los sistemas de información) (2 semanas)
+Tema 4: Seguridad en redes (Mecanismos de Defensa) (2 semanas)
+Tema 5: Instrumentos para la Gestión de la Seguridad (2 semanas)
+Tema 6: Legislación y Normativa (2 semanas)
+
+Asistencia obligatoria a clases teóricas y prácticas. Criterio de asistencia obligatorio
+para presentarse en convocatoria ordinaria. Evaluación por curso: entrega personal
+secuenciada de las prácticas.
+Evaluación por curso: 40% prácticas 10% participación y asistencia 50% examen.
+Evaluación estudiantes sin asistencia : 40% prácticas, 60% examen, entrega
+prácticas por plataforma y defensa ante el profesor.
+
+¿PREGUNTAS?
+
+

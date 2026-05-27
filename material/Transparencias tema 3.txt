@@ -1,0 +1,351 @@
+U.A. 3: Amenazas a los Sistemas de Información
+•
+
+Objetivos UA3
+•
+•
+•
+•
+•
+
+Conocer y distinguir entre los tres tipos de amenazas: ataques, accidentes y
+negligencias.
+Conocer las amenazas básicas a los sistemas de información en el entorno doméstico y
+de pymes.
+Conocer los tipos de malware existente y su nivel de peligrosidad.
+Conocer las amenazas relativas al empleo del correo electrónico, la navegación web y
+las plataformas de red social, tanto desde equipos fijos como portátiles y móviles.
+Conocer las técnicas básicas de ataque a los sistemas de información
+organizacionales.
+
+1/12
+
+U.A. 3: Amenazas a los Sistemas de Información
+•
+
+Amenazas y ataques a los sistemas de información
+•
+•
+
+Amenazas: ataques (específicos o indiscriminados), accidentes y
+negligencias (factor humano)
+Efectos de un ataque
+•
+
+•
+•
+
+Perdida inf., disponibilidad, confidencialidad, intimidad, reputacion
+
+Principales motivaciones de los atacantes: M.I.C.E.
+Perfiles clásicos del atacante informático. Subculturas
+•
+
+Hacker, cracker, script kiddie, phreaker, carder, (ex) empleados
+
+•
+
+Vulnerabilidades y Exploits
+
+•
+
+Nuevas tecnologías, nuevas amenazas. Cibercrimen
+2/12
+
+U.A. 3: Amenazas a los Sistemas de Información
+•
+
+Amenazas en entono doméstico y estaciones cliente
+•
+
+Ordenador personal. Sistema operativo
+•
+•
+•
+•
+•
+
+•
+
+Uso compartido de ordenadores personales
+•
+
+•
+
+Ausencia política seguridad
+Usuario como administrador
+Vulnerabilidades S.O. y aplicaciones: actualizaciones
+Configuración Sistema: bastionamiento, contraseñas
+Almacenamiento, discos, pendrives
+Cadena seguridad: usuario menos sensible
+
+Redes domésticas. Wifi, ADSL, Internet por cable
+•
+•
+•
+•
+
+Instalación subcontratas, contraseñas (WifiPass), acceso remoto router
+Escasa o nula cultura seguridad en red
+Wifi: necesidad cifrado – WEP débil, ¡WPA o WPA-2/3 obligatorios!
+¡¡¡Protocolo WPS peligrosísimo!!! (unidad 4 – medidas de
+seguridad)
+
+3/12
+
+U.A. 3: Amenazas a los Sistemas de Información
+Software Malicioso (Malware)
+
+•
+
+Según su mecanismo de propagación
+•
+•
+
+Virus
+Gusanos
+
+•
+
+Caballos de Troya (Troyanos)
+
+•
+
+Según su comportamiento
+
+•
+•
+
+•
+Instalación y ocultación. Rootkits. Backdoors. Downloaders
+•
+Captura de información. Spyware. PWStealers. Keyloggers
+•
+Captura de recursos. Bots. Botnets
+•
+Publicidad. Adware. Clickers. Secuestradores de Web
+•
+Secuestro de información. Rogues. ¡Ransomware!
+•
+Destrucción de información. Killers. Bombas lógicas
+•
+Otro software no recomendable (keygens, cracks, kits)
+Tendencia: infección con downloader que analiza e instala MW adecuado
+Existe malware multimecanismo Troyano/Gusano/Virus
+
+Al contrario que los virus clásicos, el Malware moderno no se ve, no se hace
+notar… pero es MUCHO más peligroso.
+4/12
+
+U.A. 3: Amenazas a los Sistemas de Información
+Ransomware: la plaga de las Pymes españolas
+
+1.
+2.
+
+Pagar el rescate no asegura nada…
+Si las copias de seguridad estaban en línea, también secuestradas
+5/12
+
+U.A. 3: Amenazas a los Sistemas de Información
+•
+
+Amenazas a la Seguridad en el Correo Electrónico
+•
+•
+
+Privacidad (copias, errores, spoofing –phising-)
+Spam o correo No deseado
+•
+
+•
+
+•
+
+90% correo, disponibilidad, entrada malware, phising
+
+Bulos: rumores, cadenas, engaños, spam social
+
+Amenazas a la Seguridad en la Web y Comercio Electrónico
+•
+
+Navegadores Web
+•
+
+•
+•
+
+Privacidad. Cookies (cookies espía, cookies tóxicas)
+Web hacking (falseo de web para captura de credenciales), 2 vías:
+•
+•
+
+•
+
+SO Internet, vulnerabilidades, enlaces tóxicos
+
+Phising, estafas por Internet
+Pharming. Envenenamiento del DNS (DNS Poisoning)
+•
+Envenenamiento caché, modificación HOSTS
+
+Cross-site Scripting (XSS) – Enlaces maliciosos
+•
+
+No persistente (reflejado), persistente (almacenado)
+6/12
+
+U.A. 3: Amenazas a los Sistemas de Información
+Phishing
+
+7/12
+
+U.A. 3: Amenazas a los Sistemas de Información
+Phishing (SMSishing, whatsapp,…)
+
+8/12
+
+U.A. 3: Amenazas a los Sistemas de Información
+Botnets
+
+Aplicaciones:
+• DDOS
+• Envío de Spam
+• Minado de criptomonedas
+• Etc…
+9/12
+
+U.A. 3: Amenazas a los Sistemas de Información
+Nuevas amenazas. Web 2.0. Redes Sociales y Cloud
+computing
+•
+•
+
+Web 2.0 y UGC (User generated content)
+Redes sociales
+•
+•
+•
+•
+•
+•
+
+•
+
+Facebook, +1200 millones usuarios, Twitter, Youtube, etc.
+Amenazas web, mashups, web hacking, enlaces tóxicos
+Incertidumbre datos
+Intimidad y privacidad
+Riesgos humanos (intimidad terceros, repercusiones vida laboral,
+atentados al honor, menores en la red)
+Riesgos técnológicos
+•
+Tabnabbing, clickjacking, gusanos, cookies maliciosas, etc…
+
+Computación en la nube (cloud computing)
+•
+•
+
+Externalización activo más importante: información
+Necesidad cumplimiento normativas control información (RGPD, etc)
+•
+Estricto cumplimiento SLAs, empleo de nubes cifradas, residencia datos
+10/12
+
+•
+
+U.A. 3: Amenazas a los Sistemas de Información
+Ataques elaborados a los Sistemas de Información
+
+•
+
+Obtención de información
+•
+•
+
+Escaneo de puertos (Port Scanning)
+Identificación de vulnerabilidades
+•
+Escuchas - Eavesdropping (voz, voIP), sniffing
+• Google hacking - Google indexa más de lo que debe
+•
+
+•
+
+•
+
+versiones apps, mensajes error, respuestas a URL tóxicas
+
+El punto más débil: Factor humano - Ingeniería social
+
+Técnicas de Ataque.
+•
+
+•
+
+Explotación de vulnerabilidades. Acceso, ocultación, aseguramiento, salto
+Suplantación. IP, DNS y Web Spoofing
+Malware (genérico/específico), Inyección de SQL, Cross Site Scripting…
+Denegación de Servicio: DoS y DDoS (botnets, posibilidad contratarlos)
+
+•
+
+Amenaza avanzada y persistente (APT) – ejemplo SONY
+
+•
+•
+
+•
+
+IA – LLMs como principal vector de ataque y gestor de defensa
+•
+
+Operación: diseño y ejecución de scripts de ataque / contramedidas
+
+•
+
+Revisión de código y detección de vulnerabilidades (CVEs)
+11/12
+
+U.A. 3: Amenazas a los Sistemas de Información
+
+CVE (Common Vulnerabilities and Exposures)
+o Identificador común de vulnerabilidades públicas
+ Asigna un nombre único a cada vulnerabilidad
+
+o
+o
+
+Mitre (www.mitre.org) coordina el programa CVE
+CNA (CVE Numbering Authority): autoridad que asigna y publica CVE
+
+
+Organizaciones autorizadas para reservar CVE (Europa: ENISA España: INCIBE)
+
+o NVD (National Vulnerability Database)
+
+ Mantenida por NIST (National Institute of Standards and Technology)
+•
+
+La NVD amplía los CVE con referencias, métricas de severidad, productos afectados y
+datos útiles para la gestión automatizada de vulnerabilidades.
+
+o Europa: ENISA (European Union Agency for Cybersecurity) - CNA y Root
+ España: INCIBE (Instituto de Ciberseguridad de España) – CNA y Root
+
+o CVSS (Common Vulnerability Scoring System)
+
+ Medida de severidad técnica – puntúa de 0 a 10
+ CVSS v4.0 (2024) añade más contexto técnico
+•
+
+Evaluación en métricas Base, Threat (amenaza), Environmental (entorno) y Supplemental
+(suplementarias).
+
+o Ataques de día cero (vulnerabilidades no resueltas) y su relación con CVE
+ Su publicación no coordinada puede agravar el impacto
+ Irrupción de las IAs como analizadoras de vulnerabilidades en código
+
+12/12
+
+

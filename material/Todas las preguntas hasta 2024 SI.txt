@@ -1,0 +1,1645 @@
+Todas-las-preguntas.pdf
+
+Pipo_Revenge
+
+.
+
+Seguridad de la Información
+4º Grado en Ingeniería Informática
+Escuela de Ingeniería Informática
+Universidad de Las Palmas de Gran Canaria
+Accede al documento original
+
+Reservados todos los derechos.
+No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+Este documento es un recopilatorio de todas las preguntas que pueden aparecer, la
+mayoría de las preguntas están comprobadas y pueden que cambien algunas.
+
+.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+A la hora de analizar la seguridad de la información debemos plantearnos las
+siguientes s básicas:
+o
+
+qué proteger, contra quien, cómo y hasta donde
+
+o
+
+qué proteger, de qué manera y hasta cuando
+
+o
+
+qué proteger, contra quién y cómo
+
+o
+
+cuando, cómo y donde
+
+La Disponibilidad supone...
+o
+o
+o
+o
+
+que la información sólo debe ser accesible por las personas autorizadas
+evitar que la información sea alterada o modificada sin autorización
+que la información esté disponible cuando sea necesario y por quien esté
+autorizado a ello
+disponer de la información siempre que sea posible
+
+La diferencia entre datos e información radica en..
+o
+o
+o
+o
+
+No hay diferencias
+Los datos son la materia prima de la información mientras que ésta es el
+resultado de procesar los datos
+Los datos son un tipo específico de información
+Los datos son la materia prima de la información mientras que ésta es un
+repositorio de datos global
+
+¿Qué aspectos trata de garantizar la Seguridad de la Información?
+o
+o
+o
+o
+
+La Disponibilidad, Integridad, Confidencialidad y No repudio de la información
+La disponibilidad, Integridad, confidencialidad, No repudio y Autenticación de la
+información almacenada en los ordenadores
+La disponibilidad, Integridad, confidencialidad, No repudio y Autenticación
+de la información con independencia del medio física donde se almacene
+La disponibilidad, Integridad, confidencialidad, No repudio y Clasificación de la
+información con independencia del medio física donde se almacene.
+.
+
+La seguridad se considera un:
+o
+o
+o
+o
+
+Producto
+Proceso
+Activo
+Elemento prescindible de la organización
+
+La característica de la información asociada a la FIABILIDAD es la:
+o
+o
+o
+o
+
+Autenticación
+No Repudio
+Confidencialidad
+Integridad
+
+El International Talent Programme de ING es para mentes que no se conforman con un solo sitio.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+UA 1. SEGURIDAD DE LA INFORMACIÓN: UNA
+VISIÓN INTEGRAL
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+o
+o
+o
+o
+
+Relacionada con la no revelación de secretos
+Relacionada con evitar que la información sea alterada o modificada sin
+autorización
+Vinculada a la necesidad de que quien corresponda tenga acceso a dicha
+información cuando lo necesite
+Relacionada con evitar que la información sea accesible por personas no
+autorizadas
+
+Algunas características que debe tener una Política de Seguridad son:
+Seleccione una:
+o
+o
+o
+o
+
+Mejorable e Inteligible
+Todas las respuestas son correctas
+Abarcable y de obligado cumplimiento
+Asequible
+
+¿Cuáles son las principales medidas a considerar con el personal de una
+organización en relación a la seguridad?
+o
+o
+o
+o
+
+Formación, Fiabilidad y Seguimiento
+Concienciación, Fiabilidad y Seguimiento
+Formación, Acuerdos de confidencialidad y Seguimiento
+Formación, Vigilancia y Aplicación de políticas de restricción de accesos
+
+La SEGURIDAD INFORMÁTICA es:
+o
+o
+o
+o
+
+Una disciplina que se encarga de diseñar las normas, procedimientos,
+métodos y técnicas orientados a proveer condiciones seguras y confiables
+para el procesamiento de datos en sistemas informáticos
+Una disciplina que se encarga de diseñar las políticas de seguridad de las
+empresas
+Una metodología que se encarga de aplicar las normas, procedimientos,
+métodos y técnicas orientados a proveer condiciones seguras y confiables para
+el procesamiento de señales en sistemas informáticos
+Una disciplina que se encarga de diseñar las políticas de seguridad en las
+empresas y en la administración pública
+
+Los factores de autenticación son:
+o
+o
+o
+o
+
+Identidad, posesión y existencia
+Conocimiento, posesión y existencia
+Identidad, conocimiento y existencia
+Identidad, posesión y conocimiento
+
+¿En cuál de estas ciencias o técnicas no se aplica el principio de seguridad a
+través del conocimiento?
+o
+o
+o
+o
+
+Esteganografía
+Criptología
+Biometría
+En ninguna de las indicadas
+
+.
+
+El International Talent Programme de ING es para mentes que no se conforman con un solo sitio.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+La INTEGRIDAD es la característica de la información:
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+.
+
+UA 2. FUNDAMENTOS EN SEGURIDAD DIGITAL
+Privacidad:
+¿Cómo se define el concepto de PRIVACIDAD?
+o
+o
+o
+o
+
+Cómo el ámbito de la vida pública que se debe proteger de cualquier
+Cómo el ámbito de la vida privada que se debe proteger de la intromisión del
+estado
+Cómo el ámbito de la vida privada que se debe proteger de cualquier
+intromisión
+Cómo el ámbito de la vida pública que se debe proteger de la intromisión de los
+medios de comunicación
+
+¿Cuáles son las tres dimensiones más importantes de la seguridad que
+configuran la privacidad?
+o
+o
+o
+o
+
+Integridad, Confidencialidad y Autenticación
+Integridad, Confidencialidad y No repudio
+Autenticación, Trazabilidad y No repudio
+Confidencialidad, Temporalidad y No repudio
+
+¿Qué requisito básico de seguridad es necesario para garantizar la privacidad
+en los medios digitales?
+o
+o
+o
+o
+
+enviar los mensajes a través de correo electrónico
+el cifrado de la información
+la securización de las redes digitales
+no enviar mensajes a través de Internet
+
+Claves Simétricas
+¿Qué problema principal presentan los algoritmos de clave privada?
+o
+o
+o
+o
+
+Su excesiva lentitud
+La debilidad de la clave
+La complejidad para su uso
+La transmisión de la clave al destinatario del mensaje de forma segura
+
+Los sistemas de clave simétrica
+o
+o
+o
+o
+
+Aseguran la integridad.
+Aseguran la disponibilidad.
+Aseguran la confidencialidad.
+Aseguran el No repudio
+
+¿Qué significa la SIMETRÍA en el concepto de clave simétrica?
+o
+o
+o
+o
+
+Que se utiliza una pareja de claves: una para cifrar y otra para descifrar
+Que se utiliza la misma clave tanto para cifrar como para descifrar
+Que se utiliza una clave para cifrar pero no es necesario ninguna para descifrar
+Que no se requieren claves para el cifrado
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+o
+o
+o
+o
+
+La calidad de la clave y la extensión del algoritmo
+La potencia o calidad del algoritmo y el tamaño de la clave
+La cantidad de veces que se puede utilizar el algoritmo y el tamaño de la clave
+El grado de desconocimiento que se tenga del algoritmo (secreto) y la longitud de
+la clave
+
+¿Qué algoritmo de clave privada ha sustituido al algoritmo DES (Data
+Encryption Standard)?
+o
+o
+o
+o
+
+Doble DES (DDES)
+Triple DES (TDES)
+Cuádruple DES (QDES)
+Séxtuple DES (SDES)
+
+Claves Asimétricas
+¿Qué posible problema se puede plantear en el uso de sistemas de clave
+pública?
+.
+
+o
+o
+o
+o
+
+La dificultad para utilizar los algoritmos requeridos
+El coste computacional
+El intercambio de las claves públicas entre los agentes que establecen la
+comunicación
+La pérdida o sustracción de la clave privada
+
+¿En qué se basa un algoritmo de clave asimétrica?
+o
+o
+o
+o
+
+En el uso de claves de distinta longitud para cifrar cada mensaje
+En el uso de dos claves apareadas: una para cifrar y otra para descifrar
+En la aplicación del algoritmo de Diffie-John
+En el uso de tres claves: dos para cifrar y otra para descifrar
+
+¿En qué se basa el funcionamiento del sistema RSA como algoritmo de cifrado
+de clave asimétrica?
+o
+o
+o
+o
+
+En la longitud de los números enteros
+En ocultar la clave pública para evitar el descifrado del mensaje
+En la imposibilidad computacional de factorizar números enteros muy
+grandes
+En la imposibilidad de dividir números irracionales
+
+El International Talent Programme de ING es para mentes que no se conforman con un solo sitio.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+¿Qué aspectos determinan la potencia de los sistemas de cifrado simétrico?
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+¿Qué es RSA?
+Un estándar de codificación
+Un algoritmo de cifrado asimétrico
+Un algoritmo de cifrado en bloque
+Un algoritmo de cifrado en flujo
+
+¿Qué familia de algoritmos criptográficos limita el tamaño de los datos de
+entrada? Seleccione una:
+o
+o
+o
+o
+
+Los algoritmos de resumen
+Ninguna de las familias indicadas
+Los algoritmos de cifrado simétrico
+Los algoritmos de cifrado asimétrico
+
+¿Qué es ElGamal? Seleccione una:
+o
+o
+o
+o
+
+Un algoritmo de cifrado asimétrico basado en la dificultad de calcular
+logaritmos discretos
+Un algoritmo de cifrado simétrico basado en la dificultad de factorizar grandes
+números
+Un algoritmo de cifrado simétrico basado en la dificultad de calcular logaritmos
+discretos
+Un algoritmo de cifrado asimétrico basado en la dificultad de factorizar grandes
+números
+
+¿Qué dimensión de la seguridad hemos de reforzar si queremos evitar un
+ataque del tipo "Man in the Middle"?
+o
+o
+o
+o
+
+Autenticación
+Confidencialidad
+Disponibilidad
+Integridad
+
+El mecanismo de firma digital
+o
+o
+o
+o
+
+Se realiza mediante el cifrado simétrico de resúmenes
+Se realiza mediante el cifrado asimétrico de resúmenes
+Se realiza mediante el cifrado de claves
+Ninguna de las anteriores
+.
+
+El algoritmo de Diffie-Hellman es:
+o
+o
+o
+o
+
+Un algoritmo asimétrico para la negociación de claves simétricas
+Un algoritmo simétrico para la transmisión de claves asimétricas
+Un algoritmo simétrico para la negociación de claves asimétricas
+Un algoritmo asimétrico para la transmisión de claves simétricas
+
+El International Talent Programme de ING es para mentes que no se conforman con un solo sitio.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+o
+o
+o
+o
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+.
+
+Sistemas criptográficos
+¿Qué caracteriza a los sistemas criptográficos HORIZONTALES?
+o
+o
+o
+o
+
+Usan una clave pública lineal
+Asumen que todos los agentes que intervienen en la comunicación poseen
+distintos niveles de confianza
+Asumen que todos los agentes que intervienen en la comunicación utilizan la
+misma clave pública
+Asumen que todos los agentes que intervienen en la comunicación poseen
+el mismo nivel de confianza
+
+El software PGP
+o
+o
+o
+o
+
+Se basa en un modelo horizontal
+Se basa en un modelo vertical
+Se basa en el empleo de certificados digitales
+Todas las anteriores
+
+Los sistemas criptográficos VERTICALES:
+o
+o
+o
+o
+
+Utilizan Autoridades de Certificación para garantizar la validez y
+autenticidad de las claves públicas
+Se basan en el concepto de telaraña de confianza
+Necesitan que todos los certificados estén firmados por la misma autoridad
+Ninguna de las respuestas es correcta
+
+Certificado digital
+Un certificado digital
+o
+o
+o
+o
+
+Contiene la firma de la clave pública del usuario
+Contiene la firma de la clave privada del usuario
+Contiene la clave privada de la Autoridad Certificadora
+Ninguna de las anteriores es cierta
+
+¿Cuáles son las partes más importantes de un certificado digital?
+o
+o
+o
+o
+
+Clave privada, datos de identidad del titular, operaciones permitidas por el titular,
+firma digital realizada con la de la Autoridad de Certificación
+Clave pública, datos de identidad del titular, operaciones permitidas por el titular,
+firma digital realizada con la del titular
+Clave pública, datos de identidad del titular, operaciones permitidas por el titular,
+firma digital realizada con la de la Autoridad de Certificación
+Clave pública, datos de identidad del titular, operaciones permitidas por el
+titular, la firma digital realizada con privada de la Autoridad de Certificación
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+¿Qué es una CRL?
+Una lista de cifradores aceptada en una transacción SSL
+Una lista de certificados revocados por una Autoridad
+Una lista de direcciones MAC cuyo acceso se permite o prohibe explícitamente
+Una lista de direcciones de correo seguras
+
+Openssl:
+¿Cómo se deriva una clave de cifrado en OpenSSL a partir de la contraseña?
+o
+o
+o
+o
+
+Con un cifrador asimétrico
+Con un cifrador simétrico de flujo
+Con un cifrador simétrico de bloque
+Ninguna de las respuestas indicadas es correcta
+
+¿Cómo se deriva una clave de cifrado en OpenSSL a partir de la contraseña?
+o
+o
+o
+o
+
+Mediante una función de resumen
+Mediante un cifrador de bloque
+Mediante un cifrador de flujo
+Mediante una secuencia pseudo aleatoria
+
+Si ciframos un documento utilizando OpenSSL con clave y vector de
+inicialización con el algoritmo RC4, ¿cómo será el tamaño del documento
+cifrado en relación con el original?
+
+.
+
+o
+o
+o
+o
+
+16 bytes mayor, más el padding hasta múltiplo de 32 bytes
+16 bytes mayor
+16 bytes mayor, más el padding hasta múltiplo de 16 bytes
+Idéntico
+
+Si ciframos un documento utilizando OpenSSL con el algoritmo AES-256 y
+contraseña, ¿cómo será el tamaño del documen relación con el original?
+o
+o
+o
+o
+
+16 bytes mayor, más el padding hasta múltiplo de 32 bytes
+Idéntico
+16 bytes mayor
+16 bytes mayor, más el padding hasta múltiplo de 16 bytes
+
+¿Cuál es el tamaño de bloque del cifrador AES?
+o
+o
+o
+o
+
+256 bits
+194 bits
+64 bits
+128 bits
+
+El International Talent Programme de ING es para mentes que no se conforman con un solo sitio.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+o
+o
+o
+o
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+Modos de operación
+
+.
+
+o
+o
+o
+o
+
+OFB
+CBC
+PCBC
+ECB
+
+¿Cuál de estos modos de operación transforma un cifrador de bloque en un
+cifrador de flujo?
+o
+o
+o
+o
+
+PCBC
+CBC
+CTR
+ECB
+
+¿Cuáles de estos modos de operación necesitan Vector de Inicialización (IV)?
+o
+o
+o
+o
+
+CBC, PCBC y OFB
+CBC, OFB y ECB
+PCBC, OFB y ECB
+CBC, PCBC y ECB
+
+¿Qué modo de operación es especialmente peligroso en los sistemas de
+cifrado simétrico?
+o
+o
+o
+o
+
+PCBC (Propagating Cypher Block Chaining)
+OFB (Output Feedback)
+CBC (Cipher Block Chaining)
+ECB (Electronic Codebook)
+
+¿Cuál de estos es un cifrador de flujo?
+o
+o
+o
+o
+
+IDEA
+AES
+RC2
+RC4
+
+¿Qué aplicación principal tienen los algoritmos probabilísticos en
+criptografía?
+o
+o
+o
+o
+
+Pruebas de aleatoriedad criptográfica
+Pruebas de entropía condicionada
+Pruebas de conocimiento cero
+Pruebas de primalidad
+
+El International Talent Programme de ING es para mentes que no se conforman con un solo sitio.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+¿Qué modo de operación transforma un cifrador de bloque en un cifrador de
+flujo?
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+¿Cuál de estos no es un algoritmo de resumen? Seleccione una:
+o
+o
+o
+o
+
+Whirlpool
+SHA-3
+MD5
+Camellia
+
+Otros:
+Las funciones HMAC aseguran: Seleccione una:
+o
+o
+o
+o
+
+La autenticación y la confidencialidad
+La integridad y el no repudio
+La integridad y la autenticación
+La autenticación y el no repudio
+
+En un criptosistema seguro de Shannon, si hablamos de tamaños:
+o
+o
+o
+o
+
+El espacio de mensajes ha de ser menor o igual que el espacio de claves
+El espacio de mensajes y el de claves no tienen relación alguna
+El espacio de mensajes ha de ser mayor o igual que el espacio de claves
+El espacio de mensajes ha de ser igual que el espacio de claves
+
+La sal criptográfica se utiliza:
+o
+o
+o
+o
+
+con algoritmos de resumen, para evitar ataques de cumpleaños
+con algoritmos de cifrado simétrico, para evitar ataques de cumpleaños
+con algoritmos de resumen, para evitar ataques de diccionario
+con algoritmos de cifrado simétrico, para evitar ataques de diccionario
+
+El protocolo https de Web segura
+o
+o
+o
+o
+
+Emplea el sistema PGP
+Requiere el intercambio de contraseñas
+No precisa el empleo de certificados digitales
+Ninguna de las anteriores es cierta
+
+El protocolo S-HTTP de Web segura se basa:
+o
+o
+o
+o
+
+En un sistema horizontal, ya que utiliza certificados digitales
+En un sistema vertical, ya que no utiliza certificados digitales
+En un sistema horizontal, ya que no utiliza certificados digitales
+En un sistema vertical, ya que utiliza certificados digitales
+
+.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+UA 3. AMENAZAS A LOS SISTEMAS DE
+INFORMACIÓN
+o
+o
+o
+o
+
+Destrucción de la información
+Pérdida de disponibilidad de los servicios
+Daños de la propiedad
+Todas las respuestas son correctas
+
+.
+
+¿Qué es una COOKIE?
+o
+o
+o
+o
+
+Un fragmento de código publicitario que se descarga de algunas páginas web
+Un fragmento de código malicioso que se descarga de algunas páginas web
+Una página web almacenada en la caché del navegador
+Un fragmento de información que se almacena en el disco duro del visitante
+de una página web, a petición del servidor que aloja la página web
+
+¿Qué se considera el activo más importante de las organizaciones?
+o
+o
+o
+o
+
+Sus beneficios
+Su seguridad
+Sus empleados
+La información
+
+La persona que compromete la seguridad de un sistema informática haciendo
+uso de sus conocimientos técnicos, pero sin la intención de cometer daños,
+se llama:
+o
+o
+o
+o
+
+hacker
+cracker
+lacker
+tracker
+
+Un ataque de denegación de servicio distribuido se caracteriza porque:
+o
+o
+o
+o
+
+el intruso deniega el servicio distribuyendo contraseñas por la Red
+se emplea a un conjunto de máquinas para saturar al sistema víctima
+se distribuye el trabajo entre varios hackers
+todas las anteriores son ciertas
+
+Una diferencia entre un gusano y un virus es que
+o
+o
+o
+o
+
+el virus es un software malicioso y el gusano no lo es
+son términos sinónimos, se refieren al mismo tipo de software
+el gusano se propaga automáticamente, mientras que el virus necesita
+intervención humana
+el gusano puede ser un troyano y el virus no
+
+El International Talent Programme de ING es para mentes que no se conforman con un solo sitio.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+Algunos de los efectos más habituales de un ataque son:
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+o
+o
+o
+o
+
+spoofing
+phising
+pharming
+rootkit
+
+¿Cómo se evita la inyección de SQL?
+o
+o
+o
+o
+
+Filtrando las URLs de salida de una aplicación web
+Filtrando todas las entradas a una aplicación web
+Filtrando los correos electrónicos para evitar URLs maliciosas
+Utilizando una buena suite antivirus
+
+¿A qué se conoce como ROOTKIT?
+o
+o
+o
+o
+
+A un software malicioso capaz de sustituir determinados componentes de
+un Sistema Operativo
+A un tipo de virus
+A un gusano
+A un troyano
+
+¿De qué manera puede llegar un TROYANO hasta un sistema informático?
+o
+o
+o
+o
+
+Descargado automáticamente por otro programa malicioso
+Como adjunto en un mensaje de correo electrónico
+Descargado al visitar una página web maliciosa
+Todas las respuestas son correctas
+
+.
+
+El International Talent Programme de ING es para mentes que no se conforman con un solo sitio.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+La inoxicación del DNS a fin de dirigir un equipo a una web maliciosa se
+denomina
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+UA 4. MECANISMOS DE DEFENSA
+¿Cómo se denomina a los centros con la capacidad técnica y la estructura
+más adecuada para la lucha contra las ciberamenazas?
+o
+o
+o
+o
+
+Centro de Respuesta al Usuario (CRU)
+Centro de Atención a Usuarios (CAU)
+Centro de Atención a la Seguridad (CAS)
+Centro de Respuesta ante Incidentes (CERT)
+
+.
+
+¿Qué política de la organización se ve especialmente afectada por la
+creciente amenaza de los criptovirus?
+o
+o
+o
+o
+
+Política de copias de seguridad
+Política de uso de la nube
+Política de actualizaciones
+Política de cuentas de usuario y contraseñas
+
+¿Cómo se evita la inyección de SQL?
+o
+o
+o
+o
+
+En el firewall de la organización, filtrando las URL maliciosas en los datos de
+entrada
+En el código de la aplicación web, filtrando todo el tráfico de entrada
+En el firewall de la organización, filtrando todo el tráfico de entrada
+En el código de la aplicación web, filtrando las URL maliciosas en los datos de
+entrada
+
+Una medida básica de seguridad en el uso de redes WIFI es:
+o
+o
+o
+o
+
+Activar la lista de control de acceso (ACL) por MAC
+Desactivar el protocolo WPS
+Ocultar el SSID
+Utilizar protocolos de cifrado seguros, como el WEP
+
+la letra A en las siglas ADSL representa en castellano la palabra
+o
+o
+o
+o
+
+Automatica
+Avanzada
+Autónoma
+Asíncrona
+
+Para cifrar las comunicaciones en una red Wifi, se puede usar el protocolo
+o
+o
+o
+o
+
+WPE
+WAP
+WPA
+ninguno de los anteriores
+
+Una buena práctica en la configuración de un router ADSL doméstico es:
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+permitir el acceso remoto a la pantalla de configuración
+desactivar la utilización de comunicaciones cifradas
+entregar todas las conexiones entrantes a una “default workstation” o DMZ
+ninguna de las anteriores
+
+Para garantizar la integridad de un mensaje de correo electrónico
+necesitaremos
+o
+o
+o
+o
+
+cifrarlo
+firmarlo
+cifrarlo y firmarlo
+ninguna de las anteriores
+
+una red privada virtual (VPN)
+o
+o
+o
+o
+
+es un mecanismo de virtualización de redes
+es un sistema de comunicaciones virtuales
+es un sistema de interconexión o de acceso a redes privadas
+ninguna de las anteriores
+
+¿Qué protocolo se considera más seguro en redes WIFI?
+o
+o
+o
+o
+
+WEP
+WEP2
+WPA2
+WPA
+
+¿Cuál de estas direcciones IP es pública?
+o
+o
+o
+o
+
+11.1.1.1
+10.1.1.1
+172.26.0.1
+192.168.1.1
+.
+
+¿A qué se denomina DMZ?
+o
+o
+o
+o
+
+A la intranet de una organización
+A la parte de la red interna de una organización donde habitualmente se
+conectan los PCs de usuario
+A la parte de Internet done se colocan los servidores web
+A la parte de la red interna de una organización en la que se colocan los
+servidores que ofrecen servicios al exterior de la empresa
+
+El International Talent Programme de ING es para mentes que no se conforman con un solo sitio.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+o
+o
+o
+o
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+UA 5. INSTRUMENTOS PARA LA GESTIÓN DE LA
+SEGURIDAD
+o
+o
+o
+o
+
+Una norma europea de obligado cumplimiento en Tecnologías de la Información
+Un conjunto de estándares en Tecnologías de la Información
+Una biblioteca de buenas prácticas en la gestión de las Tecnologías de la
+Información
+Ninguna de las respuestas es correcta
+
+ITIL es...
+o
+o
+o
+o
+
+una metodología de trabajo
+una recopilación de buenas prácticas en la gestión de servicios
+un manual de acciones a realizar para hacer un análisis de riesgos
+una norma ISO de la familia ISO 27.000
+
+.
+
+El objetivo de ITIL v3 es:
+o
+o
+o
+o
+
+Mejorar las comunicaciones de la organización
+Alinear las Tecnologías de la Información con el negocio
+Separar las funciones de las Tecnologías de la Información
+Integrar las Tecnologías de la Información en el negocio
+
+¿Qué etapas conforman el Ciclo de Vida del Servicio?
+o
+o
+o
+o
+
+Transición del servicio, Publicación, Difusión y Mejora continua
+Estrategia del Servicio, Diseño del Servicio, Transición del Servicio,
+Operación del Servicio y Mejora Continua
+Plan, Do, Check, Act
+Estrategia del Servicio, Implantación del Servicio y Mantenimiento del Servicio
+
+¿Qué opciones existen para tratar los riesgos?
+o
+o
+o
+o
+
+Mitigar, asumir, transferir o eliminar el riesgo
+Ninguna de las respuestas es correcta
+Mitigar, asumir y eliminar el riesgo
+Transferir a un tercero y eliminar el riesgo
+
+¿En qué consiste un ANÁLISIS DE RIESGOS?
+o
+o
+o
+o
+
+En identificar los riesgos a los que están expuestos los activos de la organización
+En identificar los problemas de seguridad que evidencian vulnerabilidades
+Las dos respuestas indicadas son correctas
+Ninguna de las dos respuestas indicadas es correcta
+
+El International Talent Programme de ING es para mentes que no se conforman con un solo sitio.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+¿Qué es ITIL?
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+En el ámbito del análisis de riesgos, se denomina incidente a:
+o
+o
+o
+o
+
+Los hechos que deben evitarse en la organización pues causan un impacto
+en el negocio
+Las averías de los sistemas de Información
+Un fallo en el sistema eléctrico
+Loe hechos que no deben evitarse en la organización pues aportan beneficio al
+negocio
+
+Un activo es...
+o
+o
+o
+o
+
+el hardware asociado a los servicios que estamos considerando
+una debilidad del sistema que puede ser utilizada de forma accidental o
+intencionada
+un recurso software, hardware, de personal, administrativo, o funcional que
+es necesario para el funcionamiento del servicio
+ninguna de las anteriores
+
+¿Qué se considera el activo más importante de las organizaciones?
+o
+o
+o
+o
+
+Sus beneficios
+Su seguridad
+Sus empleados
+La información
+
+El IMPACTO es:
+o
+o
+o
+o
+
+Un medible del grado de daño que se ha producido sobre un activo
+Ninguna de las respuestas es correcta
+Un medible de la importancia de una vulnerabilidad
+Un medible sobre el número de activos de una organización
+
+Denominamos RIESGO a:
+o
+o
+o
+o
+
+La probabilidad de que ocurra un fallo de hardware
+La probabilidad de que ocurra un evento adverso
+Un medible de las posibles amenazas detectadas en una organización
+La probabilidad de que ocurra un fallo en el sistemaç
+
+Definimos el riesgo como:
+o
+o
+o
+o
+
+la probabilidad de que ocurra un evento que puede tener un impacto positivo o
+negativo en la organización
+la probabilidad de que ocurra un evento adverso que supone un impacto
+negativo en caso de ocurrir
+la probabilidad de que una amenaza nunca ocurra
+la posibilidad de que un evento adverso no se produzca
+.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+o
+o
+o
+o
+
+Una amenaza que proviene de terceros que intencionadamente buscan
+comprometer la seguridad del sistema
+Un error intencionado en los sistemas de información
+Una vulnerabilidad que proviene de terceros con la intención de robar la
+información de la organización
+Una negligencia de terceros que compromete la seguridad de los sistemas
+
+Una vulnerabilidad es un tipo de
+o
+o
+o
+o
+
+amenaza
+incidente
+riesgo
+debilidad
+
+¿Qué tipos de riesgo existen?
+o
+o
+o
+o
+
+Conocidos y desconocidos
+Ninguna de las respuestas es correcta
+Mitigables y gestionables
+Previstos, imprevistos y mitigables
+
+¿Cuál de los siguientes eventos se puede considerar un “incidente de
+seguridad”?
+o
+o
+o
+o
+
+la pérdida de suministro eléctrico
+el robo de información confidencial
+el fallo en un disco de datos
+todos los anteriores
+
+¿En qué consiste la Gestión del Riesgo?
+o
+o
+o
+o
+
+En identificar y desplegar las medidas técnicas y organizativas requeridas para
+eliminar los riesgos identificados, de forma que se evite totalmente el daño que
+pueden ocasionar
+En subcontratar a una empresa externa la seguridad de la organización
+En aplicar determinadas medidas destinadas a mitigar los riesgos detectados
+En identificar y desplegar las medidas técnicas y organizativas requeridas
+para evitar, minimizar o controlar los riesgos identificados, de forma que se
+elimine o reduzca el daño que pueden ocasionar
+
+¿Cuáles de las siguientes respuestas son metodologías reconocidas de
+análisis de riesgos?
+.
+
+o
+o
+o
+o
+
+Magerit II
+Ebios
+CRAMM
+todas las anteriores
+
+El International Talent Programme de ING es para mentes que no se conforman con un solo sitio.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+Un ATAQUE es:
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+o
+o
+o
+o
+
+la pérdida de suministro eléctrico
+el robo de información confidencial
+el fallo en un disco de datos
+todos los anteriores
+
+Entre las posibles metodologías que se pueden utilizar para realizar un
+análisis de riesgos están:
+o
+o
+o
+o
+
+ITIL, ISO 27.001 y MAGERIT II
+CRAMM, EBIOS y MAGERIT II
+ITIL v3, CRAMM y MAGERIT II
+Ninguna de las respuestas es correcta
+
+¿Qué es MAGERIT?
+o
+o
+o
+o
+
+Una metodología de análisis de la seguridad propuesta por el CNI
+Una metodología de análisis forense desarrollada por las administraciones
+públicas
+Una metodología de análisis y gestión de riesgos enfocada a las
+Administraciones Públicas
+Una metodología de análisis de intrusiones
+
+La auditoría informática consiste en:
+o
+o
+o
+o
+
+Recoger, agrupar y evaluar las evidencias para determinar si un sistema de
+información realiza de forma eficaz los fines de la organización y utiliza
+eficientemente los recursos
+Recoger, agrupar y evaluar las evidencias para determinar si un sistema de
+información mantiene la integridad de los datos
+Recoger, agrupar y evaluar las evidencias para determinar si un sistema de
+información protege el activo empresarial
+Todas las respuestas son correctas
+
+¿Cuál de las siguientes tareas NO corresponde a la realización de una
+auditoría informática?
+o
+o
+o
+o
+
+recoger, agrupar y evaluar evidencias para determinar si un sistema de
+información protege el activo empresarial
+verificar que se mantiene la integridad de los datos
+verificar que un sistema realiza de forma eficaz los fines de la organización
+y utiliza eficientemente los recursos
+identificar las amenazas y proponer salvaguardas para proteger a la organización
+
+Algunos de los objetivos de la auditoría informática son:
+.
+
+o
+o
+o
+o
+
+Las dos respuestas indicadas son correctas
+Ninguna de las dos respuestas indicadas es correcta
+Eliminar o minimizar la probabilidad de pérdida de información
+Verificar el control interno de la función informática
+
+El International Talent Programme de ING es para mentes que no se conforman con un solo sitio.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+¿Cuál de los siguientes eventos se puede considerar un “incidente de
+seguridad”?
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+.
+
+Se consideran tipos de auditoría desde el punto de vista informático:
+o
+o
+o
+o
+
+La auditoría de datos
+Todas las respuestas son correctas
+La auditoría de las comunicaciones
+La auditoría legal de la LOPD
+
+¿De qué forma podemos desarrollar una auditoría?
+o
+o
+o
+o
+
+Auditoría alrededor del ordenador, a través del ordenador y con el
+ordenador*
+Auditoría a través de la informática, a través de la seguridad y con el ordenador
+Auditoría a través de la seguridad
+Ninguna de las anteriores es correcta
+
+¿Qué resultados obtenemos tras la realización de una auditoría informática?
+o
+o
+o
+o
+
+Identificación de las salvaguardas que minimizan los riesgos detectados
+Evidencias de los riesgos asociados a los sistemas que dan soporte a la
+información de la organización
+Posibles adquisiciones a realizar para mejorar la infraestructura informática
+Ninguna de las respuestas es correcta
+Nota: depende como se interprete, si es excluyente la d, sino la b.
+
+¿Qué define un Plan Director de Seguridad?
+o
+o
+o
+o
+
+La seguridad de la organización
+La estrategia en seguridad física y lógica de la organización
+La estrategia de negocio de la organización
+La estrategia en seguridad TIC de la organización
+
+Uno de los factores clave para el éxito de un Plan Director de Seguridad es:
+o
+o
+o
+o
+
+Compromiso con los empleados
+Ninguna de las respuestas es correcta
+Compromiso con los proveedores
+Compromiso de la dirección
+
+Uno de los objetivos de un Plan Director de Seguridad es:
+o
+o
+o
+o
+
+Aportar confianza sobre los servicios ofrecidos
+Ninguna de las respuestas es correcta
+Realizar un análisis de riesgos en la organización
+Cumplir los requisitos de la LSSIE
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+o
+o
+o
+o
+
+Documentar una relación de actividades y tareas destinadas a dar
+respuesta a cualquier incidente genérico que afecte a la seguridad de la
+información
+Documentar la seguridad de la organización
+Cumplir un requisito legal
+Documentar una relación de actividades y tareas destinadas a dar respuesta a
+cualquier incidente de la organización
+
+.
+
+El International Talent Programme de ING es para mentes que no se conforman con un solo sitio.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+Un Plan de Respuesta ante Incidentes implica:
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+¿Qué Ley ha asumido la mayoría de las funciones de la antigua LORTAD?
+o
+o
+o
+o
+
+Ley de Firma Electrónica
+LOPD
+Ninguna de las respuestas es correcta
+LSSI-CE
+
+La LOPD afecta a los siguientes tipos de ficheros:
+o
+o
+o
+o
+
+Ficheros digitales y en papel
+Sólo ficheros en papel
+Sólo ficheros digitales
+Ninguna de las respuestas es correcta
+
+La principal normativa que regula el acceso y tratamiento de datos de carácter
+personal es:
+o
+o
+o
+o
+
+La Ley de Firma Electrónica
+La Ley General de Telecomunicación
+La Ley de Servicio de la Sociedad de la Información y Comercio Electrónico
+La LOPD
+
+El Esquema Nacional de Seguridad es de obligado cumplimiento para:
+o
+o
+o
+o
+
+Las Administraciones de las Comunidades Autónomas
+Las entidades de Derecho público con personalidad jurídica propia vinculadas o
+dependientes de las Administraciones Públicas
+Todas las respuestas son correctas
+Las Entidades que integran la Administración Local
+.
+
+¿Qué establece el Esquema Nacional de Seguridad?
+o
+o
+o
+o
+
+Las condiciones de seguridad requeridas en el uso de los medios
+electrónicos en el ámbito de la Administración Pública
+Las condiciones de seguridad requeridas en el uso de los medios electrónicos en
+el ámbito de las organizaciones privadas
+El reglamento de requisitos técnicos de la LOPD
+Una relación de normas para la gestión de la seguridad en las empresas públicas
+
+Uno de los objetivos principales del Esquema Nacional de Seguridad es:
+o
+o
+o
+o
+
+Establecer la política de seguridad en la utilización de medios electrónicos en el
+ámbito de la Ley 11/2007
+Crear un marco común para la actuación de las Administraciones Públicas
+en materia de seguridad de las tecnologías
+Todas las respuestas son correctas
+Aportar confianza a los ciudadanos en el ejercicio de sus derechos y deberes con
+la Administración Pública por medios telemáticos
+
+El International Talent Programme de ING es para mentes que no se conforman con un solo sitio.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+UA 6. LEGISLACIÓN Y NORMATIVA EN SEGURIDAD
+DE LA INFORMACIÓN
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+El Esquema Nacional de Seguridad está regulado por ...
+o
+o
+o
+o
+
+La Constitución Española
+La Ley General de Telecomunicación
+La Ley Orgánica de Protección de Datos
+El real Decreto 3/2010 de 8 de enero
+
+¿Qué es un SGSI?
+o
+o
+o
+o
+
+Un sistema de monitorización de redes
+Un plan Director de Seguridad
+Un sistema de gestión de seguridad de la información
+Un sistema general de seguridad interna
+
+¿Qué dos requisitos son fundamentales para establecer un SGSI?
+o
+o
+o
+o
+
+Disponer de recursos económicos y de personal
+Disponer de recursos tecnológicos y financieros
+Compromiso por la dirección y planteamientos realistas
+Acotar el trabajo y definir bien las funciones
+
+¿Es necesario realizar un análisis de riesgos para implementar un SGSI?
+o
+o
+o
+o
+
+No, nunca
+Si, siempre
+No, salvo que la organización lo decida así
+Si, pero sólo en la Administración Pública
+
+Dentro de las etapas para el establecimiento de un SGSI, ¿Qué elementos de
+los siguientes es necesario definir?
+o
+o
+o
+o
+
+La Política de negocio de la organización
+La Política de Seguridad
+La Estrategia de negocio
+La Política de buen gobierno
+
+¿Qué cuatro etapas de trabajo plantea el Ciclo PDCA o Ciclo de Deming?
+o
+o
+o
+o
+
+Pensar, Hacer, Recordar y Analizar
+Pensar, Hacer, Revisar y Actuar
+Planificar, Hacer, Revisar y Actuar
+Planificar, Hacer, Revisar y Analizar
+
+Dentro de los estándares ISO/IEC, ¿A qué ámbito se ha asignado el rango
+27.000?
+o
+o
+o
+o
+
+A la gestión de las tecnologías de la información
+A la privacidad de la información
+A la seguridad de la información
+A las metodologías de gestión de riesgos
+.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-10370412
+
+Los estándares ISO/IEC 27.001 y 27.002 ¿A qué ámbito pertenecen?
+A la privacidad de la información
+A las metodologías de gestión de riesgos
+A la seguridad de la información
+A ninguno de los anteriores
+.
+
+El RD-Ley 12/2018 asigna como CSIRT de notificación de incidentes para la red
+académica española a:
+o
+o
+o
+o
+
+INCIBE-CERT
+IRIS-CERT
+CCN-CERT
+ESP DEF
+
+El International Talent Programme de ING es para mentes que no se conforman con un solo sitio.
+
+Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
+o
+o
+o
+o
+
+
