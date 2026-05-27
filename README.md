@@ -2,13 +2,29 @@
 
 **4º Grado en Ingeniería Informática — Universidad de Las Palmas de Gran Canaria**
 
-> 📚 **Referencias:** [T1 - Conceptos](01_conceptos-fundamentales.md) · [T2 - Criptografía](02_criptografia-fundamentos.md) · [T3 - Amenazas](03_amenazas-sistemas.md) · [T4 - Defensa](04_mecanismos-defensa.md) · [T5 - Gestión](05_gestion-seguridad.md) · [T6 - Legislación](06_legislacion-normativa.md) · [📖 GLOSARIO](GLOSARIO.md)
+> 📚 **Navegación rápida:** [📋 Temario](temas/) · [📖 GLOSARIO](GLOSARIO.md) · [🔢 Chuleta numérica](temas/08-cheat-sheet-numeros.md) · [🎯 Simulacros](simulacros/) · [📁 Material original](material/)
+
+---
+
+## 📑 Índice
+
+| Sección | Preguntas | Tema |
+|---------|:--------:|------|
+| [UA 1 — Visión Integral](#ua-1-seguridad-de-la-información-una-visión-integral) | 1–12 | Conceptos fundamentales, dimensiones, principios |
+| [UA 2 — Criptografía](#ua-2-fundamentos-en-seguridad-digital) | 13–52 | Hash, simétrica, asimétrica, modos, certificados, OpenSSL |
+| [UA 3 — Amenazas](#ua-3-amenazas-a-los-sistemas-de-información) | 53–62 | Malware, ataques, perfiles, ingeniería social |
+| [UA 4 — Defensa](#ua-4-mecanismos-de-defensa) | 63–74 | WiFi, VPN, DMZ, CERT, redes |
+| [UA 5 — Gestión](#ua-5-instrumentos-para-la-gestión-de-la-seguridad) | 75–105 | ITIL, riesgos, auditoría, Plan Director |
+| [UA 6 — Legislación](#ua-6-legislación-y-normativa-en-seguridad-de-la-información) | 106–120 | LOPD, ENS, ISO 27000, SGSI, normativa |
+| **Total** | **120** | — |
+
+> 💡 **¿Quieres practicar?** Prueba los [simulacros de examen](simulacros/) con preguntas originales que no repiten el banco.
 
 ---
 
 ## UA 1. SEGURIDAD DE LA INFORMACIÓN: UNA VISIÓN INTEGRAL
 
-📖 _Referencia completa:_ [01_conceptos-fundamentales.md](01_conceptos-fundamentales.md)
+📖 _Referencia completa:_ [temas/01-conceptos-fundamentales.md](01_conceptos-fundamentales.md)
 
 ---
 
@@ -192,7 +208,7 @@
 
 ## UA 2. FUNDAMENTOS EN SEGURIDAD DIGITAL
 
-📖 _Referencia completa:_ [02_criptografia-fundamentos.md](02_criptografia-fundamentos.md)
+📖 _Referencia completa:_ [temas/02-criptografia-fundamentos.md](02_criptografia-fundamentos.md)
 
 ---
 
@@ -814,7 +830,7 @@
 
 ## UA 3. AMENAZAS A LOS SISTEMAS DE INFORMACIÓN
 
-📖 _Referencia completa:_ [03_amenazas-sistemas.md](03_amenazas-sistemas.md)
+📖 _Referencia completa:_ [temas/03-amenazas-sistemas.md](03_amenazas-sistemas.md)
 
 ---
 
@@ -968,7 +984,7 @@
 
 ## UA 4. MECANISMOS DE DEFENSA
 
-📖 _Referencia completa:_ [04_mecanismos-defensa.md](04_mecanismos-defensa.md)
+📖 _Referencia completa:_ [temas/04-mecanismos-defensa.md](04_mecanismos-defensa.md)
 
 ---
 
@@ -1159,7 +1175,7 @@
 
 ## UA 5. INSTRUMENTOS PARA LA GESTIÓN DE LA SEGURIDAD
 
-📖 _Referencia completa:_ [05_gestion-seguridad.md](05_gestion-seguridad.md)
+📖 _Referencia completa:_ [temas/05-gestion-seguridad.md](05_gestion-seguridad.md)
 
 ---
 
@@ -1620,7 +1636,7 @@
 
 ## UA 6. LEGISLACIÓN Y NORMATIVA EN SEGURIDAD DE LA INFORMACIÓN
 
-📖 _Referencia completa:_ [06_legislacion-normativa.md](06_legislacion-normativa.md)
+📖 _Referencia completa:_ [temas/06-legislacion-normativa.md](06_legislacion-normativa.md)
 
 ---
 
@@ -1863,13 +1879,15 @@
 ---
 
 > 📚 **Referencias completas:**
-> [T1 - Conceptos Fundamentales](01_conceptos-fundamentales.md) ·
-> [T2 - Criptografía](02_criptografia-fundamentos.md) ·
-> [T3 - Amenazas](03_amenazas-sistemas.md) ·
-> [T4 - Mecanismos de Defensa](04_mecanismos-defensa.md) ·
-> [T5 - Gestión de Seguridad](05_gestion-seguridad.md) ·
-> [T6 - Legislación y Normativa](06_legislacion-normativa.md) ·
-> [📖 GLOSARIO](GLOSARIO.md)
+> [T1 - Conceptos](temas/01-conceptos-fundamentales.md) ·
+> [T2 - Criptografía](temas/02-criptografia-fundamentos.md) ·
+> [T3 - Amenazas](temas/03-amenazas-sistemas.md) ·
+> [T4 - Defensa](temas/04-mecanismos-defensa.md) ·
+> [T5 - Gestión](temas/05-gestion-seguridad.md) ·
+> [T6 - Legislación](temas/06-legislacion-normativa.md) ·
+> [📖 GLOSARIO](GLOSARIO.md) ·
+> [🔢 Chuleta](temas/08-cheat-sheet-numeros.md) ·
+> [🎯 Simulacros](simulacros/)
 
 ---
 
