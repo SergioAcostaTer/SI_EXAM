@@ -1,13 +1,13 @@
-# Examen 02 — Casos Prácticos
+# Examen 02: Casos Prácticos
 
 > 📚 [← README](../README.md) | [← Simulacro 01](01-teoria-general.md) | [Simulacro 03 →](03-nivel-experto.md)
 
-**20 preguntas tipo test de casos prácticos — Nivel MEDIO**
+**20 preguntas tipo test de casos prácticos: Nivel MEDIO**
 *Cada pregunta plantea un escenario realista de aplicación de conceptos de Seguridad de la Información.*
 
 ---
 
-## UA1 — Conceptos Fundamentales (2 preguntas)
+## UA1: Conceptos Fundamentales (2 preguntas)
 
 ### 1. Trabajas en la startup "PayFlow". Un viernes por la tarde, un desarrollador despliega una actualización en producción que borra accidentalmente la tabla de transacciones. El CTO te dice: "tranquilo, tenemos backup de ayer a las 3 a.m." Sin embargo, la restauración tarda 6 horas, durante las cuales ningún cliente puede operar. El CEO está furioso. ¿Qué dimensión de la seguridad ha fallado principalmente y qué medida debería haberse previsto?
 
@@ -35,7 +35,7 @@
 
 ---
 
-## UA2 — Criptografía (5 preguntas)
+## UA2: Criptografía (5 preguntas)
 
 ### 3. En "CloudNova", un desarrollador backend cifra los backups nocturnos de la base de datos (50 GB) usando AES-256 en modo ECB. Al revisar visualmente el fichero cifrado con un visor hexadecimal, el CISO detecta patrones repetitivos cada 16 bytes durante largos tramos. ¿Cuál es la causa raíz del problema?
 
@@ -102,7 +102,7 @@
 
 ---
 
-## UA3 — Amenazas (3 preguntas)
+## UA3: Amenazas (3 preguntas)
 
 ### 8. La empresa de energía renovable "GreenVolt" detecta tráfico anómalo saliente desde su servidor de monitorización SCADA: conexiones a IPs en el extranjero a altas horas de la madrugada. La investigación forense revela que el vector de entrada fue una actualización de firmware del fabricante de los controladores PLC, descargada desde el portal oficial del proveedor, que contenía una puerta trasera insertada por un atacante que comprometió los sistemas del fabricante. ¿Qué tipo de ataque describe este escenario?
 
@@ -143,9 +143,9 @@
 
 ---
 
-## UA4 — Defensa (4 preguntas)
+## UA4: Defensa (4 preguntas)
 
-### 11. El hospital "MedNet" ha implantado dispositivos IoT médicos (bombas de infusión, monitores de glucosa) que se comunican con el sistema de historia clínica electrónica. El CISO detecta que todos los dispositivos —médicos, ordenadores de administración, impresoras y el WiFi de visitantes— comparten la misma VLAN y subnet. ¿Qué medida de arquitectura de red debe implantar con urgencia?
+### 11. El hospital "MedNet" ha implantado dispositivos IoT médicos (bombas de infusión, monitores de glucosa) que se comunican con el sistema de historia clínica electrónica. El CISO detecta que todos los dispositivos :médicos, ordenadores de administración, impresoras y el WiFi de visitantes: comparten la misma VLAN y subnet. ¿Qué medida de arquitectura de red debe implantar con urgencia?
 
 - A) Instalar un antivirus corporativo en cada dispositivo IoT médico.
 - B) Segmentar la red creando VLANs separadas: una para dispositivos médicos, otra para la red administrativa, otra para visitantes, con reglas de firewall entre ellas que limiten las comunicaciones estrictamente necesarias.
@@ -180,7 +180,7 @@
 
 > **Respuesta: B**
 >
-> **Justificación (breve):** El escenario evidencia dos fallos combinados: (1) factor humano — el empleado carece de concienciación sobre el riesgo de conectar dispositivos USB desconocidos (vector clásico de ingeniería social física, como el experimento de los USBs en aparcamientos); (2) control técnico ausente — deshabilitar la ejecución automática de USBs vía GPO es una medida básica de hardening que habría mitigado el ataque incluso con el error humano. La opción A ignora que un día cero, por definición, no tiene firma en el antivirus. C es absurda (el firewall no interviene en USB). D es derrotista y falsa: la defensa en profundidad sí mitiga días cero con controles complementarios.
+> **Justificación (breve):** El escenario evidencia dos fallos combinados: (1) factor humano: el empleado carece de concienciación sobre el riesgo de conectar dispositivos USB desconocidos (vector clásico de ingeniería social física, como el experimento de los USBs en aparcamientos); (2) control técnico ausente: deshabilitar la ejecución automática de USBs vía GPO es una medida básica de hardening que habría mitigado el ataque incluso con el error humano. La opción A ignora que un día cero, por definición, no tiene firma en el antivirus. C es absurda (el firewall no interviene en USB). D es derrotista y falsa: la defensa en profundidad sí mitiga días cero con controles complementarios.
 
 ---
 
@@ -197,7 +197,7 @@
 
 ---
 
-## UA5 — Gestión de la Seguridad (4 preguntas)
+## UA5: Gestión de la Seguridad (4 preguntas)
 
 ### 15. "InsureTech Seguros" está implantando un SGSI según ISO 27001. En el análisis de impacto sobre el negocio (BIA) determinan que su aplicación core de gestión de pólizas tiene un RTO (Recovery Time Objective) de 4 horas y un RPO (Recovery Point Objective) de 15 minutos. Sin embargo, la infraestructura actual de backup solo puede restaurar datos con un RPO de 24 horas (backup diario nocturno). ¿Cómo debe gestionarse esta situación desde la perspectiva del análisis de riesgos?
 
@@ -251,7 +251,7 @@
 
 ---
 
-## UA6 — Legislación (2 preguntas)
+## UA6: Legislación (2 preguntas)
 
 ### 19. La empresa española "AdTarget SL" utiliza un CRM alojado en servidores de un proveedor cloud estadounidense. Almacenan nombres, correos electrónicos, direcciones IP y preferencias de compra de 500.000 ciudadanos europeos. El proveedor estadounidense NO está acogido al Data Privacy Framework (DPF) UE-EE.UU. y el contrato no incluye cláusulas contractuales tipo (SCC). El asesor legal externo dice: "los datos están en Estados Unidos, así que la normativa española no aplica." ¿Cuál es la situación legal real?
 
@@ -275,7 +275,7 @@
 
 > **Respuesta: B**
 >
-> **Justificación (breve):** El RGPD (art. 33 y 34) obliga a notificar cualquier brecha de datos personales a la autoridad de control competente (AEPD) en un plazo máximo de 72 horas. Si la brecha implica un alto riesgo para los derechos y libertades de los afectados —como ocurre con datos de salud, que son categorías especiales (art. 9)— debe comunicarse también a los interesados sin dilación indebida. Pagar el rescate no exime de estas obligaciones. La opción A es falsa (el responsable del tratamiento responde aunque el ataque sea externo). C ignora que todos los datos de salud son categorías especiales. D incumple los requisitos de notitud del RGPD.
+> **Justificación (breve):** El RGPD (art. 33 y 34) obliga a notificar cualquier brecha de datos personales a la autoridad de control competente (AEPD) en un plazo máximo de 72 horas. Si la brecha implica un alto riesgo para los derechos y libertades de los afectados :como ocurre con datos de salud, que son categorías especiales (art. 9): debe comunicarse también a los interesados sin dilación indebida. Pagar el rescate no exime de estas obligaciones. La opción A es falsa (el responsable del tratamiento responde aunque el ataque sea externo). C ignora que todos los datos de salud son categorías especiales. D incumple los requisitos de notitud del RGPD.
 
 ---
 
@@ -306,5 +306,5 @@
 
 ---
 
-> **Fin del Examen 02 — Casos Prácticos**
+> **Fin del Examen 02: Casos Prácticos**
 > [← Volver al README](../README.md) | [← Simulacro 01](01-teoria-general.md) | [Simulacro 03 →](03-nivel-experto.md)

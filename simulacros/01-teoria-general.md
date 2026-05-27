@@ -1,17 +1,17 @@
-# Examen 01 — Teoría General
+# Examen 01: Teoría General
 
 > 📚 [← README](../README.md) | [Simulacro 02 →](02-casos-practicos.md)
 
 ---
 
-**Asignatura:** Seguridad de la Información — ULPGC
+**Asignatura:** Seguridad de la Información: ULPGC
 **Nivel:** FÁCIL/MEDIO (repaso general)
 **Preguntas:** 25 tipo test (4 opciones)
 **Temas:** UA1–UA6 (Conceptos, Criptografía, Amenazas, Defensa, Gestión, Legislación)
 
 ---
 
-## UA 1 — Conceptos Fundamentales (6 preguntas)
+## UA 1: Conceptos Fundamentales (6 preguntas)
 
 ### 1. ¿Cuál de las siguientes afirmaciones sobre la Seguridad de la Información es FALSA?
 
@@ -57,7 +57,7 @@
 
 ---
 
-## UA 2 — Criptografía (7 preguntas)
+## UA 2: Criptografía (7 preguntas)
 
 ### 7. ¿Qué efecto visual se produciría al cifrar una imagen fotográfica con AES en modo ECB?
 
@@ -110,7 +110,7 @@
 
 ---
 
-## UA 3 — Amenazas a los Sistemas (4 preguntas)
+## UA 3: Amenazas a los Sistemas (4 preguntas)
 
 ### 14. Un atacante envía un correo electrónico haciéndose pasar por el servicio de soporte técnico de la universidad, solicitando a los estudiantes que "verifiquen sus credenciales" mediante un enlace que conduce a una web falsa idéntica a la oficial. ¿Qué tipo de ataque describe este escenario?
 
@@ -142,7 +142,7 @@
 
 ---
 
-## UA 4 — Mecanismos de Defensa (4 preguntas)
+## UA 4: Mecanismos de Defensa (4 preguntas)
 
 ### 18. ¿Cuál de las siguientes medidas NO se considera una buena práctica de seguridad en redes WiFi domésticas?
 
@@ -174,7 +174,7 @@
 
 ---
 
-## UA 5 — Gestión de la Seguridad y Legislación (4 preguntas)
+## UA 5: Gestión de la Seguridad y Legislación (4 preguntas)
 
 ### 22. Según ITIL, ¿cuál de las siguientes NO es una etapa del Ciclo de Vida del Servicio?
 
