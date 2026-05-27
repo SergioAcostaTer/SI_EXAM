@@ -2,7 +2,12 @@
 
 **4º Grado en Ingeniería Informática: Universidad de Las Palmas de Gran Canaria**
 
-> 📚 **Navegación rápida:** [📋 Temario](temas/) · [📖 GLOSARIO](GLOSARIO.md) · [🔢 Chuleta numérica](temas/08-cheat-sheet-numeros.md) · [🎯 Simulacros](simulacros/) · [📁 Material original](material/)
+> 📚 **Navegación rápida:**
+> - [📋 Temario completo](temas/)
+> - [📖 GLOSARIO de siglas](GLOSARIO.md)
+> - [🔢 Chuleta numérica](temas/08-cheat-sheet-numeros.md)
+> - [🎯 Simulacros de examen](simulacros/)
+> - [📁 Material original](material/)
 
 ---
 
@@ -349,7 +354,7 @@
 >
 > **Explicación:** La **pérdida o sustracción de la clave privada** es un problema crítico en sistemas asimétricos. Si alguien obtiene tu clave privada, puede: descifrar todos tus mensajes, suplantar tu identidad (firmar como tú) y descifrar sesiones pasadas si capturó el tráfico. Es la clave maestra de tu identidad digital. Por eso existen medidas como tarjetas criptográficas (DNIe) donde la clave privada nunca sale del chip.
 >
-> **Por qué no las otras:** A es falso: desde el punto de vista del usuario, usar criptografía asimétrica es transparente. B es un inconveniente real (los algoritmos asimétricos son ~1000�: más lentos) pero es un problema de rendimiento, no de seguridad. C se resuelve con PKI y certificados.
+> **Por qué no las otras:** A es falso: desde el punto de vista del usuario, usar criptografía asimétrica es transparente. B es un inconveniente real (los algoritmos asimétricos son ~1000�: más lentos) pero es un problema de rendimiento, no de seguridad. C se resuelve con PKI y certificados.
 
 ---
 
@@ -377,7 +382,7 @@
 
 > **Respuesta: C**
 >
-> **Explicación:** RSA se basa en un problema matemático **"difícil"**: la **factorización de números enteros muy grandes** en sus factores primos. Multiplicar dos números primos grandes es fácil; dado el producto, encontrar los factores originales es computacionalmente inviable con tecnología actual. Ejemplo: multiplica 997 �: 991 = 988,027 (fácil). Dado 988,027, encuentra sus factores primos (difícil sin fuerza bruta). RSA usa números de 1024-4096 bits.
+> **Explicación:** RSA se basa en un problema matemático **"difícil"**: la **factorización de números enteros muy grandes** en sus factores primos. Multiplicar dos números primos grandes es fácil; dado el producto, encontrar los factores originales es computacionalmente inviable con tecnología actual. Ejemplo: multiplica 997 �: 991 = 988,027 (fácil). Dado 988,027, encuentra sus factores primos (difícil sin fuerza bruta). RSA usa números de 1024-4096 bits.
 >
 > **Por qué no las otras:** A es vaga e imprecisa. B es incorrecta: la clave pública ES pública por definición, no se oculta. D es absurda: los números irracionales no se usan en RSA.
 
@@ -1319,7 +1324,7 @@
 
 > **Respuesta: A**
 >
-> **Explicación:** El **impacto** mide el **grado de daño** producido sobre un activo cuando una amenaza se materializa. Se mide en términos de pérdida económica, daño reputacional, tiempo de inactividad, etc. Es un componente del cálculo de riesgo: Riesgo = Impacto �: Probabilidad.
+> **Explicación:** El **impacto** mide el **grado de daño** producido sobre un activo cuando una amenaza se materializa. Se mide en términos de pérdida económica, daño reputacional, tiempo de inactividad, etc. Es un componente del cálculo de riesgo: Riesgo = Impacto �: Probabilidad.
 >
 > **Por qué no las otras:** C confunde impacto con severidad de vulnerabilidad. D no es relevante (el número de activos no es una medida de impacto).
 
@@ -1334,7 +1339,7 @@
 
 > **Respuesta: B**
 >
-> **Explicación:** El **riesgo** es la **probabilidad de que ocurra un evento adverso**, y está compuesto por: probabilidad �: impacto. No es solo la probabilidad (también importa el impacto), pero entre las opciones, B es la definición más correcta.
+> **Explicación:** El **riesgo** es la **probabilidad de que ocurra un evento adverso**, y está compuesto por: probabilidad �: impacto. No es solo la probabilidad (también importa el impacto), pero entre las opciones, B es la definición más correcta.
 >
 > **Por qué no las otras:** A y D limitan el riesgo a fallos de hardware/sistema, cuando el riesgo abarca mucho más (fallos humanos, desastres naturales, ataques). C define parte del análisis pero no el concepto de riesgo en sí.
 
@@ -1349,7 +1354,7 @@
 
 > **Respuesta: B**
 >
-> **Explicación:** El riesgo se define como la probabilidad de que ocurra un **evento adverso** que conlleva un **impacto negativo**. Esta definición es más precisa que la de la pregunta 85 porque incluye explícitamente "impacto negativo en caso de ocurrir". Riesgo = Probabilidad �: Impacto negativo.
+> **Explicación:** El riesgo se define como la probabilidad de que ocurra un **evento adverso** que conlleva un **impacto negativo**. Esta definición es más precisa que la de la pregunta 85 porque incluye explícitamente "impacto negativo en caso de ocurrir". Riesgo = Probabilidad �: Impacto negativo.
 >
 > **Por qué no las otras:** A habla de impacto "positivo o negativo": en gestión de riesgos de seguridad, solo se consideran impactos negativos (las oportunidades positivas se gestionan aparte). C y D son definiciones absurdas.
 
@@ -1379,7 +1384,7 @@
 
 > **Respuesta: D**
 >
-> **Explicación:** Una **vulnerabilidad** es un tipo de **debilidad**: una deficiencia del sistema que puede ser explotada (fortuita o intencionadamente) para causar un fallo. La vulnerabilidad es el "agujero"; la amenaza es "lo que puede pasar si se explota"; el riesgo es "probabilidad �: impacto de que ocurra".
+> **Explicación:** Una **vulnerabilidad** es un tipo de **debilidad**: una deficiencia del sistema que puede ser explotada (fortuita o intencionadamente) para causar un fallo. La vulnerabilidad es el "agujero"; la amenaza es "lo que puede pasar si se explota"; el riesgo es "probabilidad �: impacto de que ocurra".
 >
 > **Por qué no las otras:** La vulnerabilidad NO es una amenaza (la amenaza es lo que explota la vulnerabilidad). NO es un incidente (el incidente ocurre cuando la amenaza explota la vulnerabilidad). NO es un riesgo (el riesgo es la combinación de amenaza + vulnerabilidad + impacto).
 
@@ -1879,15 +1884,15 @@
 ---
 
 > 📚 **Referencias completas:**
-> [T1 - Conceptos](temas/01-conceptos-fundamentales.md) ·
-> [T2 - Criptografía](temas/02-criptografia-fundamentos.md) ·
-> [T3 - Amenazas](temas/03-amenazas-sistemas.md) ·
-> [T4 - Defensa](temas/04-mecanismos-defensa.md) ·
-> [T5 - Gestión](temas/05-gestion-seguridad.md) ·
-> [T6 - Legislación](temas/06-legislacion-normativa.md) ·
-> [📖 GLOSARIO](GLOSARIO.md) ·
-> [🔢 Chuleta](temas/08-cheat-sheet-numeros.md) ·
-> [🎯 Simulacros](simulacros/)
+> - [T1: Conceptos Fundamentales](temas/01-conceptos-fundamentales.md)
+> - [T2: Criptografía](temas/02-criptografia-fundamentos.md)
+> - [T3: Amenazas](temas/03-amenazas-sistemas.md)
+> - [T4: Mecanismos de Defensa](temas/04-mecanismos-defensa.md)
+> - [T5: Gestión de Seguridad](temas/05-gestion-seguridad.md)
+> - [T6: Legislación y Normativa](temas/06-legislacion-normativa.md)
+> - [📖 GLOSARIO](GLOSARIO.md)
+> - [🔢 Chuleta numérica](temas/08-cheat-sheet-numeros.md)
+> - [🎯 Simulacros](simulacros/)
 
 ---
 
