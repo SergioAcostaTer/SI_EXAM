@@ -11,238 +11,303 @@
 
 ## 1. ITIL (Information Technology Infrastructure Library)
 
-### 1.1 Definición y Conceptos Fundamentales
+### 1.1 Definicion y Conceptos Fundamentales
 
-| Concepto | Descripción |
+| Concepto | Descripcion |
 |---|---|
-| **¿Qué ES ITIL?** | Una **biblioteca de buenas prácticas** en gestión de Tecnologías de la Información. Recopila experiencias y conocimiento acumulado sobre cómo gestionar servicios TI de forma eficaz. |
-| **¿Qué NO ES ITIL?** | ❌ Una norma europea de obligado cumplimiento |
-| | ❌ Un conjunto de estándares técnicos |
-| | ❌ Una metodología de trabajo (es una recopilación de buenas prácticas en gestión de **servicios**) |
-| | ❌ Una norma de la familia ISO 27000 (esas son de seguridad de la información) |
-| | ❌ Un conjunto de reglas rígidas que deban aplicarse sin adaptación |
+| **Que ES ITIL?** | Una **biblioteca de buenas practicas** en gestion de Tecnologias de la Informacion. Recopila experiencias y conocimiento acumulado sobre como gestionar servicios TI de forma eficaz. Es el **estandar "de facto" en buenas practicas de provision de servicios de TIs**. |
+| **Que NO ES ITIL?** | ❌ Una norma europea de obligado cumplimiento |
+| | ❌ Un conjunto de estandares tecnicos |
+| | ❌ Una metodologia de trabajo (es una recopilacion de buenas practicas en gestion de **servicios**) |
+| | ❌ Una norma de la familia ISO 27000 (esas son de seguridad de la informacion) |
+| | ❌ Un conjunto de reglas rigidas que deban aplicarse sin adaptacion |
 
-> **Clave de examen:** ITIL = Biblioteca de buenas prácticas en gestión de servicios TI. No es norma, no es estándar, no es metodología, no es ISO 27000.
+> **Clave de examen:** ITIL = Biblioteca de buenas practicas en gestion de servicios TI. No es norma, no es estandar, no es metodologia, no es ISO 27000.
 
 ### 1.2 Origen
 
-ITIL nace a raíz del **fracaso del proyecto Taurus** en los años 80. El gobierno del Reino Unido encargó a la CCTA (Central Computer and Telecommunications Agency) la recopilación de buenas prácticas en gestión de TI observadas tanto en el sector público como en el privado. El resultado fue la primera versión de ITIL.
+ITIL nace a raiz del **fracaso del proyecto Taurus** en los anos 80. El gobierno del Reino Unido encargo a la CCTA (Central Computer and Telecommunications Agency) la recopilacion de buenas practicas en gestion de TI observadas tanto en el sector publico como en el privado. El resultado fue la primera version de ITIL.
 
-| Hito | Año | Detalle |
+| Hito | Ano | Detalle |
 |---|---|---|
-| Proyecto Taurus | Años 80 | Fracaso de un gran proyecto informático del gobierno británico |
-| Creación ITIL | Finales 80 | La CCTA recopila buenas prácticas de gestión TI |
-| Evolución | 2000→ | ITIL se convierte en el marco de referencia mundial para ITSM |
+| Proyecto Taurus | Anos 80 | Fracaso de un gran proyecto informatico del gobierno britanico |
+| Creacion ITIL | Finales 80 | La CCTA recopila buenas practicas de gestion TI |
+| Evolucion | 2000→ | ITIL se convierte en el marco de referencia mundial para ITSM |
+
+> **Evolucion de la biblioteca:** La biblioteca original de ITIL contaba con **50 libros**. En **ITIL V2** se redujo a **7 libros**, y en **ITIL V3** se estructuro en **5 libros** (uno por cada fase del Ciclo de Vida del Servicio).
 
 ### 1.3 Versiones de ITIL
 
-| Versión | Año | Estructura | Objetivo Principal | Enfoque |
+| Version | Ano | Estructura | Objetivo Principal | Enfoque |
 |---|---|---|---|---|
-| **ITIL V2** | ~2001 | 7 libros | **Alinear** la tecnología con el negocio | Procesos (Service Support, Service Delivery) |
-| **ITIL V3** | 2008 / 2011 | 5 libros | **Alinear/Integrar** la tecnología en el negocio | **Ciclo de Vida del Servicio** |
-| **ITIL V4** | 2019 | Dimensiones, SVS, Cadena de Valor, Prácticas | Adaptación a la era digital | Industria 4.0, co-creación de valor, principios guía |
+| **ITIL V2** | ~2001 | 7 libros | **Alinear** la tecnologia con el Negocio | Procesos (Service Support, Service Delivery) |
+| **ITIL V3** | 2008 / ITIL V2011 | 5 libros | **Integrar** la tecnologia en el Negocio | **Ciclo de Vida del Servicio** |
+| **ITIL V4** | 2019 | Dimensiones, SVS, Cadena de Valor, Practicas | Adaptacion a la era digital | Industria 4.0, co-creacion de valor, principios guia |
 
-**Ejemplo real:** Una gran aseguradora española (Mapfre, Mutua Madrileña) adopta ITIL para estructurar su departamento TI: define un Service Desk único (ITIL V3 - Operación del Servicio), implanta gestión de cambios (Transición del Servicio) y establece catálogos de servicio (Diseño del Servicio). Esto reduce el tiempo de resolución de incidencias un 40%.
+> **Clave de examen:** ITIL V2 busca **ALINEAR** la tecnologia con el negocio. ITIL V3 busca **INTEGRAR** la tecnologia en el negocio. Son conceptos distintos.
+
+**Ejemplo real:** Una gran aseguradora espanola (Mapfre, Mutua Madrilena) adopta ITIL para estructurar su departamento TI: define un Service Desk unico (ITIL V3 - Operacion del Servicio), implanta gestion de cambios (Transicion del Servicio) y establece catalogos de servicio (Diseno del Servicio). Esto reduce el tiempo de resolucion de incidencias un 40%.
 
 ### 1.4 Ciclo de Vida del Servicio (ITIL V3)
 
-El corazón de ITIL V3 son sus **5 etapas** (NO confundir con el ciclo PDCA de Deming):
+El corazon de ITIL V3 son sus **5 etapas** (NO confundir con el ciclo PDCA de Deming):
 
-| # | Etapa | Propósito | Ejemplo real |
+| # | Etapa | Proposito | Ejemplo real |
 |---|---|---|---|
-| 1 | **Estrategia del Servicio** | Definir qué servicios ofrecer, a quién y con qué valor. | Un banco decide ofrecer banca móvil como servicio estratégico diferenciador. |
-| 2 | **Diseño del Servicio** | Diseñar el servicio para que cumpla los requisitos de calidad, seguridad y disponibilidad. | Se diseña la app de banca móvil con requisitos de disponibilidad 24×7 y cifrado de datos. |
-| 3 | **Transición del Servicio** | Construir, probar y desplegar el servicio sin impactar al negocio. | Se migran los datos de clientes a la nueva plataforma, con pruebas de rendimiento y plan de rollback. |
-| 4 | **Operación del Servicio** | Operar el servicio en el día a día, gestionando incidencias y peticiones. | El Service Desk atiende a clientes que reportan fallos en la app; se monitoriza el rendimiento 24×7. |
-| 5 | **Mejora Continua** | Analizar métricas y proponer mejoras iterativas. | Tras detectar que un 15% de transferencias fallan en hora punta, se escala la infraestructura cloud. |
+| 1 | **Estrategia del Servicio** | Definir que servicios ofrecer, a quien y con que valor. | Un banco decide ofrecer banca movil como servicio estrategico diferenciador. |
+| 2 | **Diseno del Servicio** | Disenar el servicio para que cumpla los requisitos de calidad, seguridad y disponibilidad. | Se disena la app de banca movil con requisitos de disponibilidad 24x7 y cifrado de datos. |
+| 3 | **Transicion del Servicio** | Construir, probar y desplegar el servicio sin impactar al negocio. | Se migran los datos de clientes a la nueva plataforma, con pruebas de rendimiento y plan de rollback. |
+| 4 | **Operacion del Servicio** | Operar el servicio en el dia a dia, gestionando incidencias y peticiones. | El Service Desk atiende a clientes que reportan fallos en la app; se monitoriza el rendimiento 24x7. |
+| 5 | **Mejora Continua** | Analizar metricas y proponer mejoras iterativas. | Tras detectar que un 15% de transferencias fallan en hora punta, se escala la infraestructura cloud. |
 
-> **Trampa de examen:** El Ciclo de Vida del Servicio **NO** es Plan → Do → Check → Act (PDCA de Deming). **NO** incluye etapas como "Publicación" o "Difusión". Son exactamente 5 etapas, en ese orden.
+> **Trampa de examen:** El Ciclo de Vida del Servicio **NO** es Plan → Do → Check → Act (PDCA de Deming). **NO** incluye etapas como "Publicacion" o "Difusion". Son exactamente 5 etapas, en ese orden.
 
-### 1.5 ITIL V4 (2019) — Novedades
+> **Actividades y Procesos en ITIL V3:** Cada fase del Ciclo de Vida se compone de **Actividades** (tareas importantes dentro de la fase) y **Procesos** (conjunto de actividades con un objetivo especifico). Esta distincion es fundamental para entender la estructura de ITIL V3.
 
-- Introduce el **SVS** (Service Value System): cómo todos los componentes y actividades de la organización funcionan juntos para crear valor.
-- Define **4 Dimensiones**: Organizaciones y Personas, Información y Tecnología, Socios y Proveedores, Flujos de Valor y Procesos.
-- **Cadena de Valor del Servicio**: Planificar → Mejorar → Involucrar → Diseñar y Transicionar → Obtener/Construir → Entregar y Soportar.
-- **7 Principios Guía**: Enfocarse en el valor, Empezar donde estés, Progresar iterativamente, Colaborar y promover visibilidad, Pensar y trabajar holísticamente, Mantenerlo simple y práctico, Optimizar y automatizar.
+### 1.5 ITIL V4 (2019) -- Novedades
 
-**Ejemplo real (ITIL V4):** Telefónica aplica ITIL V4 para su transformación digital: usa el SVS para alinear sus equipos de desarrollo, operaciones y proveedores cloud (AWS, Azure) en torno a la co-creación de valor para el cliente, aplicando principios Lean y Agile junto con las prácticas de ITIL.
+- Introduce el **SVS** (Service Value System): como todos los componentes y actividades de la organizacion funcionan juntos para crear valor.
+- Define **4 Dimensiones**: Organizaciones y Personas, Informacion y Tecnologia, Socios y Proveedores, Flujos de Valor y Procesos.
+- **Cadena de Valor del Servicio**: Planificar → Mejorar → Involucrar → Disenar y Transicionar → Obtener/Construir → Entregar y Soportar.
+- **7 Principios Guia**: Enfocarse en el valor, Empezar donde estes, Progresar iterativamente, Colaborar y promover visibilidad, Pensar y trabajar holisticamente, Mantenerlo simple y practico, Optimizar y automatizar.
+- **En lugar de hablar de procesos, se utiliza el concepto de practica** (Practice): enfoque mas amplio y flexible que los procesos tradicionales de ITIL V3.
+- **Integracion con metodologias modernas:** ITIL V4 se integra explicitamente con **Agile, DevOps, Lean** y **Gobierno TI**, reconociendo que las organizaciones modernas utilizan multiples marcos de trabajo simultaneamente.
+
+**Ejemplo real (ITIL V4):** Telefonica aplica ITIL V4 para su transformacion digital: usa el SVS para alinear sus equipos de desarrollo, operaciones y proveedores cloud (AWS, Azure) en torno a la co-creacion de valor para el cliente, aplicando principios Lean y Agile junto con las practicas de ITIL.
+
+### 1.6 Definiciones Formales de Valor
+
+| Concepto | Definicion |
+|---|---|
+| **Valor** | **Funcionalidad** (lo que recibe el cliente: el servicio en si, lo que hace) + **Garantia** (la forma en como se proporciona: disponibilidad, rendimiento, seguridad, continuidad) |
+| **Funcionalidad** | El "que": las caracteristicas y capacidades del servicio que el cliente utiliza. |
+| **Garantia** | El "como": la calidad con la que se entrega el servicio (niveles de servicio, disponibilidad, seguridad). |
+
+> **Clave:** Un servicio puede tener buena funcionalidad pero mala garantia (ej: la app hace todo lo necesario pero se cae cada 2 horas), o viceversa. El valor real solo se alcanza cuando ambas dimensiones estan presentes.
 
 ---
 
-## 2. Análisis de Riesgos
+## 2. Analisis de Riesgos
 
-### 2.1 Terminología Básica
+### 2.1 Terminologia Basica
 
-| Término | Definición | NO es... |
+| Termino | Definicion | NO es... |
 |---|---|---|
-| **Activo** | Recurso software, hardware, personal, administrativo o funcional necesario para el funcionamiento del servicio. | Solo hardware. Incluye: bases de datos, aplicaciones, personal cualificado, reputación, infraestructuras, documentación. |
-| **Vulnerabilidad** | **Debilidad** del sistema susceptible de ser explotada. | Una amenaza, un incidente, un riesgo. Es un tipo de DEBILIDAD (ej: puerto abierto, software sin parche, falta de formación). |
-| **Amenaza** | Posibilidad de que se produzca una vulnerabilidad con éxito. Puede ser natural, humana accidental o humana intencionada. | Una vulnerabilidad. La amenaza explota la vulnerabilidad. |
-| **Impacto** | Medida del grado de **DAÑO** producido sobre un activo. Cuantificable (económico, reputacional, operativo). | La importancia de la vulnerabilidad ni el número de activos afectados. |
-| **Riesgo** | Probabilidad de que ocurra un **evento adverso** que supone un impacto negativo. **Riesgo = Daño × Probabilidad**. | Certeza de pérdida. Es una probabilidad ponderada. |
-| **Incidente** | Hecho que **debe evitarse** pues causa impacto en el negocio. | Solo averías. Incluye: brechas de seguridad, fugas de datos, caídas de servicio, errores de configuración con consecuencias. |
+| **Activo** | Recurso software, hardware, personal, administrativo o funcional necesario para el funcionamiento del servicio. | Solo hardware. Incluye: bases de datos, aplicaciones, personal cualificado, reputacion, infraestructuras, documentacion. |
+| **Vulnerabilidad** | **Debilidad** del sistema susceptible de ser explotada. | Una amenaza, un incidente, un riesgo. Es un tipo de DEBILIDAD (ej: puerto abierto, software sin parche, falta de formacion). |
+| **Amenaza** | Posibilidad de que se produzca una vulnerabilidad con exito. Puede ser natural, humana accidental o humana intencionada. | Una vulnerabilidad. La amenaza explota la vulnerabilidad. |
+| **Impacto** | Medida del grado de **DANO** producido sobre un activo. Cuantificable (economico, reputacional, operativo). | La importancia de la vulnerabilidad ni el numero de activos afectados. |
+| **Riesgo** | Probabilidad de que ocurra un **evento adverso** que supone un impacto negativo. **Riesgo = Dano x Probabilidad**. | Certeza de perdida. Es una probabilidad ponderada. |
+| **Incidente** | Hecho que **debe evitarse** pues causa impacto en el negocio. | Solo averias. Incluye: brechas de seguridad, fugas de datos, caidas de servicio, errores de configuracion con consecuencias. |
 | **Ataque** | Amenaza de terceros que **intencionadamente** buscan comprometer la seguridad. | Un error humano, una vulnerabilidad, una negligencia. Requiere INTENCIONALIDAD. |
 
-> **Clave de examen — Pirámide conceptual:**
-> Activo tiene → Vulnerabilidad (debilidad) → que es explotada por → Amenaza → generando un → Riesgo (probabilidad × daño) → que al materializarse se convierte en → Incidente. Si la amenaza es intencionada → Ataque.
+> **Clave de examen -- Piramide conceptual:**
+> Activo tiene → Vulnerabilidad (debilidad) → que es explotada por → Amenaza → generando un → Riesgo (probabilidad x dano) → que al materializarse se convierte en → Incidente. Si la amenaza es intencionada → Ataque.
 
 ### 2.2 Tipos de Riesgo
 
-| Tipo | Características | Ejemplo |
+| Tipo | Caracteristicas | Ejemplo |
 |---|---|---|
-| **Riesgos conocidos** | Pueden identificarse, analizarse y gestionarse de forma proactiva. | Se sabe que el datacenter está en zona sísmica → se refuerza la estructura antisísmica. |
-| **Riesgos desconocidos** | Situaciones imprevistas que no permiten medidas a priori. Requieren estrategias de resiliencia general. | Un fallo en cascada por una combinación nunca antes vista de errores de configuración. |
+| **Riesgos conocidos** | Pueden identificarse, analizarse y gestionarse de forma proactiva. | Se sabe que el datacenter esta en zona sismica → se refuerza la estructura antisismica. |
+| **Riesgos desconocidos** | Situaciones imprevistas que no permiten medidas a priori. Requieren estrategias de resiliencia general. | Un fallo en cascada por una combinacion nunca antes vista de errores de configuracion. |
 
 ### 2.3 Opciones para Tratar los Riesgos (4 estrategias)
 
-| Estrategia | Descripción | Ejemplo real |
+| Estrategia | Descripcion | Ejemplo real |
 |---|---|---|
 | **Mitigar** | Reducir la probabilidad o el impacto a un nivel aceptable. | Instalar un firewall y antivirus corporativo para reducir el riesgo de malware. |
 | **Asumir** | Aceptar el riesgo conscientemente cuando el coste de tratarlo supera el beneficio. | Una PYME asume el riesgo de no tener datacenter redundante porque el coste es inviable. |
-| **Transferir** | Desplazar el impacto a un tercero (normalmente mediante seguro o externalización). | Contratar un seguro de ciberriesgos con cobertura de pérdida de datos y responsabilidad civil. |
+| **Transferir** | Desplazar el impacto a un tercero (normalmente mediante seguro o externalizacion). | Contratar un seguro de ciberriesgos con cobertura de perdida de datos y responsabilidad civil. |
 | **Eliminar** | Suprimir la causa del riesgo por completo (dejar de realizar la actividad que lo genera). | Cerrar un servicio web vulnerable que ya no es necesario para el negocio, eliminando el vector de ataque. |
 
 > **Clave de examen:** Las 4 opciones son Mitigar, Asumir, Transferir y Eliminar. NO son 3 (sin Transferir), ni se limita a mitigar/asumir/eliminar.
 
-### 2.4 Análisis de Riesgos — ¿En qué consiste?
+### 2.4 Analisis de Riesgos -- En que consiste?
 
-El análisis de riesgos consiste en **AMBAS** de las siguientes:
+El analisis de riesgos consiste en **AMBAS** de las siguientes:
 
-1. **Identificar los riesgos** a los que están expuestos los activos del sistema de información.
+1. **Identificar los riesgos** a los que estan expuestos los activos del sistema de informacion.
 2. **Identificar problemas de seguridad** que evidencian vulnerabilidades en los sistemas.
 
-Es decir, combina la identificación de activos y sus vulnerabilidades con la evaluación de las amenazas y el impacto potencial.
+Es decir, combina la identificacion de activos y sus vulnerabilidades con la evaluacion de las amenazas y el impacto potencial.
 
-**Ejemplo real (Sanidad):** Un hospital realiza análisis de riesgos sobre su sistema de historias clínicas electrónicas:
+**Ejemplo real (Sanidad):** Un hospital realiza analisis de riesgos sobre su sistema de historias clinicas electronicas:
 - Activo: base de datos de pacientes (datos sensibles).
 - Vulnerabilidad: sistema operativo del servidor sin parches de seguridad.
 - Amenaza: atacante externo que explota la vulnerabilidad para exfiltrar datos.
-- Impacto: sanción por RGPD (hasta 4% facturación anual), daño reputacional irreversible.
-- Riesgo calculado: Alta probabilidad × Impacto crítico = Riesgo Alto → **Mitigar** aplicando parches y segmentando la red.
+- Impacto: sancion por RGPD (hasta 4% facturacion anual), dano reputacional irreversible.
+- Riesgo calculado: Alta probabilidad x Impacto critico = Riesgo Alto → **Mitigar** aplicando parches y segmentando la red.
 
-### 2.5 Gestión del Riesgo
+### 2.5 Gestion del Riesgo
 
-> **Definición:** Identificar y desplegar medidas técnicas y organizativas para **evitar, minimizar o controlar** los riesgos, eliminando o reduciendo el daño.
+> **Definicion:** Identificar y desplegar medidas tecnicas y organizativas para **evitar, minimizar o controlar** los riesgos, eliminando o reduciendo el dano.
 
-- **NO** es únicamente eliminar los riesgos (opción inviable en la mayoría de casos).
-- **NO** es subcontratar la seguridad (eso sería una forma de transferir, no gestionar).
-- **NO** es solo mitigar (la gestión incluye las 4 estrategias de tratamiento).
+- **NO** es unicamente eliminar los riesgos (opcion inviable en la mayoria de casos).
+- **NO** es subcontratar la seguridad (eso seria una forma de transferir, no gestionar).
+- **NO** es solo mitigar (la gestion incluye las 4 estrategias de tratamiento).
+
+### 2.6 Formulas y Metricas del Analisis de Riesgos
+
+#### Formula Expandida del Riesgo
+
+> **R = Σ (Li x Pi)**
+>
+> Donde:
+> - **Li** = impacto (dano) sobre el activo i
+> - **Pi** = probabilidad de ocurrencia de la amenaza sobre el activo i
+> - **R** = riesgo total, suma ponderada de todos los riesgos individuales
+
+#### Fase I: Valoracion de Activos con Dependencias
+
+En la primera fase se calcula el valor de cada activo considerando sus dependencias:
+
+> **Valor acumulado (b) = valor(b) + valor(a) x dependencia**
+>
+> **Impacto acumulado (a) = impacto(a) + impacto(b) x dependencia**
+
+Donde:
+- Si el activo **a** depende del activo **b**, el valor de **b** se incrementa proporcionalmente al valor de **a** multiplicado por el grado de dependencia.
+- De forma analoga, el impacto sobre **a** se propaga a **b** en funcion de la dependencia.
+
+#### Fase II: Analisis de Vulnerabilidad en 2 Vertientes
+
+Las vulnerabilidades se analizan desde dos perspectivas complementarias:
+
+| Vertiente | Descripcion | Ejemplos |
+|---|---|---|
+| **Degradacion** | Porcentaje de afectacion: en que medida la vulnerabilidad reduce la capacidad del activo. | 0% (sin degradacion), 50% (parcial), 100% (inutilizacion total). |
+| **Frecuencia** | Periodicidad con la que la vulnerabilidad puede manifestarse. | Diaria, semanal, mensual, anual, una vez, nunca. |
+
+#### Fase III: Alineacion de Salvaguardas con Amenazas
+
+En la tercera fase se seleccionan y valoran las salvaguardas adecuadas:
+
+- **Repositorios de referencia para salvaguardas:**
+  - **ISO 27002** (Codigo de Buenas Practicas para Controles de Seguridad)
+  - **MAGERIT** (Catalogo de Elementos, Libro II)
+  - **Anexos del ENS** (Esquema Nacional de Seguridad)
+- **Valoracion:** Las salvaguardas se evaluan segun su **grado de eficacia (%)** frente a cada amenaza. Una salvaguarda puede cubrir total o parcialmente una amenaza.
 
 ---
 
-## 3. Metodologías de Análisis de Riesgos
+## 3. Metodologias de Analisis de Riesgos
 
 ### 3.1 Cuadro Comparativo
 
-| Metodología | Origen | Año | Fases/Estructura | Enfoque principal |
+| Metodologia | Origen | Ano | Fases/Estructura | Enfoque principal |
 |---|---|---|---|---|
-| **MAGERIT III** | España (CNI/CCN) | 2012 | 3 libros (Método, Catálogo, Guías Técnicas) | Administraciones Públicas españolas. Análisis y **gestión** de riesgos. Obligatorio para cumplir el ENS. |
-| **CRAMM** | Reino Unido | 1987 | 3 fases | Originalmente para gobierno UK. Adoptada por la OTAN. |
-| **EBIOS** | Francia (ANSSI) | 1995 | 5 fases | Sector público francés. Eventos temidos y escenarios de riesgo. |
-| **ISO/IEC 27005** | Internacional | 2008/2011 | Modelo PDCA (Plan-Do-Check-Act) genérico | Estándar genérico para gestión de riesgos en el marco de un SGSI (ISO 27001). |
-| **UNE 71504** | España (AENOR) | 2008 | — | Metodología española de análisis de riesgos. |
+| **MAGERIT III** | Espana (CNI/CCN) | 1997 (V1) / 2012 (V3) | 3 libros (Metodo, Catalogo, Guias Tecnicas) | Administraciones Publicas espanolas. Analisis y **gestion** de riesgos. Obligatorio para cumplir el ENS. |
+| **CRAMM** | Reino Unido | 1987 | 3 fases (Objetivos, Analisis de Riesgos, Salvaguardas) | Originalmente para gobierno UK. Adoptada por la OTAN y el Gobierno Holandes. |
+| **EBIOS** | Francia (ANSSI) | 1995 | 5 fases | Sector publico frances. Eventos temidos y escenarios de riesgo. |
+| **ISO/IEC 27005** | Internacional | 2008/2011 | Modelo PDCA (Plan-Do-Check-Act) generico | Estandar generico para gestion de riesgos en el marco de un SGSI (ISO 27001). |
+| **UNE 71504** | Espana (AENOR) | 2008 | Metodologia de analisis y gestion de riesgos para SSII | Metodologia espanola de analisis y gestion de riesgos para Sistemas de Informacion. |
 
-> **Clave de examen:** Las metodologías de análisis de riesgos **reconocidas** son: **CRAMM, EBIOS y MAGERIT II** (todas ellas). ITIL e ISO 27001 **NO** son metodologías de análisis de riesgos.
+> **Clave de examen:** Las metodologias de analisis de riesgos **reconocidas** son: **CRAMM, EBIOS y MAGERIT II** (todas ellas). ITIL e ISO 27001 **NO** son metodologias de analisis de riesgos.
 
 ### 3.2 MAGERIT III (Detalle)
 
-**Origen:** Desarrollada por el Consejo Superior de Administración Electrónica de España, mantenida por el CCN-CNI (Centro Criptológico Nacional). Es la metodología de referencia para el cumplimiento del **Esquema Nacional de Seguridad (ENS)** en las Administraciones Públicas españolas.
+**Origen:** Desarrollada por el Consejo Superior de Administracion Electronica de Espana, mantenida por el CCN-CNI (Centro Criptologico Nacional). Es la metodologia de referencia para el cumplimiento del **Esquema Nacional de Seguridad (ENS)** en las Administraciones Publicas espanolas. La **primera version data de 1997**, siendo MAGERIT III (2012) la version actual.
 
 **Estructura (3 libros):**
 
 | Libro | Contenido |
 |---|---|
-| **Libro I: Método** | Descripción detallada del método de análisis de riesgos: caracterización de activos, valoración de dependencias, identificación y valoración de amenazas, evaluación del impacto y el riesgo, identificación de salvaguardas adecuadas. |
-| **Libro II: Catálogo de Elementos** | Catálogo estructurado de activos, amenazas (con tasas de ocurrencia) y salvaguardas típicos. Sirve de guía para el analista. |
-| **Libro III: Guías Técnicas** | Guías complementarias: cómo desarrollar las tareas del proyecto, cómo integrar MAGERIT con otras metodologías, modelos de madurez, etc. |
+| **Libro I: Metodo** | Descripcion detallada del metodo de analisis de riesgos: caracterizacion de activos, valoracion de dependencias, identificacion y valoracion de amenazas, evaluacion del impacto y el riesgo, identificacion de salvaguardas adecuadas. |
+| **Libro II: Catalogo de Elementos** | Catalogo estructurado de activos, amenazas (con tasas de ocurrencia) y salvaguardas tipicos. Sirve de guia para el analista. |
+| **Libro III: Guias Tecnicas** | Guias complementarias: como desarrollar las tareas del proyecto, como integrar MAGERIT con otras metodologias, modelos de madurez, etc. |
 
-**Ejemplo real:** La Agencia Tributaria Española utilizó MAGERIT para analizar los riesgos de sus sistemas de información tributaria, identificando más de 500 activos y aplicando salvaguardas como cifrado de datos en tránsito, doble factor de autenticación para funcionarios, y segregación de funciones en entornos virtualizados.
+**Ejemplo real:** La Agencia Tributaria Espanola utilizo MAGERIT para analizar los riesgos de sus sistemas de informacion tributaria, identificando mas de 500 activos y aplicando salvaguardas como cifrado de datos en transito, doble factor de autenticacion para funcionarios, y segregacion de funciones en entornos virtualizados.
 
-**Herramienta asociada:** PILAR (entorno de trabajo software del CCN para realizar análisis de riesgos siguiendo MAGERIT). PILAR = Plataforma Informática para el Análisis y Gestión de Riesgos.
+**Herramienta asociada:** PILAR (entorno de trabajo software del CCN para realizar analisis de riesgos siguiendo MAGERIT). PILAR = Plataforma Informatica para el Analisis y Gestion de Riesgos.
 
 ### 3.3 CRAMM (CCTA Risk Analysis and Management Method)
 
-| Característica | Detalle |
+| Caracteristica | Detalle |
 |---|---|
 | Origen | Reino Unido, 1987 |
-| 3 fases | 1. Identificación y valoración de activos. 2. Identificación de amenazas y vulnerabilidades. 3. Selección de contramedidas. |
-| Adopción | Gobiernos, sector público británico, OTAN para sistemas clasificados. |
-| Fortaleza | Integra la valoración cualitativa y cuantitativa con una base de datos de amenazas y contramedidas. |
+| 3 fases | **1. Objetivos** (Identificacion y valoracion de activos). **2. Analisis de Riesgos** (Identificacion de amenazas y vulnerabilidades). **3. Salvaguardas** (Seleccion de contramedidas). |
+| Adopcion | Gobiernos, sector publico britanico. Adoptada por la **OTAN** para sistemas clasificados y por el **Gobierno Holandes**. |
+| Fortaleza | Integra la valoracion cualitativa y cuantitativa con una base de datos de amenazas y contramedidas. |
 
-### 3.4 EBIOS (Expression des Besoins et Identification des Objectifs de Sécurité)
+### 3.4 EBIOS (Expression des Besoins et Identification des Objectifs de Securite)
 
-| Característica | Detalle |
+| Caracteristica | Detalle |
 |---|---|
-| Origen | Francia, ANSSI (Agence Nationale de la Sécurité des Systèmes d'Information) |
-| 5 fases | 1. Estudio del contexto. 2. Estudio de eventos temidos. 3. Elaboración de escenarios de riesgo. 4. Estudio de riesgos (gravedad y probabilidad). 5. Estudio de medidas de tratamiento. |
-| Enfoque | Orientado a "eventos temidos" y "escenarios de riesgo", muy gráfico y participativo. |
+| Origen | Francia, ANSSI (Agence Nationale de la Securite des Systemes d'Information) |
+| 5 fases | **1. Analisis del Contexto** (Estudio del contexto). **2. Requisitos de Seguridad y Amenazas** (Estudio de eventos temidos). **3. Objetivos de Seguridad** (Elaboracion de escenarios de riesgo). **4.** Estudio de riesgos (gravedad y probabilidad). **5.** Estudio de medidas de tratamiento. |
+| Enfoque | Orientado a "eventos temidos" y "escenarios de riesgo", muy grafico y participativo. |
 
-### 3.5 ISO/IEC 27005 — Gestión de Riesgos en la Seguridad de la Información
+### 3.5 ISO/IEC 27005 -- Gestion de Riesgos en la Seguridad de la Informacion
 
-- Es un estándar **genérico**, aplicable a organizaciones de cualquier tipo que ya tengan implantado (o planeen implantar) un SGSI según ISO 27001.
+- Es un estandar **generico**, aplicable a organizaciones de cualquier tipo que ya tengan implantado (o planeen implantar) un SGSI segun ISO 27001.
 - Sigue el modelo **PDCA** (Plan, Do, Check, Act).
-- Proporciona directrices para la gestión del riesgo, pero no especifica un método concreto: puede adaptarse a MAGERIT, CRAMM, etc.
+- Proporciona directrices para la gestion del riesgo, pero no especifica un metodo concreto: puede adaptarse a MAGERIT, CRAMM, etc.
 
-**Ejemplo real:** Una multinacional de retail certificada en ISO 27001 realiza su análisis de riesgos anual siguiendo ISO 27005 como marco, pero utilizando MAGERIT como método concreto para la identificación y valoración de activos.
+**Ejemplo real:** Una multinacional de retail certificada en ISO 27001 realiza su analisis de riesgos anual siguiendo ISO 27005 como marco, pero utilizando MAGERIT como metodo concreto para la identificacion y valoracion de activos.
 
 ---
 
-## 4. Auditoría Informática
+## 4. Auditoria Informatica
 
-### 4.1 Definición
+### 4.1 Definicion
 
-> Recoger, agrupar y evaluar **evidencias** para determinar si un Sistema de Información realiza de forma **eficaz** los fines de la organización y utiliza **eficientemente** los recursos.
+> Recoger, agrupar y evaluar **evidencias** para determinar si un Sistema de Informacion realiza de forma **eficaz** los fines de la organizacion y utiliza **eficientemente** los recursos.
 
-También cubre:
-- La **integridad de los datos** (que la información no ha sido alterada de forma no autorizada).
-- La **protección del activo empresarial** (salvaguarda de los recursos de información).
+Tambien cubre:
+- La **integridad de los datos** (que la informacion no ha sido alterada de forma no autorizada).
+- La **proteccion del activo empresarial** (salvaguarda de los recursos de informacion).
 
-> **NO confundir** auditoría informática con:
-> - **Análisis de seguridad** (hacking ético, pentesting): eso es ofensivo/técnico.
-> - **Análisis de riesgos**: identificar amenazas y proponer salvaguardas → eso es análisis de riesgos, **NO** auditoría.
+> **NO confundir** auditoria informatica con:
+> - **Analisis de seguridad** (hacking etico, pentesting): eso es ofensivo/tecnico.
+> - **Analisis de riesgos**: identificar amenazas y proponer salvaguardas → eso es analisis de riesgos, **NO** auditoria.
+>
+> **Importante:** No se debe confundir la auditoria con un **analisis de seguridad** (hacking etico, pruebas de penetracion). La auditoria evalua controles, recoge evidencias y verifica cumplimiento. El analisis de seguridad busca vulnerabilidades mediante tecnicas ofensivas. Son actividades complementarias pero distintas.
 
-### 4.2 Objetivos de la Auditoría Informática
+### 4.2 Objetivos de la Auditoria Informatica
 
-- ✅ **Verificar disponibilidad** de los sistemas y servicios tecnológicos.
-- ✅ **Verificar controles** de integridad, confidencialidad y autenticación.
+- ✅ **Verificar disponibilidad** de los sistemas y servicios tecnologicos.
+- ✅ **Verificar controles** de integridad, confidencialidad y autenticacion.
 - ✅ **Verificar cumplimiento normativo** (LOPD/RGPD, ENS, ISO 27001, etc.).
-- ✅ **Eliminar/minimizar** la probabilidad de pérdida de información.
-- ✅ **Verificar el control interno** de la función informática (segregación de funciones, gestión de accesos, etc.).
-- ❌ **Identificar amenazas y proponer salvaguardas** → eso NO es auditoría, es análisis de riesgos.
+- ✅ **Eliminar/minimizar** la probabilidad de perdida de informacion.
+- ✅ **Verificar el control interno** de la funcion informatica (segregacion de funciones, gestion de accesos, etc.).
+- ❌ **Identificar amenazas y proponer salvaguardas** → eso NO es auditoria, es analisis de riesgos.
 
-> **Examen:** A la pregunta de cuáles son los objetivos de la auditoría informática, son correctas **AMBAS** opciones C y D (cuando aparecen combinadas verificaciones de disponibilidad/integridad y control interno/cumplimiento).
+> **Examen:** A la pregunta de cuales son los objetivos de la auditoria informatica, son correctas **AMBAS** opciones C y D (cuando aparecen combinadas verificaciones de disponibilidad/integridad y control interno/cumplimiento).
 
-### 4.3 Tipos de Auditoría Informática
+### 4.3 Tipos de Auditoria Informatica
 
-| Tipo | Descripción | Ejemplo real |
+| Tipo | Descripcion | Ejemplo real |
 |---|---|---|
-| **Auditoría de datos** | Revisión de la calidad, integridad y protección de los datos. Clasificación de la información según criticidad. | Auditar la base de datos de RRHH para verificar que los datos de nómina solo sean accesibles por personal autorizado. |
-| **Auditoría de comunicaciones** | Evaluación de la seguridad y eficiencia de las redes y sistemas de comunicación. | Verificar que las VPN de teletrabajo usan cifrado AES-256 y que los cortafuegos segmentan correctamente las subredes. |
-| **Auditoría legal/LOPD/RGPD** | Verificar el cumplimiento de la normativa de protección de datos personales. | Revisar el registro de actividades de tratamiento, consentimientos de clientes, y contratos de encargados de tratamiento. |
-| **Auditoría de seguridad** | Evaluación de controles técnicos y organizativos de seguridad de la información. | Revisar políticas de contraseñas, control de acceso físico y lógico, registros de auditoría (logs). |
-| **Auditoría de sistemas** | Verificar la eficacia y eficiencia de los sistemas operativos y plataformas. | Auditar la configuración de servidores Linux según estándares CIS Benchmark. |
-| **Auditoría de aplicaciones** | Evaluar el desarrollo, despliegue y mantenimiento del software. | Revisar la metodología de desarrollo seguro (SDL), pruebas de seguridad en el pipeline CI/CD. |
+| **Auditoria de datos** | Revision de la calidad, integridad y proteccion de los datos. Clasificacion de la informacion segun criticidad. | Auditar la base de datos de RRHH para verificar que los datos de nomina solo sean accesibles por personal autorizado. |
+| **Auditoria de comunicaciones** | Evaluacion de la seguridad y eficiencia de las redes y sistemas de comunicacion. | Verificar que las VPN de teletrabajo usan cifrado AES-256 y que los cortafuegos segmentan correctamente las subredes. |
+| **Auditoria legal/LOPD/RGPD** | Verificar el cumplimiento de la normativa de proteccion de datos personales. | Revisar el registro de actividades de tratamiento, consentimientos de clientes, y contratos de encargados de tratamiento. |
+| **Auditoria de seguridad** | Evaluacion de controles tecnicos y organizativos de seguridad de la informacion. | Revisar politicas de contrasenas, control de acceso fisico y logico, registros de auditoria (logs). |
+| **Auditoria de sistemas** | Verificar la eficacia y eficiencia de los sistemas operativos y plataformas. | Auditar la configuracion de servidores Linux segun estandares CIS Benchmark. |
+| **Auditoria de aplicaciones** | Evaluar el desarrollo, despliegue y mantenimiento del software. | Revisar la metodologia de desarrollo seguro (SDL), pruebas de seguridad en el pipeline CI/CD. |
+| **Auditoria de ciberseguridad** | Evaluacion especifica de la postura de ciberseguridad: capacidad de prevenir, detectar y responder a ciberamenazas. | Analisis del nivel de madurez en ciberseguridad segun el modelo NIST CSF. |
+| **Auditoria de sistemas SCADA** | Evaluacion de la seguridad en sistemas de control industrial y supervision. | Auditar la red OT de una planta de produccion, verificando segmentacion IT/OT. |
+| **Auditoria de aseguramiento de la ciberresiliencia** | Verificar la capacidad de la organizacion para resistir, adaptarse y recuperarse de ciberincidentes. | Evaluar el cumplimiento de la Directiva NIS2 o del Marco de Ciberresiliencia. |
 
-> **Examen:** A la pregunta "¿Qué tipos de auditoría informática existen?", la respuesta es **TODAS son correctas** cuando aparecen como opciones: de datos, de comunicaciones, legal de la LOPD/RGPD, de seguridad, etc.
+> **Examen:** A la pregunta "Que tipos de auditoria informatica existen?", la respuesta es **TODAS son correctas** cuando aparecen como opciones: de datos, de comunicaciones, legal de la LOPD/RGPD, de seguridad, de ciberseguridad, de sistemas SCADA, de aseguramiento de la ciberresiliencia, etc.
 
-### 4.4 Formas de Desarrollar una Auditoría
+### 4.4 Formas de Desarrollar una Auditoria
 
-| Enfoque | Descripción | Técnicas |
+| Enfoque | Descripcion | Tecnicas |
 |---|---|---|
-| **Alrededor del ordenador** | Revisión del entorno que rodea al sistema sin acceder directamente a los programas ni datos. | Entrevistas, revisión documental, inspección física, análisis de procedimientos y organigramas. |
-| **A través del ordenador** | Se analizan los procesos automatizados internos del sistema, los programas y los datos. | Trazas de ejecución, revisión de código, pruebas lógicas de controles internos, análisis de logs. |
-| **Con el ordenador** | Se utilizan herramientas informáticas auxiliares para realizar pruebas y simulaciones sobre el sistema auditado. | Software de auditoría generalizado (ACL, IDEA), herramientas CAAT (Computer-Assisted Audit Techniques), scripts de verificación masiva. |
+| **Alrededor del ordenador** | Revision del entorno que rodea al sistema sin acceder directamente a los programas ni datos. | Entrevistas, revision documental, inspeccion fisica, analisis de procedimientos y organigramas. |
+| **A traves del ordenador** | Se analizan los procesos automatizados internos del sistema, los programas y los datos. | Trazas de ejecucion, revision de codigo, pruebas logicas de controles internos, analisis de logs. |
+| **Con el ordenador** | Se utilizan herramientas informaticas auxiliares para realizar pruebas y simulaciones sobre el sistema auditado. | Software de auditoria generalizado (ACL, IDEA), herramientas CAAT (Computer-Assisted Audit Techniques), scripts de verificacion masiva. |
 
-### 4.5 Referencia Técnica: CCN-STIC 802
+### 4.5 Referencia Tecnica: CCN-STIC 802
 
-La guía **CCN-STIC 802** del Centro Criptológico Nacional es la guía de **Auditoría del Esquema Nacional de Seguridad (ENS)**. Establece:
+La guia **CCN-STIC 802** del Centro Criptologico Nacional es la guia de **Auditoria del Esquema Nacional de Seguridad (ENS)**. Establece:
 
-- El procedimiento de auditoría para verificar el cumplimiento del ENS.
-- Los criterios de evaluación.
+- El procedimiento de auditoria para verificar el cumplimiento del ENS.
+- Los criterios de evaluacion.
 - Las evidencias que deben recogerse.
 - Los requisitos del equipo auditor.
 
-### 4.6 Dictamen Final de Auditoría
+### 4.6 Dictamen Final de Auditoria
 
 | Dictamen | Significado |
 |---|---|
@@ -250,172 +315,237 @@ La guía **CCN-STIC 802** del Centro Criptológico Nacional es la guía de **Aud
 | **Conforme con deficiencias** | Se han encontrado deficiencias que no invalidan globalmente el sistema, pero requieren acciones correctivas. |
 | **No conforme** | Se han detectado incumplimientos graves que comprometen significativamente los objetivos del sistema. |
 
-**Ejemplo real:** Una auditoría del ENS sobre la plataforma de licitación electrónica del Estado arroja "Conforme con deficiencias" porque, aunque los controles de acceso son correctos, el registro de auditoría (logging) no retiene los logs durante el período mínimo exigido de 1 año.
+**Ejemplo real:** Una auditoria del ENS sobre la plataforma de licitacion electronica del Estado arroja "Conforme con deficiencias" porque, aunque los controles de acceso son correctos, el registro de auditoria (logging) no retiene los logs durante el periodo minimo exigido de 1 ano.
 
-### 4.7 Resultados de una Auditoría
+### 4.7 Resultados de una Auditoria
 
-El resultado principal de una auditoría es:
+El resultado principal de una auditoria es:
 
-> **Evidencias de los riesgos** asociados a los sistemas que soportan la información, y en su caso, la identificación de salvaguardas insuficientes o ausentes.
+> **Evidencias de los riesgos** asociados a los sistemas que soportan la informacion, y en su caso, la identificacion de salvaguardas insuficientes o ausentes.
 
-> **Trampa de examen:** No es "propuesta de salvaguardas" (eso es análisis de riesgos). Es "evidencias" de la situación real, tanto de los riesgos detectados como de los controles existentes.
+> **Trampa de examen:** No es "propuesta de salvaguardas" (eso es analisis de riesgos). Es "evidencias" de la situacion real, tanto de los riesgos detectados como de los controles existentes.
+
+### 4.8 Alcance de la Auditoria
+
+El alcance define los limites de la auditoria y se estructura en dos niveles:
+
+#### Alcance General
+
+| Elemento | Descripcion |
+|---|---|
+| **Descripcion de sedes** | Ubicaciones fisicas que seran auditadas (oficinas, datacenters, delegaciones). |
+| **Estructura organica** | Departamentos, areas y unidades organizativas incluidas en el alcance. |
+| **Actividades y procesos** | Que procesos de negocio y actividades operativas se auditan. |
+| **Periodo de tiempo** | Marco temporal que cubre la auditoria (ej: ejercicio fiscal, ultimo trimestre). |
+
+#### Alcance Especifico
+
+| Elemento | Descripcion |
+|---|---|
+| **Sistemas afectados** | Sistemas de informacion, aplicaciones y plataformas concretas objeto de la auditoria. |
+| **Activos de infraestructura tecnologica** | Servidores, redes, dispositivos de seguridad, equipos de comunicaciones. |
+| **Personal vinculado** | Roles y personas responsables de los sistemas y procesos auditados. |
+
+### 4.9 Planificacion de la Auditoria
+
+La planificacion es la fase preparatoria fundamental que incluye:
+
+| Elemento | Descripcion |
+|---|---|
+| **Plan de auditoria** | Documento rector que define objetivos, alcance, metodologia y recursos. |
+| **Calendario de revisiones/reuniones/entrevistas** | Programacion temporal de todas las actividades de campo. |
+| **Asignacion de tareas** | Distribucion de responsabilidades entre los miembros del equipo auditor. |
+| **Concrecion de criterios** | Definicion precisa de los criterios de evaluacion y los umbrales de conformidad. |
 
 ---
 
 ## 5. Plan Director de Seguridad
 
-### 5.1 Definición
+### 5.1 Definicion
 
-> Define la **estrategia en seguridad TIC** de la organización durante un período determinado (generalmente 2-4 años), estableciendo objetivos, acciones, recursos y plazos.
+> Define la **estrategia en seguridad TIC** de la organizacion durante un periodo determinado (generalmente 2-4 anos), estableciendo objetivos, acciones, recursos y plazos.
 
-- **NO** es solamente seguridad física y lógica.
+- **NO** es solamente seguridad fisica y logica.
 - **NO** es la estrategia de negocio general.
-- **ES** el documento rector que marca el rumbo de la seguridad de la información en la organización a medio-largo plazo.
+- **ES** el documento rector que marca el rumbo de la seguridad de la informacion en la organizacion a medio-largo plazo.
+
+> **Problemas que evita el Plan Director:** Sin un Plan Director, las organizaciones sufren **iniciativas dispares** (cada departamento implementa su propia seguridad sin coordinacion), **sistemas heterogeneos** (soluciones incompatibles entre si) y **diferentes requisitos en una misma organizacion** (niveles de seguridad inconsistentes que generan brechas). El Plan Director unifica criterios y alinea todas las iniciativas bajo una estrategia comun.
 
 ### 5.2 Objetivos del Plan Director de Seguridad
 
-| Objetivo | Descripción |
+| Objetivo | Descripcion |
 |---|---|
-| **Definir objetivos y criterios básicos** en seguridad de la información | Establecer el "norte" de la seguridad: qué nivel se quiere alcanzar. |
+| **Definir objetivos y criterios basicos** en seguridad de la informacion | Establecer el "norte" de la seguridad: que nivel se quiere alcanzar. |
 | **Establecer el marco normativo y cumplimiento legal** | Asegurar que se cumplen RGPD, LSSI, ENS, LOPD, normativa sectorial (banca, sanidad, etc.). |
 | **Conocer y planificar costes e inversiones** | Dimensionar el presupuesto necesario para alcanzar los niveles de seguridad deseados. |
 | **Aportar confianza** sobre los servicios ofrecidos | Generar seguridad en clientes, proveedores y terceros sobre la fiabilidad de los servicios. |
 
-- ❌ **NO** es objetivo específico "realizar análisis de riesgos" (eso es un medio, no un fin).
-- ❌ **NO** es objetivo "cumplir la LSSIE" (Ley de Servicios de la Sociedad de la Información — la seguridad no solo se limita a esa ley).
+- ❌ **NO** es objetivo especifico "realizar analisis de riesgos" (eso es un medio, no un fin).
+- ❌ **NO** es objetivo "cumplir la LSSIE" (Ley de Servicios de la Sociedad de la Informacion -- la seguridad no solo se limita a esa ley).
 
-### 5.3 Factores Clave de Éxito
+### 5.3 Factores Clave de Exito
 
 | # | Factor | Importancia |
 |---|---|---|
-| 1 | **Compromiso de la Dirección** | ⭐ **El más importante.** Sin apoyo explícito y sostenido de la alta dirección, el Plan Director está abocado al fracaso. |
-| 2 | **Designar un responsable del Plan** | Una persona o comité con autoridad y responsabilidad clara para liderar el Plan. |
-| 3 | **Marco metodológico definido** | Usar una metodología reconocida (ISO 27001, MAGERIT, etc.) para estructurar el análisis y las acciones. |
+| 1 | **Compromiso de la Direccion** | ⭐ **El mas importante.** Sin apoyo explicito y sostenido de la alta direccion, el Plan Director esta abocado al fracaso. |
+| 2 | **Designar un responsable del Plan** | Una persona o comite con autoridad y responsabilidad clara para liderar el Plan. |
+| 3 | **Marco metodologico definido** | Usar una metodologia reconocida (ISO 27001, MAGERIT, etc.) para estructurar el analisis y las acciones. |
 | 4 | **Recursos y medios adecuados** | Presupuesto, personal, herramientas y tiempo suficientes. |
-| 5 | **Seguimiento permanente** | Indicadores de cumplimiento (KPI), revisiones periódicas, cuadros de mando. |
+| 5 | **Seguimiento permanente** | Indicadores de cumplimiento (KPI), revisiones periodicas, cuadros de mando. |
 
-### 5.4 Norma Básica de Referencia
+### 5.4 Norma Basica de Referencia
 
-La **ISO/IEC 27002** (Código de Buenas Prácticas para los Controles de Seguridad de la Información) sirve como catálogo de controles de referencia sobre los que se estructura el Plan Director de Seguridad.
+La **ISO/IEC 27002** (Codigo de Buenas Practicas para los Controles de Seguridad de la Informacion) sirve como catalogo de controles de referencia sobre los que se estructura el Plan Director de Seguridad.
 
-> Relación clave: ISO 27001 define los requisitos del SGSI, ISO 27002 proporciona el catálogo de controles que se implementan en el Plan Director.
+> Relacion clave: ISO 27001 define los requisitos del SGSI, ISO 27002 proporciona el catalogo de controles que se implementan en el Plan Director.
 
 ### 5.5 Resultados del Plan Director
 
-| Resultado | Descripción |
+| Resultado | Descripcion |
 |---|---|
-| **Nivel de seguridad actual** | Diagnóstico de la situación de partida (AS-IS). |
+| **Nivel de seguridad actual** | Diagnostico de la situacion de partida (AS-IS). |
 | **Nivel de seguridad deseado** | Objetivo a alcanzar (TO-BE). |
-| **Necesidades identificadas** | Brechas entre la situación actual y la deseada (GAP analysis). |
+| **Necesidades identificadas** | Brechas entre la situacion actual y la deseada (GAP analysis). |
 | **Hoja de ruta** | Secuencia temporal de proyectos y acciones priorizadas. |
-| **Estudio económico** | Presupuesto estimado con coste de inversión y coste operativo recurrente. |
+| **Estudio economico** | Presupuesto estimado con coste de inversion y coste operativo recurrente. |
 
-**Ejemplo real:** Una universidad pública española desarrolla su Plan Director de Seguridad 2024-2027:
-- Situación actual: 40 servicios web sin certificado SSL, 300 cuentas de usuario sin política de contraseñas robusta.
-- Situación deseada: todos los servicios con HTTPS y autenticación federada (eduGAIN/SIR), acceso multrifactor para servicios críticos.
-- Hoja de ruta: Año 1 → implantar MFA y reforzar políticas de contraseñas. Año 2 → migrar sistemas legacy. Año 3 → certificación ENS categoría media.
-- Presupuesto: 1.2M€ distribuidos en 3 años.
+**Ejemplo real:** Una universidad publica espanola desarrolla su Plan Director de Seguridad 2024-2027:
+- Situacion actual: 40 servicios web sin certificado SSL, 300 cuentas de usuario sin politica de contrasenas robusta.
+- Situacion deseada: todos los servicios con HTTPS y autenticacion federada (eduGAIN/SIR), acceso multifactor para servicios criticos.
+- Hoja de ruta: Ano 1 → implantar MFA y reforzar politicas de contrasenas. Ano 2 → migrar sistemas legacy. Ano 3 → certificacion ENS categoria media.
+- Presupuesto: 1.2M€ distribuidos en 3 anos.
+
+### 5.6 Dominios que Cubre el Plan Director
+
+El Plan Director de Seguridad debe abarcar **TODOS los dominios** de la seguridad de la informacion en la organizacion:
+
+| Dominio | Descripcion |
+|---|---|
+| **Redes** | Segmentacion, cortafuegos, VPN, monitorizacion de trafico, control de acceso a red (NAC). |
+| **Equipos** | Endpoints (PCs, portatiles, moviles), servidores, configuracion segura, hardening. |
+| **Seguridad fisica y logica** | Proteccion perimetral, control de accesos fisicos, cifrado, autenticacion, PKI. |
+| **Controles de acceso** | Gestion de identidades (IAM), privilegios minimos, segregacion de funciones, MFA. |
+| **Mantenimiento** | Gestion de parches, actualizaciones, fin de vida de sistemas, planes de renovacion tecnologica. |
+| **Normativa** | Cumplimiento legal y regulatorio: ENS, RGPD, LOPD, LSSI, normativa sectorial. |
+| **Politica de seguridad** | Documento de alto nivel con principios, roles y responsabilidades en materia de seguridad. |
+| **Seguridad del personal** | Concienciacion, formacion, acuerdos de confidencialidad, verificacion de antecedentes. |
+| **Continuidad del negocio** | Planes de continuidad, DRP, BIA, analisis de impacto, sitios alternativos. |
+| **Control de inventario** | Registro y gestion de activos de informacion, hardware, software y licencias. |
+
+> La norma basica de referencia para estos controles es la **ISO 27002**, que proporciona el catalogo estructurado de controles de seguridad.
 
 ---
 
 ## 6. Plan de Respuesta ante Incidentes
 
-### 6.1 Definición
+### 6.1 Definicion
 
-> Documento que detalla una relación de **tareas y actividades** para dar respuesta a cualquier incidente **genérico** que afecte a la **seguridad de la información**.
+> Documento que detalla una relacion de **tareas y actividades** para dar respuesta a cualquier incidente **generico** que afecte a la **seguridad de la informacion**.
 
-- **NO** es un plan para "cualquier incidente de la organización" (demasiado amplio: solo cubre incidentes de seguridad de la información).
-- **NO** es solo documentar la seguridad de la organización.
-- **NO** es simplemente cumplir con un requisito legal (aunque también ayude a ello).
+- **NO** es un plan para "cualquier incidente de la organizacion" (demasiado amplio: solo cubre incidentes de seguridad de la informacion).
+- **NO** es solo documentar la seguridad de la organizacion.
+- **NO** es simplemente cumplir con un requisito legal (aunque tambien ayude a ello).
 
 ### 6.2 Elementos del Plan de Respuesta ante Incidentes
 
-| Elemento | Descripción | Ejemplo real |
+| Elemento | Descripcion | Ejemplo real |
 |---|---|---|
-| **CSIRT** (Computer Security Incident Response Team) | Equipo de respuesta, roles definidos (coordinador, analistas, responsables de comunicación). Contactos 24×7. | El CSIRT del INCIBE en España coordina la respuesta a ciberincidentes en ciudadanía y empresas. |
-| **Procedimientos documentados** | Pasos detallados para cada tipo de incidente grave: ransomware, fuga de datos, DDoS, intrusión. | Playbook de respuesta a ransomware: aislar segmento de red afectado, identificar variante, evaluar backups, notificar a AEPD si hay datos personales. |
-| **Detección y análisis** | Métodos y herramientas para detectar incidentes (SIEM, IDS/IPS, antivirus EDR, alertas de usuarios). | Un SIEM (Splunk, ELK, Elastic) correlaciona eventos: múltiples intentos fallidos de login desde IP extranjera + escaneo de puertos → alerta de intrusión. |
-| **Contención** | Acciones para limitar el daño y evitar la propagación. | Desconectar de la red un servidor comprometido, bloquear una IP atacante en el firewall perimetral. |
-| **Erradicación** | Eliminar la causa raíz del incidente. | Eliminar malware, cerrar puertas traseras, parchear la vulnerabilidad explotada. |
-| **Recuperación** | Restaurar los sistemas y servicios a su estado operativo normal. | Restaurar desde backup, validar integridad de datos, re-conectar servicios progresivamente. |
-| **Comunicación** | A quién informar, cuándo y cómo: dirección, usuarios, afectados, autoridad de control (AEPD), fuerzas de seguridad si procede. | Protocolo de notificación: < 72 h desde detección para incidentes con datos personales (RGPD), comunicado público si hay impacto masivo. |
-| **Valoración y lecciones aprendidas** | Análisis post-mortem del incidente: qué falló, qué funcionó, cómo evitar que se repita. | Reunión post-incidente: el ataque fue por spear-phishing → mejorar formación de empleados en concienciación. |
-| **Revisión y mejora** | Actualizar el plan de respuesta tras cada incidente real o simulacro. | Incorporar nuevas IoCs (Indicators of Compromise) al SIEM, añadir reglas de detección. |
+| **CSIRT** (Computer Security Incident Response Team) | Equipo de respuesta, roles definidos (coordinador, analistas, responsables de comunicacion). Contactos 24x7. | El CSIRT del INCIBE en Espana coordina la respuesta a ciberincidentes en ciudadania y empresas. |
+| **Procedimientos documentados** | Pasos detallados para cada tipo de incidente grave: ransomware, fuga de datos, DDoS, intrusion. | Playbook de respuesta a ransomware: aislar segmento de red afectado, identificar variante, evaluar backups, notificar a AEPD si hay datos personales. |
+| **Deteccion y analisis** | Metodos y herramientas para detectar incidentes (SIEM, IDS/IPS, antivirus EDR, alertas de usuarios). | Un SIEM (Splunk, ELK, Elastic) correlaciona eventos: multiples intentos fallidos de login desde IP extranjera + escaneo de puertos → alerta de intrusion. |
+| **Contencion** | Acciones para limitar el dano y evitar la propagacion. | Desconectar de la red un servidor comprometido, bloquear una IP atacante en el firewall perimetral. |
+| **Erradicacion** | Eliminar la causa raiz del incidente. | Eliminar malware, cerrar puertas traseras, parchear la vulnerabilidad explotada. |
+| **Recuperacion** | Restaurar los sistemas y servicios a su estado operativo normal. | Restaurar desde backup, validar integridad de datos, re-conectar servicios progresivamente. |
+| **Comunicacion** | A quien informar, cuando y como: direccion, usuarios, afectados, autoridad de control (AEPD), fuerzas de seguridad si procede. | Protocolo de notificacion: < 72 h desde deteccion para incidentes con datos personales (RGPD), comunicado publico si hay impacto masivo. |
+| **Valoracion y lecciones aprendidas** | Analisis post-mortem del incidente: que fallo, que funciono, como evitar que se repita. | Reunion post-incidente: el ataque fue por spear-phishing → mejorar formacion de empleados en concienciacion. |
+| **Revision y mejora** | Actualizar el plan de respuesta tras cada incidente real o simulacro. | Incorporar nuevas IoCs (Indicators of Compromise) al SIEM, anadir reglas de deteccion. |
 
 ### 6.3 Ciclo de Respuesta a Incidentes (NIST SP 800-61)
 
 ```
-Preparación → Detección y Análisis → Contención, Erradicación y Recuperación → Actividad Post-Incidente
+Preparacion → Deteccion y Analisis → Contencion, Erradicacion y Recuperacion → Actividad Post-Incidente
      ↑                                                                                      |
      └──────────────────────────────────────────────────────────────────────────────────────┘
-                                        (retroalimentación continua)
+                                         (retroalimentacion continua)
 ```
 
 **Ejemplo real (Ransomware en el SEPE, 2021):**
-- El Servicio Público de Empleo Estatal sufrió un ataque de ransomware.
-- **Detección:** Se detectó la mañana del 9 de marzo al no poder acceder a sistemas internos.
-- **Contención:** Se aislaron los equipos afectados y se cortó el acceso desde Internet.
-- **Erradicación:** Colaboración con el CCN-CERT para analizar el malware y eliminarlo.
-- **Recuperación:** Restauración progresiva de servicios (la web del SEPE funcionaba, pero la intranet tardó varios días en restaurarse).
-- **Comunicación:** Nota de prensa oficial del Ministerio. Notificación al CCN-CERT.
-- **Lecciones:** Se reforzó la segmentación de red y se implantó EDR en todos los endpoints.
+- El Servicio Publico de Empleo Estatal sufrio un ataque de ransomware.
+- **Deteccion:** Se detecto la manana del 9 de marzo al no poder acceder a sistemas internos.
+- **Contencion:** Se aislaron los equipos afectados y se corto el acceso desde Internet.
+- **Erradicacion:** Colaboracion con el CCN-CERT para analizar el malware y eliminarlo.
+- **Recuperacion:** Restauracion progresiva de servicios (la web del SEPE funcionaba, pero la intranet tardo varios dias en restaurarse).
+- **Comunicacion:** Nota de prensa oficial del Ministerio. Notificacion al CCN-CERT.
+- **Lecciones:** Se reforzo la segmentacion de red y se implanto EDR en todos los endpoints.
 
 ---
 
 ## 7. Plan de Continuidad del Negocio (PCN / SGCN)
 
-### 7.1 Definición
+### 7.1 Definicion
 
-El Plan de Continuidad del Negocio (PCN) o Sistema de Gestión de la Continuidad del Negocio (SGCN) es el conjunto de estrategias, planes y procedimientos que permiten a una organización **seguir funcionando** en caso de una interrupción grave, minimizando el impacto sobre sus actividades críticas.
+El Plan de Continuidad del Negocio (PCN) o Sistema de Gestion de la Continuidad del Negocio (SGCN) es el conjunto de estrategias, planes y procedimientos que permiten a una organizacion **seguir funcionando** en caso de una interrupcion grave, minimizando el impacto sobre sus actividades criticas.
 
-### 7.2 Métricas Clave: RTO, MTD y RPO
+### 7.2 Metricas Clave: RTO, MTD, RPO y ROL
 
-| Métrica | Significado | Definición | Ejemplo |
+| Metrica | Significado | Definicion | Ejemplo |
 |---|---|---|---|
-| **RPO** (Recovery Point Objective) | Objetivo de Punto de Recuperación | Cantidad máxima de datos que la organización se puede permitir perder, medida en tiempo. Define la frecuencia de los backups. | RPO = 1 hora → Los backups deben realizarse cada hora. En caso de desastre, se pierden como máximo 60 minutos de datos. Un banco con RPO de 15 minutos usa replicación síncrona de bases de datos. |
-| **RTO** (Recovery Time Objective) | Objetivo de Tiempo de Recuperación | Tiempo máximo tolerable para restaurar el servicio tras una interrupción. Define cuánto puede estar caído un sistema. | RTO = 4 horas → Si el ERP corporativo cae a las 10:00, debe estar operativo antes de las 14:00. Un hospital con RTO de 5 minutos para el sistema de urgencias necesita un datacenter en caliente (hot site). |
-| **MTD** (Maximum Tolerable Downtime) | Tiempo Máximo de Inactividad Tolerable | Límite absoluto de tiempo que un proceso/servicio puede estar inactivo antes de que las consecuencias sean catastróficas para la organización. | MTD = 24 horas para la pasarela de pagos de un e-commerce: tras 24 horas sin poder cobrar, las pérdidas son irrecuperables y puede haber quiebra. |
+| **RPO** (Recovery Point Objective) | Objetivo de Punto de Recuperacion | Cantidad maxima de datos que la organizacion se puede permitir perder, medida en tiempo. Define la frecuencia de los backups. | RPO = 1 hora → Los backups deben realizarse cada hora. En caso de desastre, se pierden como maximo 60 minutos de datos. Un banco con RPO de 15 minutos usa replicacion sincrona de bases de datos. |
+| **RTO** (Recovery Time Objective) | Objetivo de Tiempo de Recuperacion | Tiempo maximo tolerable para restaurar el servicio tras una interrupcion. Define cuanto puede estar caido un sistema. | RTO = 4 horas → Si el ERP corporativo cae a las 10:00, debe estar operativo antes de las 14:00. Un hospital con RTO de 5 minutos para el sistema de urgencias necesita un datacenter en caliente (hot site). |
+| **MTD** (Maximum Tolerable Downtime) | Tiempo Maximo de Inactividad Tolerable | Limite absoluto de tiempo que un proceso/servicio puede estar inactivo antes de que las consecuencias sean catastroficas para la organizacion. | MTD = 24 horas para la pasarela de pagos de un e-commerce: tras 24 horas sin poder cobrar, las perdidas son irrecuperables y puede haber quiebra. |
+| **ROL** (Recovery Objective Level) | Niveles Minimos de Recuperacion de Servicio | Define el nivel minimo de servicio que debe alcanzarse tras la recuperacion. No basta con restaurar el sistema: hay que garantizar que funciona a un nivel minimo aceptable. | ROL = 60% de la capacidad de atencion a clientes durante las primeras 4 horas post-recuperacion. Una vez estabilizado, escalar al 100% en 24 horas. El ROL asegura que no solo se recupera el sistema, sino que este ofrece un servicio minimo viable. |
 
-> **Relación entre métricas:** RTO ≤ MTD (el objetivo de recuperación debe ser menor o igual que el tiempo máximo tolerable). RPO determina la estrategia de backup (a menor RPO, más costosa la solución).
+> **Relacion entre metricas:** RTO <= MTD (el objetivo de recuperacion debe ser menor o igual que el tiempo maximo tolerable). RPO determina la estrategia de backup (a menor RPO, mas costosa la solucion). ROL define el nivel minimo operativo tras la recuperacion.
 
 ```
        RPO                          RTO                        MTD
 ←───|───|───────────────────────────|──────────────────────────|────→ tiempo
     ↑                               ↑                          ↑
- Último backup                  Recuperación                Colapso del negocio
- (pérdida máxima               del servicio                 si no se recupera
+ Ultimo backup                  Recuperacion                Colapso del negocio
+ (perdida maxima               del servicio                 si no se recupera
   de datos aceptable)
 ```
 
-### 7.3 Norma de Referencia: ISO 22301
+### 7.3 Objetivos Generales del Plan de Continuidad
 
-La **ISO 22301** es el estándar internacional que especifica los requisitos para un Sistema de Gestión de la Continuidad del Negocio (SGCN):
+| Objetivo | Descripcion |
+|---|---|
+| **Evitar perdidas** | Prevenir o minimizar las perdidas economicas, de informacion y de activos derivadas de una interrupcion. |
+| **Mantener la confianza** | Preservar la reputacion y la confianza de clientes, proveedores, accionistas y partes interesadas. |
+| **Garantizar la comunicacion** | Asegurar canales de comunicacion efectivos durante y despues de la crisis (internos y externos). |
+| **Proteger el medio ambiente** | Evitar o minimizar el impacto ambiental que pudiera derivarse de un incidente (fugas, vertidos, danos colaterales). |
 
-- Es certificable (una organización puede obtener certificación ISO 22301).
-- Alineada con ISO 27001 (SGSI), ISO 9001 (Calidad) e ISO 14001 (Medio Ambiente) mediante la estructura de alto nivel (HLS – High Level Structure).
+### 7.4 Norma de Referencia: ISO 22301 y Documentos INCIBE
+
+La **ISO 22301** es el estandar internacional que especifica los requisitos para un Sistema de Gestion de la Continuidad del Negocio (SGCN):
+
+- Es certificable (una organizacion puede obtener certificacion ISO 22301).
+- Alineada con ISO 27001 (SGSI), ISO 9001 (Calidad) e ISO 14001 (Medio Ambiente) mediante la estructura de alto nivel (HLS - High Level Structure).
 - Fomenta el ciclo PDCA de mejora continua.
 
-**Ejemplo real:** Eurocontrol (gestión del tráfico aéreo europeo) está certificado en ISO 22301: sus centros de control tienen redundancia completa (dos centros que pueden asumir el tráfico del otro en minutos), con un RTO de menos de 5 minutos para sistemas de control aéreo.
+Ademas de la ISO 22301, en Espana se cuenta con los **documentos y guias del INCIBE** (Instituto Nacional de Ciberseguridad) como referencia complementaria para la elaboracion e implantacion de planes de continuidad del negocio, especialmente orientados a pymes y administraciones publicas.
 
-### 7.4 Fases del PCN
+**Ejemplo real:** Eurocontrol (gestion del trafico aereo europeo) esta certificado en ISO 22301: sus centros de control tienen redundancia completa (dos centros que pueden asumir el trafico del otro en minutos), con un RTO de menos de 5 minutos para sistemas de control aereo.
 
-| Fase | Descripción | Actividades Clave |
+### 7.5 Fases del PCN
+
+| Fase | Descripcion | Actividades Clave |
 |---|---|---|
-| **1. Alcance y Contexto** | Definir qué partes de la organización cubre el PCN y en qué contexto opera. | Identificar productos/servicios críticos, partes interesadas, requisitos legales y regulatorios. Análisis del contexto externo e interno. |
-| **2. Análisis / BIA** (Business Impact Analysis) | Evaluar el impacto de una interrupción en cada proceso de negocio y determinar los requisitos de continuidad. | Identificar procesos críticos, calcular RTO, MTD y RPO para cada proceso, priorizar la recuperación según impacto en el negocio. |
-| **3. Estrategia** | Definir las estrategias de continuidad adecuadas para cada proceso crítico. | Seleccionar alternativas de recuperación: sitio alternativo (hot site, warm site, cold site), teletrabajo, proveedores alternativos, redundancia de sistemas. |
-| **4. Respuesta / Planes** | Desarrollar los planes de continuidad detallados, incluyendo recursos, equipos y protocolos. | Elaborar plan de respuesta ante emergencias, plan de recuperación de TI (DRP – Disaster Recovery Plan), plan de continuidad de procesos de negocio. |
-| **5. Pruebas y Mantenimiento** | Verificar que los planes funcionan y mantenerlos actualizados. | Simulacros periódicos (al menos 1 al año), pruebas de restauración de backups, revisión y actualización tras cambios organizativos o tecnológicos. |
+| **1. Alcance y Contexto** | Definir que partes de la organizacion cubre el PCN y en que contexto opera. | Identificar productos/servicios criticos, partes interesadas, requisitos legales y regulatorios. Analisis del contexto externo e interno. |
+| **2. Analisis / BIA** (Business Impact Analysis) | Evaluar el impacto de una interrupcion en cada proceso de negocio y determinar los requisitos de continuidad. | Identificar procesos criticos, calcular RTO, MTD y RPO para cada proceso, priorizar la recuperacion segun impacto en el negocio. |
+| **3. Estrategia** | Definir las estrategias de continuidad adecuadas para cada proceso critico. | Seleccionar alternativas de recuperacion: sitio alternativo (hot site, warm site, cold site), teletrabajo, proveedores alternativos, redundancia de sistemas. |
+| **4. Respuesta / Planes** | Desarrollar los planes de continuidad detallados, incluyendo recursos, equipos y protocolos. | Elaborar plan de respuesta ante emergencias, plan de recuperacion de TI (DRP - Disaster Recovery Plan), plan de continuidad de procesos de negocio. |
+| **5. Pruebas y Mantenimiento** | Verificar que los planes funcionan y mantenerlos actualizados. | Simulacros periodicos (al menos 1 al ano), pruebas de restauracion de backups, revision y actualizacion tras cambios organizativos o tecnologicos. |
 
-### 7.5 Tipos de Sitios Alternativos (DRP)
+### 7.6 Tipos de Sitios Alternativos (DRP)
 
-| Tipo | Características | Coste | RTO típico |
+| Tipo | Caracteristicas | Coste | RTO tipico |
 |---|---|---|---|
-| **Cold site** | Espacio físico vacío con electricidad y climatización, sin equipamiento. Requiere instalar todo. | Bajo | Días / Semanas |
-| **Warm site** | Espacio con hardware y conectividad básica, pero sin datos sincronizados. Requiere restauración de backups. | Medio | Horas / Días |
-| **Hot site** | Réplica completa del entorno de producción, con datos sincronizados en tiempo real. Funciona en minutos. | Alto | Minutos / Horas |
+| **Cold site** | Espacio fisico vacio con electricidad y climatizacion, sin equipamiento. Requiere instalar todo. | Bajo | Dias / Semanas |
+| **Warm site** | Espacio con hardware y conectividad basica, pero sin datos sincronizados. Requiere restauracion de backups. | Medio | Horas / Dias |
+| **Hot site** | Replica completa del entorno de produccion, con datos sincronizados en tiempo real. Funciona en minutos. | Alto | Minutos / Horas |
 
-**Ejemplo real:** Un servicio cloud como AWS o Azure ofrece Disaster Recovery as a Service (DRaaS) con RTO de minutos y RPO cercano a cero mediante replicación entre regiones.
+**Ejemplo real:** Un servicio cloud como AWS o Azure ofrece Disaster Recovery as a Service (DRaaS) con RTO de minutos y RPO cercano a cero mediante replicacion entre regiones.
 
 ---
 
@@ -423,67 +553,91 @@ La **ISO 22301** es el estándar internacional que especifica los requisitos par
 
 ### Conceptos "Filtro" (preguntas trampa detectadas)
 
-| Pregunta típica | Respuesta correcta |
+| Pregunta tipica | Respuesta correcta |
 |---|---|
-| ITIL es... | Una **biblioteca de buenas prácticas** en gestión de servicios TI |
+| ITIL es... | Una **biblioteca de buenas practicas** en gestion de servicios TI |
 | ITIL es una norma europea de obligado cumplimiento | ❌ **NO** |
 | ITIL es una norma ISO 27000 | ❌ **NO** |
-| ITIL es una metodología de trabajo | ❌ **NO** (es recopilación de buenas prácticas en gestión de SERVICIOS) |
-| Objetivo ITIL V2 | **Alinear** la tecnología con el negocio |
-| Objetivo ITIL V3 | **Alinear / Integrar** la tecnología en el negocio |
-| Ciclo de Vida del Servicio ITIL V3 | Estrategia → Diseño → Transición → Operación → Mejora Continua (5 etapas) |
+| ITIL es una metodologia de trabajo | ❌ **NO** (es recopilacion de buenas practicas en gestion de SERVICIOS) |
+| ITIL es el estandar "de facto" en provision de servicios TI | ✅ **SI** |
+| Biblioteca original ITIL: 50 libros → 7 (V2) → 5 (V3) | ✅ **SI** |
+| Objetivo ITIL V2 | **Alinear** la tecnologia con el Negocio |
+| Objetivo ITIL V3 | **Integrar** la tecnologia en el Negocio |
+| Ciclo de Vida del Servicio ITIL V3 | Estrategia → Diseno → Transicion → Operacion → Mejora Continua (5 etapas) |
+| Cada fase ITIL V3 tiene Actividades y Procesos | ✅ **SI** |
+| ITIL V4 sustituye "procesos" por "practicas" | ✅ **SI** |
+| ITIL V4 se integra con Agile, DevOps, Lean, Gobierno TI | ✅ **SI** |
+| Valor = funcionalidad + garantia | ✅ **SI** |
 | Ciclo de Vida = PDCA (Plan, Do, Check, Act) | ❌ **NO** (eso es Deming) |
-| ¿Incluye "Publicación" o "Difusión" en el ciclo? | ❌ **NO** |
-| ¿Qué es un Activo? | Recurso software, hardware, personal, administrativo o funcional |
+| Incluye "Publicacion" o "Difusion" en el ciclo? | ❌ **NO** |
+| Que es un Activo? | Recurso software, hardware, personal, administrativo o funcional |
 | Activo = solo hardware | ❌ **NO** |
 | Vulnerabilidad es... | Una **debilidad** del sistema |
 | Vulnerabilidad = amenaza | ❌ **NO** |
-| Riesgo = | Daño × Probabilidad |
+| Riesgo = Dano x Probabilidad | ✅ **SI**. Formula expandida: R = Σ (Li x Pi) |
 | Ataque se caracteriza por... | **Intencionalidad** de terceros |
 | Opciones para tratar riesgos (4) | **Mitigar, Asumir, Transferir, Eliminar** |
-| Análisis de riesgos consiste en... | Identificar riesgos + identificar vulnerabilidades (**AMBAS**) |
-| Gestión del riesgo = solo eliminar | ❌ **NO** (es evitar, minimizar o controlar) |
-| Metodologías reconocidas de análisis de riesgos | **CRAMM, EBIOS y MAGERIT II** (todas) |
-| ITIL es metodología de análisis de riesgos | ❌ **NO** |
-| ISO 27001 es metodología de análisis de riesgos | ❌ **NO** |
-| MAGERIT III — libros | 3 libros: Método, Catálogo, Guías Técnicas |
-| MAGERIT III — origen | Española, CNI/CCN, enfocada a AA.PP. |
-| MAGERIT es metodología de... | Análisis y **gestión** de riesgos |
-| Auditoría = identificar amenazas y proponer salvaguardas | ❌ **NO** (eso es análisis de riesgos) |
-| Tipos de auditoría | De datos, comunicaciones, legal LOPD/RGPD → **TODAS** |
-| Formas de auditoría | Alrededor, a través, y con el ordenador |
-| Guía de auditoría del ENS | **CCN-STIC 802** |
-| Dictámenes de auditoría | Conforme, Conforme con deficiencias, No conforme |
-| Plan Director de Seguridad define... | Estrategia en seguridad TIC de la organización |
-| Factor clave de éxito principal del Plan Director | **Compromiso de la Dirección** |
-| Norma básica del Plan Director | **ISO 27002** |
-| Plan de Respuesta ante Incidentes cubre... | Incidentes genéricos de **seguridad de la información** |
-| PCN — ISO de referencia | **ISO 22301** |
-| RPO → | Punto de Recuperación (pérdida máxima de datos) |
-| RTO → | Tiempo de Recuperación (tiempo máximo para restaurar) |
-| MTD → | Tiempo Máximo de Inactividad Tolerable |
+| Analisis de riesgos consiste en... | Identificar riesgos + identificar vulnerabilidades (**AMBAS**) |
+| Fase I: Valor acumulado con dependencias | ✅ **SI** |
+| Fase II: Vulnerabilidad = Degradacion + Frecuencia | ✅ **SI** |
+| Fase III: Salvaguardas alineadas con amenazas (ISO 27002, MAGERIT, ENS) | ✅ **SI** |
+| Gestion del riesgo = solo eliminar | ❌ **NO** (es evitar, minimizar o controlar) |
+| Metodologias reconocidas de analisis de riesgos | **CRAMM, EBIOS y MAGERIT II** (todas) |
+| CRAMM: 3 fases (Objetivos, Analisis de Riesgos, Salvaguardas). OTAN + Gob. Holandes | ✅ **SI** |
+| EBIOS: 5 fases (Analisis del Contexto, Requisitos de Seguridad y Amenazas, Objetivos de Seguridad...) | ✅ **SI** |
+| MAGERIT: primera version 1997, 3 libros | ✅ **SI** |
+| UNE 71504: Metodologia de analisis y gestion de riesgos para SSII | ✅ **SI** |
+| ITIL es metodologia de analisis de riesgos | ❌ **NO** |
+| ISO 27001 es metodologia de analisis de riesgos | ❌ **NO** |
+| MAGERIT III -- libros | 3 libros: Metodo, Catalogo, Guias Tecnicas |
+| MAGERIT III -- origen | Espanola, CNI/CCN, enfocada a AA.PP. Primera version de 1997. |
+| MAGERIT es metodologia de... | Analisis y **gestion** de riesgos |
+| Auditoria = identificar amenazas y proponer salvaguardas | ❌ **NO** (eso es analisis de riesgos) |
+| Auditoria NO es analisis de seguridad (hacking etico, pentesting) | ✅ **SI**. Son actividades complementarias pero distintas. |
+| Tipos de auditoria | De datos, comunicaciones, legal LOPD/RGPD, seguridad, ciberseguridad, SCADA, ciberresiliencia → **TODAS** |
+| Formas de auditoria | Alrededor, a traves, y con el ordenador |
+| Alcance general: sedes, estructura organica, actividades, periodo | ✅ **SI** |
+| Alcance especifico: sistemas, activos tecnologicos, personal | ✅ **SI** |
+| Planificacion: plan de auditoria, calendario, asignar tareas, concretar criterios | ✅ **SI** |
+| Guia de auditoria del ENS | **CCN-STIC 802** |
+| Dictamenes de auditoria | Conforme, Conforme con deficiencias, No conforme |
+| Plan Director de Seguridad define... | Estrategia en seguridad TIC de la organizacion |
+| Problemas que evita el Plan Director: iniciativas dispares, sistemas heterogeneos, diferentes requisitos | ✅ **SI** |
+| Dominios que cubre: redes, equipos, seguridad fisica/logica, controles de acceso, mantenimiento, normativa, politica de seguridad, seguridad del personal, continuidad del negocio, control de inventario | ✅ **SI** |
+| Factor clave de exito principal del Plan Director | **Compromiso de la Direccion** |
+| Norma basica del Plan Director | **ISO 27002** |
+| Plan de Respuesta ante Incidentes cubre... | Incidentes genericos de **seguridad de la informacion** |
+| PCN -- Objetivos generales: evitar perdidas, mantener confianza, garantizar comunicacion, proteger medio ambiente | ✅ **SI** |
+| PCN -- ISO de referencia | **ISO 22301** |
+| PCN -- Documentos complementarios en Espana | **INCIBE** |
+| RPO → | Punto de Recuperacion (perdida maxima de datos) |
+| RTO → | Tiempo de Recuperacion (tiempo maximo para restaurar) |
+| MTD → | Tiempo Maximo de Inactividad Tolerable |
+| ROL → | Niveles Minimos de Recuperacion de Servicio |
 
-### Jerarquía de Normas y Marcos
+### Jerarquia de Normas y Marcos
 
 ```
-ITIL → Buenas prácticas de gestión de servicios TI
-ISO 27001 → Requisitos del SGSI (Sistema de Gestión de Seguridad de la Información)
-ISO 27002 → Catálogo de controles (Plan Director de Seguridad)
-ISO 27005 → Directrices de gestión de riesgos (modelo PDCA)
-ISO 22301 → Sistema de Gestión de Continuidad del Negocio
-MAGERIT III → Metodología de análisis y gestión de riesgos (España, AA.PP.)
-CRAMM → Metodología de análisis y gestión de riesgos (UK, OTAN)
-EBIOS → Metodología de análisis y gestión de riesgos (Francia, ANSSI)
-ENS → Esquema Nacional de Seguridad (España, ámbito legal-administrativo)
-CCN-STIC 802 → Guía de Auditoría del ENS
+ITIL → Buenas practicas de gestion de servicios TI (estandar "de facto")
+ISO 27001 → Requisitos del SGSI (Sistema de Gestion de Seguridad de la Informacion)
+ISO 27002 → Catalogo de controles (Plan Director de Seguridad)
+ISO 27005 → Directrices de gestion de riesgos (modelo PDCA)
+ISO 22301 → Sistema de Gestion de Continuidad del Negocio
+MAGERIT III → Metodologia de analisis y gestion de riesgos (Espana, AA.PP., V1 en 1997)
+CRAMM → Metodologia de analisis y gestion de riesgos (UK, OTAN, Gob. Holandes)
+EBIOS → Metodologia de analisis y gestion de riesgos (Francia, ANSSI)
+UNE 71504 → Metodologia de analisis y gestion de riesgos para SSII (Espana, AENOR)
+ENS → Esquema Nacional de Seguridad (Espana, ambito legal-administrativo)
+CCN-STIC 802 → Guia de Auditoria del ENS
+INCIBE → Documentos y guias de continuidad del negocio (Espana)
 ```
 
-### Truco Mnemotécnico para las 5 Etapas de ITIL V3
+### Truco Mnemotecnico para las 5 Etapas de ITIL V3
 
-**"E D T O M"** → **E**strategia, **D**iseño, **T**ransición, **O**peración, **M**ejora Continua
+**"E D T O M"** → **E**strategia, **D**iseno, **T**ransicion, **O**peracion, **M**ejora Continua
 
-**Frase:** *"El Director Técnico Opera Mejoras"*
+**Frase:** *"El Director Tecnico Opera Mejoras"*
 
 ---
 
-*Documento elaborado como material de referencia para la UA 5: Instrumentos para la Gestión de la Seguridad.*
+*Documento elaborado como material de referencia para la UA 5: Instrumentos para la Gestion de la Seguridad.*

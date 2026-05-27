@@ -170,6 +170,12 @@ La seguridad de la información se basa en el **trinomio CIA**:
 
 > **PREGUNTA DE EXAMEN:** "¿Cuáles son las vías de entrada de un troyano?" → **TODAS LAS RESPUESTAS SON CORRECTAS**
 
+> **Tendencia actual:** Infección con un **downloader** que analiza el sistema y descarga el malware más adecuado para ese entorno específico.
+
+> **Malware multimecanismo:** Existe malware que combina características de varios tipos (Troyano/Gusano/Virus) para maximizar su efectividad y capacidad de propagación.
+
+> **Malware moderno vs clásico:** Al contrario que los virus clásicos, el **malware moderno no se ve, no se hace notar... pero es MUCHO más peligroso**. Opera de forma sigilosa, ocultando su presencia mientras roba datos, cifra archivos o convierte el equipo en parte de una botnet.
+
 ### 5.2 Clasificación según comportamiento
 
 #### 5.2.1 Rootkits
@@ -234,6 +240,8 @@ La seguridad de la información se basa en el **trinomio CIA**:
 
 - El rescate se suele exigir en criptomonedas (Bitcoin, Monero) para dificultar el rastreo.
 - **Afecta especialmente a la política de copias de seguridad:** si hay backups actualizados y aislados, el impacto se minimiza.
+- **Pagar el rescate no asegura nada:** no hay garantía de que los atacantes proporcionen la clave de descifrado, y pagar financia más ataques.
+- **Si las copias de seguridad estaban en línea, también secuestradas:** si los backups estaban conectados al sistema (discos en red, NAS accesible), el ransomware también los habrá cifrado.
 
 **Ejemplo real: WannaCry (12 de mayo de 2017)**
 
@@ -272,6 +280,7 @@ La seguridad de la información se basa en el **trinomio CIA**:
 
 - **NO es** distribuir contraseñas entre atacantes.
 - **NO es** distribuir el trabajo entre varios hackers.
+- Existe la posibilidad de **CONTRATAR** servicios de DDoS como servicio (DDoS-as-a-Service, también conocidos como "booter" o "stresser") en mercados clandestinos, accesibles incluso a script kiddies.
 
 | Objetivo | Cómo funciona |
 |----------|---------------|
@@ -380,6 +389,8 @@ Ver sección 5.2.1. En el contexto de ataques, un rootkit es tanto el software c
 | **Phising** | Suplantación de identidad para robo de credenciales |
 | **Malware en adjuntos** | Archivos infectados (.doc, .pdf, .zip, .exe) enviados como adjuntos |
 | **Spoofing de email** | Falsificación de la dirección de remitente (no requiere comprometer la cuenta real) |
+| **Privacidad** | Copias inadvertidas, errores de envío, spoofing (phising) que comprometen la confidencialidad |
+| **Bulos** | Rumores, cadenas, engaños, spam social que se propaga viralmente |
 
 > **PREGUNTA DE EXAMEN:** El spam supone aproximadamente el **90%** del correo electrónico mundial.
 
@@ -391,6 +402,8 @@ Ver sección 5.2.1. En el contexto de ataques, un rootkit es tanto el software c
 | **Pharming** | Redirección por envenenamiento DNS |
 | **XSS** | Inyección de scripts maliciosos en páginas web |
 | **Black Hat SEO** | Técnicas engañosas de posicionamiento web para dirigir tráfico a sitios maliciosos: keyword stuffing, cloaking, granjas de enlaces, páginas puerta |
+| **Mashups** | Aplicaciones web que combinan datos de múltiples fuentes, con riesgos de seguridad y privacidad en la agregación de contenidos |
+| **Bulos** | Rumores, cadenas, engaños, spam social difundido a través de webs y blogs |
 
 ### 7.3 Redes Sociales
 
@@ -401,6 +414,11 @@ Ver sección 5.2.1. En el contexto de ataques, un rootkit es tanto el software c
 | **Gusanos en RRSS** | Malware que se propaga automáticamente mediante mensajes, publicaciones o etiquetas (ej. Koobface en Facebook) |
 | **Cookies maliciosas** | Robo de sesión, seguimiento no consentido |
 | **Riesgos de privacidad** | Sobreexposición de información personal, scraping de datos, ingeniería social, suplantación de identidad |
+| **Incertidumbre de datos** | Falta de control sobre dónde y cómo se almacenan los datos personales; cambios unilaterales en políticas de privacidad por parte de la plataforma |
+| **Intimidad de terceros** | Riesgo de exponer información de otras personas sin su consentimiento (fotos, etiquetas, datos compartidos) |
+| **Repercusiones laborales** | Publicaciones personales que afectan negativamente a la vida profesional y oportunidades laborales |
+| **Atentados al honor** | Difamación, suplantación de identidad, ciberacoso con graves consecuencias personales |
+| **Menores en la red** | Exposición de menores a riesgos sin supervisión adecuada: ciberbullying, grooming, contenido inapropiado |
 
 **Ejemplo real: Cambridge Analytica (2018)**
 - Datos de 87 millones de usuarios de Facebook recolectados sin consentimiento a través de una app de test de personalidad.
@@ -416,6 +434,7 @@ Ver sección 5.2.1. En el contexto de ataques, un rootkit es tanto el software c
 | **RGPD** | Obligatorio cumplimiento del Reglamento General de Protección de Datos (UE 2016/679). Requiere garantías sobre tratamiento de datos personales en la nube |
 | **Nubes cifradas** | El cifrado debe aplicarse tanto en tránsito (TLS) como en reposo. Idealmente con claves gestionadas por el cliente (no por el proveedor cloud) |
 | **Residencia de datos** | Los datos deben residir en jurisdicciones que cumplan la normativa aplicable. Muchos proveedores cloud ofrecen regiones específicas (EU, US, etc.) |
+| **Incertidumbre de datos** | Desconocimiento sobre la ubicación exacta, el tratamiento y la protección real de los datos por parte del proveedor cloud |
 
 **Responsabilidad compartida en cloud:**
 - El proveedor cloud asegura la infraestructura.
@@ -438,6 +457,28 @@ Ver sección 5.2.1. En el contexto de ataques, un rootkit es tanto el software c
 - Mantener el firmware del router actualizado.
 - Crear una red de invitados separada para dispositivos IoT.
 
+### 7.6 Amenazas Domésticas - PC y SO
+
+#### Checklist de amenazas en ordenador personal
+
+| Amenaza | Descripción |
+|---------|-------------|
+| **Ausencia de política de seguridad** | La mayoría de usuarios domésticos no tienen definida ninguna política de seguridad para su equipo |
+| **Usuario como administrador** | Trabajar con cuenta de administrador expone el sistema a cambios no autorizados; cualquier malware se ejecuta con máximos privilegios |
+| **Vulnerabilidades SO y aplicaciones** | Sistemas operativos y aplicaciones sin actualizar exponen vulnerabilidades conocidas ya parcheadas por el fabricante |
+| **Configuración del sistema** | Falta de bastionamiento, contraseñas débiles o inexistentes, servicios innecesarios activados por defecto |
+| **Almacenamiento** | Discos duros sin cifrar, pendrives USB sin control (riesgo de infección por USB, pérdida o robo de datos) |
+| **Cadena de seguridad** | La seguridad es tan fuerte como el eslabón más débil: el usuario doméstico es el menos sensible a las amenazas |
+
+#### Router doméstico
+
+| Riesgo | Descripción |
+|--------|-------------|
+| **Instalación por subcontratas** | Los routers suelen ser instalados por técnicos externos sin criterios de seguridad, dejando configuraciones por defecto |
+| **Contraseñas por defecto** | Muchos routers mantienen el SSID y la contraseña WiFi predefinidos de fábrica (ej. WifiPass), fácilmente descubribles en internet |
+| **Acceso remoto al router** | La gestión remota habilitada por defecto permite a atacantes acceder al router desde el exterior e interceptar todo el tráfico |
+| **Escasa o nula cultura de seguridad en red** | Los usuarios domésticos raramente actualizan el firmware del router, cambian contraseñas o segmentan la red |
+
 ---
 
 ## 8. Ataques Elaborados
@@ -456,7 +497,7 @@ Ver sección 5.2.1. En el contexto de ataques, un rootkit es tanto el software c
 
 | Técnica | Descripción |
 |---------|-------------|
-| **Eavesdropping** | Escucha pasiva de comunicaciones sin autorización. En redes no cifradas (HTTP, FTP, Telnet) los datos viajan en texto plano |
+| **Eavesdropping** | Escucha pasiva de comunicaciones sin autorización. En redes no cifradas (HTTP, FTP, Telnet) los datos viajan en texto plano. Afecta también a comunicaciones de **voz (VoIP)** permitiendo interceptar llamadas telefónicas |
 | **Sniffing** | Captura y análisis de paquetes de red mediante herramientas como Wireshark o tcpdump |
 | **Man-in-the-Middle (MitM)** | El atacante se interpone entre dos partes que se comunican, pudiendo leer y modificar el tráfico. ARP Spoofing en redes locales |
 
@@ -465,6 +506,8 @@ Ver sección 5.2.1. En el contexto de ataques, un rootkit es tanto el software c
 ### 8.3 Google Hacking (Google Dorks)
 
 > Uso de operadores avanzados de búsqueda de Google para encontrar información sensible expuesta inadvertidamente.
+
+**Google indexa más de lo que debe:** motores de búsqueda como Google indexan páginas que deberían permanecer ocultas, exponiendo versiones de aplicaciones, mensajes de error con información sensible del sistema y respuestas a URLs tóxicas que revelan configuraciones internas.
 
 | Operador | Ejemplo | Qué encuentra |
 |----------|---------|---------------|
@@ -510,11 +553,26 @@ La inteligencia artificial generativa ha transformado el panorama de amenazas:
 | **Envenenamiento de datos** | Comprometer los datos de entrenamiento de modelos de IA para introducir comportamientos maliciosos |
 | **Prompt injection** | Manipular LLMs para que ignoren sus restricciones de seguridad |
 
+> **Los LLMs como principal vector de ataque y gestor de defensa:** La IA generativa se ha convertido en el principal vector de ataque moderno, pero también en herramienta clave para la defensa. En operaciones de ataque, los LLMs se utilizan para el **diseño y ejecución de scripts de ataque** automatizados, así como para generar contramedidas. En defensa, se emplean en la **revisión de código y detección de vulnerabilidades (CVEs)** de forma masiva y automatizada, analizando repositorios completos en busca de patrones vulnerables.
+
 ---
 
-## 9. CVE, CVSS y NVD
+## 9. Fases de un ataque
 
-### 9.1 CVE (Common Vulnerabilities and Exposures)
+Los ataques elaborados siguen una secuencia de fases bien definidas:
+
+| Fase | Nombre | Descripción |
+|:----:|--------|-------------|
+| **1** | **Acceso** | Explotación de vulnerabilidades para obtener el acceso inicial al sistema objetivo. Se utilizan exploits, ingeniería social, credenciales robadas o configuraciones débiles |
+| **2** | **Ocultación** | Eliminación de huellas para evitar la detección: instalación de **rootkits** que sustituyen componentes del SO, **borrado de logs** del sistema y de aplicaciones, y desactivación de herramientas de monitorización |
+| **3** | **Aseguramiento** | Consolidación del acceso mediante la instalación de **backdoors** (puertas traseras) y mecanismos de **persistencia** que garantizan que el atacante pueda volver a entrar aunque se parchee la vulnerabilidad inicial |
+| **4** | **Salto** | Expansión dentro de la red comprometida mediante **movimiento lateral** hacia otros sistemas y **pivoting** (usar el primer equipo como trampolín para atacar a otros internamente inaccesibles desde fuera) |
+
+---
+
+## 10. CVE, CVSS y NVD
+
+### 10.1 CVE (Common Vulnerabilities and Exposures)
 
 > **Identificador estándar común de vulnerabilidades**, mantenido por **MITRE Corporation**.
 
@@ -523,7 +581,7 @@ La inteligencia artificial generativa ha transformado el panorama de amenazas:
 - Permite que distintas herramientas y bases de datos hablen el mismo lenguaje.
 - No incluye puntuación de gravedad (eso es CVSS).
 
-### 9.2 CVSS (Common Vulnerability Scoring System)
+### 10.2 CVSS (Common Vulnerability Scoring System)
 
 > **Sistema de puntuación numérica** que evalúa la gravedad de una vulnerabilidad en una escala de **0 a 10**.
 
@@ -536,12 +594,13 @@ La inteligencia artificial generativa ha transformado el panorama de amenazas:
 | 9.0 – 10.0 | **Crítica (Critical)** |
 
 - **CVSS v4.0** se publicó en noviembre de 2023, entrando en uso en **2024**.
-- Métricas evaluadas:
+- Métricas evaluadas en CVSS v4.0:
   - **Base:** Características intrínsecas de la vulnerabilidad (exploitabilidad, impacto).
-  - **Temporal:** Factores que cambian con el tiempo (disponibilidad de exploit, parches).
-  - **Environmental:** Factores específicos del entorno de la organización afectada.
+  - **Threat (Amenaza):** Factores que cambian con el tiempo (disponibilidad de exploit, madurez del código de explotación). Anteriormente llamada "Temporal" en CVSS v3.x.
+  - **Environmental (Entorno):** Factores específicos del entorno de la organización afectada (requisitos de seguridad, controles compensatorios).
+  - **Supplemental (Suplementarias):** Nuevas métricas en v4.0 que aportan contexto adicional (automatización del ataque, urgencia de respuesta, impacto en la cadena de suministro).
 
-### 9.3 NVD (National Vulnerability Database)
+### 10.3 NVD (National Vulnerability Database)
 
 > Base de datos nacional de vulnerabilidades de EE.UU., gestionada por el **NIST** (National Institute of Standards and Technology).
 
@@ -549,7 +608,7 @@ La inteligencia artificial generativa ha transformado el panorama de amenazas:
 - Es la fuente de referencia mundial para consultar vulnerabilidades.
 - URL: https://nvd.nist.gov
 
-### 9.4 CNAs (CVE Numbering Authorities)
+### 10.4 CNAs (CVE Numbering Authorities)
 
 Organizaciones autorizadas para asignar identificadores CVE en sus ámbitos:
 
@@ -560,12 +619,14 @@ Organizaciones autorizadas para asignar identificadores CVE en sus ámbitos:
 | **INCIBE** | Instituto Nacional de Ciberseguridad de España |
 | **Microsoft, Apple, Google...** | CNAs para sus propios productos |
 
-### 9.5 Ataques de Día Cero (Zero-Day)
+### 10.5 Ataques de Día Cero (Zero-Day)
 
 > Vulnerabilidad **desconocida** para el fabricante y para la que **no existe parche** en el momento del ataque.
 
 - Son las más peligrosas porque no hay defensa disponible.
 - Se comercian en mercados clandestinos por cifras millonarias (empresas como Zerodium, grupos estatales).
+- **Publicación no coordinada agrava el impacto:** cuando una vulnerabilidad se divulga sin coordinación previa con el fabricante, los atacantes pueden explotarla masivamente antes de que exista parche.
+- **Irrupción de las IAs como analizadoras de vulnerabilidades en código:** las inteligencias artificiales (LLMs) se han convertido en herramientas capaces de revisar código fuente masivamente y detectar vulnerabilidades (CVEs) de forma automatizada, acelerando tanto el descubrimiento legítimo como el malicioso.
 - El ciclo es:
   1. Descubrimiento de la vulnerabilidad.
   2. Explotación activa (ataque día cero).
@@ -587,7 +648,7 @@ Organizaciones autorizadas para asignar identificadores CVE en sus ámbitos:
 
 ---
 
-## 10. Resumen para el Examen
+## 11. Resumen para el Examen
 
 ### Conceptos que NO pueden fallar en el examen
 

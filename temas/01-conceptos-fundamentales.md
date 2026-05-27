@@ -36,9 +36,28 @@ La transformación hacia la Sociedad de la Información se sostiene sobre tres p
 - **Fusión de tecnologías** que borran los límites entre esferas
 - **Impacto sistémico** en empresas, gobiernos y personas
 
+### 1.2.1 Factores económicos y geopolíticos añadidos
+
+- **Factor económico:** Globalización de la economía y precarización del empleo: estrechamiento de clases medias
+- **Factor geopolítico:** Guerra fría tecnológica: EEUU y China, con la supremacía mundial en juego
+- China censura Internet, Google lo acepta, 2M cámaras reconocimiento facial en China, Rusia planea Internet propia
+- La desinformación como amenaza que socava la confianza de los ciudadanos en el sistema (guerra asimétrica)
+
+**Tecnologías habilitadoras adicionales de la Industria 4.0:**
+- Nanotecnología
+- Computación cuántica
+- Impresión 3D
+- Vehículos autónomos
+
+**Conceptos transversales de la red:**
+- Internet: de sistema anti ataque nuclear a red global y ubicua
+- Se habla de una "seguridad global", sin límites geográficos
+- La neutralidad de Internet, también está en peligro
+- La Red está creando una inteligencia colectiva
+
 ### 1.3 El ciberespacio como quinto dominio
 
-> El **ciberespacio** es el dominio global y dinámico compuesto por las infraestructuras de TI (incluida Internet), redes de telecomunicaciones y sistemas informáticos.
+> El **ciberespacio** es el espacio virtual que engloba todos los sistemas TIC, tanto sistemas de información como de control industrial. Es el dominio global y dinámico compuesto por las infraestructuras de TI (incluida Internet), redes de telecomunicaciones y sistemas informáticos.
 
 Los cinco dominios de conflicto (reconocidos por la OTAN desde la Cumbre de Varsovia 2016):
 1. Tierra
@@ -99,6 +118,9 @@ Amplía el concepto anterior añadiendo la **transmisión** de información **en
 
 Enfoque más amplio que incluye la defensa del dominio cibernético, incluyendo infraestructuras nacionales críticas.
 
+- Una organización puede hablar de seguridad en TIs, pero a nivel nacional o supranacional, el concepto adecuado será **ciberseguridad**
+- La ciberseguridad contempla hogares, empresas, industrias, administraciones, infraestructuras críticas, defensa, etc.
+
 ### 2.4 Seguridad de la Información (definición MAGERIT V3)
 
 > **Capacidad de resistir**, con un cierto nivel de confianza, accidentes o acciones ilícitas o malintencionadas que comprometan la **disponibilidad, integridad y confidencialidad** de los datos almacenados o transmitidos y de los servicios ofrecidos o accesibles.
@@ -124,6 +146,14 @@ La familia ISO 27000 añade dos dimensiones adicionales a la triada clásica D+I
 Juntas forman los **5 pilares de la Seguridad de la Información**.
 
 > **El activo más importante a proteger es la INFORMACIÓN**, por encima del hardware, software o cualquier otro recurso.
+
+---
+
+## 2.6 Evolución histórica de la seguridad en 3 fases
+
+- **Fase 1:** Énfasis en respuesta ante ataques por explotación de vulnerabilidades
+- **Fase 2:** Incorporación del análisis de riesgos con 3 ejes (activos, vulnerabilidades, amenazas)
+- **Fase 3:** Seguridad de la información con visión integral (añade riesgos organizacionales, operacionales, físicos y de TIs). Integra el factor humano
 
 ---
 
@@ -153,7 +183,7 @@ Juntas forman los **5 pilares de la Seguridad de la Información**.
 
 | Término | Definición | Ejemplo real |
 |---------|------------|--------------|
-| **Activo** | Recurso HW, SW, personal, administrativo o funcional necesario para la prestación del servicio | Servidor de base de datos de clientes, código fuente de producto, administrador de sistemas |
+| **Activo** | Recurso HW, SW, personal, administrativo o funcional necesario para la prestación del servicio. Incluye contratos de mantenimiento, protocolos de actuación | Servidor de base de datos de clientes, código fuente de producto, administrador de sistemas |
 | **Vulnerabilidad** | Debilidad del sistema susceptible de ser explotada (fortuita o intencionadamente) | CVE-2021-44228 (Log4Shell): vulnerabilidad crítica en Log4j que permitía ejecución remota de código. Afectó a millones de sistemas |
 | **Amenaza** | Situación con potencial de causar daño con riesgo significativo | Grupo APT28 (Fancy Bear) lanzando campañas de spear-phishing contra gobiernos |
 | **Daño** | Perjuicio material o inmaterial causado por un fallo fortuito o provocado | Fuga de datos de Equifax (2017): 147M de registros expuestos. Coste: +1.400M$ en multas y remediación |
@@ -174,7 +204,7 @@ Juntas forman los **5 pilares de la Seguridad de la Información**.
 
 ### Principio 1: La seguridad NO es un producto, es un PROCESO
 
-> La seguridad tiene un **ciclo de vida** continuo: Planificar → Proteger → Detectar → Responder → Recuperar → Aprender → Planificar...
+> La seguridad tiene un **ciclo de vida** continuo: Diseño → Transición (puesta en marcha) → Operación (día a día) → Actualización y optimización (procesos de mejora del servicio)
 
 No se puede "comprar seguridad" embebida en un firewall. Requiere:
 - Revisión periódica
@@ -188,6 +218,8 @@ No se puede "comprar seguridad" embebida en un firewall. Requiere:
 
 La seguridad absoluta implicaría un coste infinito y haría el sistema inutilizable.
 
+- **Resulta imprescindible un equilibrio entre fortaleza y usabilidad, entre coste y complejidad.**
+
 ### Principio 3: La seguridad es una CADENA
 
 > La seguridad de un sistema es tan fuerte como su **eslabón más débil**. El atacante buscará siempre el punto más frágil.
@@ -199,6 +231,8 @@ Ejemplo real: una empresa invierte millones en firewalls y cifrado, pero un empl
 > Aproximadamente el **70% de los incidentes de seguridad** tienen origen interno, ya sea por negligencia, error humano o acción maliciosa deliberada.
 
 Esto convierte al empleado en la principal vulnerabilidad pero también en la primera línea de defensa.
+
+- **¿Debemos protegernos de nosotros mismos?** Pregunta retórica clave que pone de manifiesto que el factor humano es simultáneamente la mayor amenaza y la principal defensa.
 
 ### Principio 5: "Todo lo que no está explícitamente permitido, está prohibido"
 
@@ -524,6 +558,13 @@ La criptografía moderna aplica el **principio de Kerckhoffs** (seguridad a trav
 - Contraseña + "pregunta secreta" → ambas son conocimiento. NO es 2FA real.
 - PIN + contraseña → ambas son conocimiento. NO es 2FA real.
 
+### 12.1 Identificación vs Autenticación
+
+> **Identificación:** proceso de declarar quién eres (un solo factor, como nombre de usuario o email).
+> **Autenticación:** proceso de demostrar fehacientemente que eres quien dices ser (requiere más de un factor para ser robusta).
+
+La identificación por sí sola no garantiza la identidad: cualquiera puede decir "soy Juan". La autenticación exige prueba.
+
 ---
 
 ## 13. Identidad Digital
@@ -620,6 +661,11 @@ La Ley 59/2003 de Firma Electrónica establece dos categorías principales:
 |-----|------|
 | **1948** | Declaración Universal de los Derechos Humanos (ONU), Art. 12: derecho a la privacidad |
 | **1978** | Constitución Española, Art. 18.4: "La ley limitará el uso de la informática para garantizar el honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos" |
+| **1991** | Chip Clipper: EEUU propone chip de cifrado obligatorio con puerta trasera para agencias gubernamentales |
+| **1992** | LORTAD (Ley Orgánica de Regulación del Tratamiento Automatizado de Datos) |
+| **1993** | Europa: Iniciativa de Directiva Europea - Claves privadas bajo control gubernamental |
+| **1996** | La criptografía deja de ser considerada material militar |
+| **1998** | Ley General de Telecomunicaciones |
 | **2018** | RGPD (Reglamento General de Protección de Datos europeo) y LOPDGDD española |
 
 ### 15.2 Criptografía como garante de la privacidad digital
@@ -657,6 +703,8 @@ Argumentos a favor de un cifrado fuerte y sin puertas traseras:
 4. **Los metadatos ya proporcionan ingente inteligencia** sin necesidad de acceder al contenido
 
 > **Principio fundamental:** Un sistema que pueda ser vigilado por un gobierno democrático hoy, podrá ser explotado por uno autoritario mañana.
+
+- **Necesidad de garantizar la privacidad** de los ciudadanos en todo momento, incluso suponiendo que un gobierno democrático, deje de serlo.
 
 ---
 
@@ -738,3 +786,29 @@ Argumentos a favor de un cifrado fuerte y sin puertas traseras:
 ---
 
 > **Referencia cruzada:** Los conceptos de criptografía se desarrollan en [Tema 2 - Criptografía: Fundamentos](02_criptografia-fundamentos.md). Las amenazas a sistemas en [Tema 3](03_amenazas-sistemas.md). Los mecanismos de defensa en [Tema 4](04_mecanismos-defensa.md). La gestión de seguridad en [Tema 5](05_gestion-seguridad.md). La legislación en [Tema 6](06_legislacion-normativa.md).
+
+---
+
+## Conceptos clave para el examen
+
+- La Seguridad de la Informacion es una vision INTEGRAL que abarca seguridad informatica, TI y ciberseguridad
+- Las 5 dimensiones ISO 27000: Disponibilidad, Integridad, Confidencialidad, Autenticacion, No Repudio
+- El activo mas importante es la INFORMACION, no el hardware ni el software
+- La seguridad NO es un producto, es un PROCESO con ciclo de vida: Diseno → Transicion → Operacion → Actualizacion y optimizacion
+- La seguridad absoluta no existe; se busca un nivel de riesgo aceptable
+- La seguridad es tan fuerte como su eslabon mas debil
+- El factor humano representa ~70% de incidentes internos
+- Principio de denegacion por defecto: todo lo no permitido explicitamente esta prohibido
+- Identificacion (un solo factor) vs Autenticacion (requiere mas de uno)
+- Los 3 factores de autenticacion: Conocimiento (algo que se SABE), Posesion (algo que se TIENE), Existencia (algo que se ES)
+- 2FA requiere dos factores de distinta categoria
+- La biometria NO aplica seguridad a traves del conocimiento, aplica factor de existencia
+- Principio de Kerckhoffs: el sistema debe ser seguro aunque todo excepto la clave sea publico
+- Seguridad por oscuridad es INEFICAZ como estrategia unica
+- Riesgo = Impacto x Probabilidad
+- Las 6 caracteristicas de la Politica de Seguridad (TODAS necesarias): Abarcable, Inteligible, Obligado cumplimiento, Concrecion de responsabilidades, Asequible, Mejorable
+- Firma electronica avanzada y reconocida tienen el mismo valor legal que la firma manuscrita
+- La criptografia garantiza la privacidad digital; tension permanente con seguridad nacional
+- Internet: de sistema anti ataque nuclear a red global y ubicua
+- La neutralidad de Internet esta en peligro
+- Resulta imprescindible un equilibrio entre fortaleza y usabilidad, entre coste y complejidad

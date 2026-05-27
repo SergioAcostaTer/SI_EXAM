@@ -1,10 +1,10 @@
 # UA 4: Mecanismos de Defensa
 
-> **Navegacion:**
+> **Navegación:**
 > - [← README](../README.md)
 > - [← Tema 3](03-amenazas-sistemas.md)
 > - [GLOSARIO](../GLOSARIO.md)
-> - [Chuleta numerica](08-cheat-sheet-numeros.md)
+> - [Chuleta numérica](08-cheat-sheet-numeros.md)
 > - [Tema 5 →](05-gestion-seguridad.md)
 
 ---
@@ -97,6 +97,8 @@
 | **Cambiar la contraseña de acceso al router** | La contraseña por defecto (admin/admin, 1234) es pública y conocida |
 | **Evitar el acceso a la configuración desde Internet** | Desactivar administración remota vía WAN |
 | **Modo firewall activo** | El firewall integrado del router (SPI/NAT) debe estar siempre habilitado |
+| **Desactivar el servidor DHCP** | Usar asignación de **IP estática** en los equipos de la red local. Evita que dispositivos no autorizados obtengan dirección IP automáticamente al conectarse |
+| **Usar 802.1X / RADIUS** | Autenticación de dispositivos antes de permitir el acceso a la red. Proporciona control centralizado de credenciales y evita conexiones no autorizadas |
 
 #### MALAS prácticas (NO hacer)
 
@@ -107,6 +109,8 @@
 | **Entregar conexiones a DMZ / Default Workstation** | Exponer un equipo directamente a Internet sin protección del firewall del router |
 
 > **PREGUNTA TIPO EXAMEN:** "¿Cuál de estas es una buena práctica en la configuración de un router ADSL doméstico?" — Si las opciones son las 3 malas prácticas anteriores más "Ninguna de las anteriores", la respuesta correcta es **"Ninguna de las anteriores es buena práctica"**.
+
+> **IMPORTANTE - Segunda opinión:** Es **IMPRESCINDIBLE** instalar una buena suite de seguridad y realizar **escaneos periódicos remotos con OTRA suite** diferente (segunda opinión) para detectar posibles infecciones que la primera suite haya pasado por alto. Ningún antimalware es infalible; una segunda herramienta reduce el riesgo de falsos negativos.
 
 ---
 
@@ -166,6 +170,26 @@
 | **Escanear adjuntos** | Antes de abrir cualquier archivo adjunto, pasarlo por el antivirus o usar VirusTotal |
 | **Usar CCO (Copia de Carbón Oculta)** | Al enviar a múltiples destinatarios, usar CCO para no exponer direcciones de terceros |
 
+### 2.1 Recepción de correo
+
+| Práctica | Descripción |
+|---|---|
+| **No abrir correos sospechosos** | Remitente desconocido, asuntos alarmantes, archivos adjuntos no solicitados |
+| **Jamás responder SPAM** | Responder confirma al remitente que la dirección está activa, lo que genera más spam |
+| **No hacer click en enlaces de credenciales** | Los servicios legítimos NUNCA piden contraseñas por email. Verificar escribiendo la URL directamente en el navegador |
+| **Escanear adjuntos** | Pasar por antivirus o VirusTotal antes de abrir cualquier archivo adjunto |
+| **Desconfiar del remitente** | Verificar la dirección real del remitente (cabeceras del correo), no solo el nombre mostrado. Comprobar que el dominio es legítimo |
+
+### 2.2 Envío de correo
+
+| Práctica | Descripción |
+|---|---|
+| **Usar Asunto descriptivo** | Facilitar que el destinatario identifique el correo como legítimo y evitar que sea marcado como spam |
+| **No proporcionar información personal/financiera** | Evitar enviar DNI, datos bancarios, contraseñas o cualquier dato sensible por email |
+| **No participar en cadenas de correo** | Las cadenas son fuente de propagación de malware, bulos y recopilación de direcciones de correo |
+| **Usar CCO (Bcc - Blind Carbon Copy)** | Proteger la privacidad de los destinatarios, no exponer direcciones de terceros |
+| **No responder SPAM (salvo Lista Robinson)** | La única respuesta admisible a un correo no deseado es darse de baja mediante el servicio **Lista Robinson** (listas de exclusión publicitaria oficiales) |
+
 ### Integridad vs Confidencialidad del correo
 
 | Propiedad | Cómo se garantiza |
@@ -210,15 +234,21 @@
 - **Control de cookies**: eliminar periódicamente cookies de terceros, usar modo incógnito cuando proceda
 - **Evitar URLs sospechosas**: dominios mal escritos (faceboook.com, g00gle.com), acortadores (bit.ly) sin contexto
 - **Black Hat SEO**: técnicas de posicionamiento malicioso para que sitios fraudulentos aparezcan en los primeros resultados de búsqueda. Desconfiar de resultados patrocinados no verificados
+- **Cuidado con Google (Black Hat SEO)**: las técnicas de Black Hat SEO pueden posicionar sitios tóxicos y fraudulentos en los primeros resultados de búsqueda, llevándonos a páginas maliciosas sin que el usuario sea consciente del riesgo
+- **Evitación de Código Tóxico y control de pestañas**: no mantener abiertas simultáneamente en el mismo navegador sesiones de redes sociales y banca online. Un código malicioso ejecutándose en una pestaña podría acceder a los datos de sesión de otra
+- **"Googlear" toda URL sospechosa antes de acceder**: antes de hacer click en un enlace sospechoso, buscar la URL o el nombre del sitio en un buscador para verificar si existen reportes de fraude, malware o phishing asociados
 
 ### Privacidad en Redes Sociales (RRSS)
 
+> En navegación en RRSS aplica **todo lo indicado anteriormente** (HTTPS, 2FA, contraseñas, no recordar claves en navegador, control de cookies, etc.) más las siguientes medidas específicas:
+
 | Acción | Recomendación |
 |---|---|
-| **Política de uso** | Leer y entender la política de privacidad y condiciones de cada red social |
+| **Política de uso y privacidad** | Leer y entender la política de privacidad y condiciones de cada red social antes de crear un perfil |
 | **Nivel de privacidad** | Configurar el perfil como privado, limitar la visibilidad a contactos de confianza |
-| **No compartir con "amigos de amigos"** | Esta opción amplía enormemente la exposición; desactivarla |
-| **Datos personales** | No publicar dirección, teléfono, ubicación en tiempo real, planes de vacaciones |
+| **Evitar acceso a "amigos de amigos"** | Esta opción amplía enormemente la exposición; desactivarla siempre |
+| **Información personal** | No publicar dirección, teléfono, ubicación en tiempo real, planes de vacaciones |
+| **Información de terceros** | No publicar fotos, vídeos o datos personales de terceros sin su consentimiento explícito. Respeta la privacidad ajena tanto como la propia |
 
 **Ejemplo real:** El caso de **Cambridge Analytica (2018)** explotó los permisos de Facebook que permitían a una app recopilar datos no solo del usuario que la instalaba, sino también de **todos sus amigos**, afectando a ~87 millones de perfiles.
 
@@ -287,11 +317,30 @@ Zona segura interior de la organización. Contiene los equipos de los empleados,
 
 **Metodologías:** OSSTMM, OWASP Testing Guide, PTES, ISSAF.
 
+#### Tipos de análisis (caja blanca, negra, gris)
+
+| Tipo | Descripción |
+|---|---|
+| **Caja negra (Black Box)** | El pentester no dispone de información previa del sistema. Simula un ataque externo real sin conocimiento interno de la infraestructura |
+| **Caja blanca (White Box)** | El pentester tiene acceso completo a la información del sistema: código fuente, diagramas de red, credenciales, documentación. Es el análisis más exhaustivo |
+| **Caja gris (Grey Box)** | El pentester dispone de información parcial (ej. credenciales de usuario estándar). Simula un ataque desde dentro con privilegios limitados |
+
+#### OSINT (Open Source Intelligence)
+
+Empleo de herramientas **OSINT** (Open Source Intelligence) para la recopilación de información pública sobre el objetivo: dominios, direcciones IP, correos electrónicos, perfiles en redes sociales, repositorios de código, metadatos de documentos, etc. Herramientas comunes: **Maltego**, **theHarvester**, **Shodan**, **Recon-ng**. Es una fase fundamental en la etapa de reconocimiento del pentesting.
+
 ### 4.7 Análisis forense
 
 Disciplina que investiga incidentes de seguridad mediante la recolección, preservación, análisis y presentación de evidencias digitales. Debe mantener la **cadena de custodia** para que las evidencias sean admisibles en procesos judiciales.
 
 **Fases:** Identificación → Adquisición → Preservación → Análisis → Documentación → Presentación.
+
+#### Tipos de análisis forense
+
+| Tipo | Descripción |
+|---|---|
+| **Análisis Forense (equipos activos)** | Se realiza sobre sistemas en funcionamiento. Permite capturar información volátil: procesos en memoria, conexiones de red activas, usuarios logueados, claves de cifrado en RAM. Requiere actuación inmediata porque esta información se pierde al apagar el equipo |
+| **Análisis Post-mortem (equipos no activos)** | Se realiza sobre sistemas apagados o discos duros extraídos. Se analizan medios de almacenamiento no volátiles (HDD, SSD, USB). Es el más común en investigaciones judiciales y permite trabajar con imágenes forenses sin prisas |
 
 ---
 
@@ -305,10 +354,10 @@ Fundación sin ánimo de lucro que desarrolla y mantiene recursos gratuitos para
 
 | Recurso | Descripción |
 |---|---|
-| **OWASP Top 10** | Lista de los 10 riesgos de seguridad más críticos en aplicaciones web. Edición actual (2021): Inyección, Fallos de Autenticación, Exposición de Datos Sensibles, XXE, Control de Acceso Roto, Configuraciones Incorrectas, XSS, Deserialización Insegura, Componentes Vulnerables, Monitoreo Insuficiente |
-| **ASVS** (Application Security Verification Standard) | Estándar de verificación de seguridad para aplicaciones |
-| **WSTG** (Web Security Testing Guide) | Guía completa de pruebas de seguridad en aplicaciones web |
-| **API Security Top 10** | Lista específica de riesgos de seguridad en APIs |
+| **OWASP Top 10** | Lista de los 10 riesgos de seguridad más críticos en aplicaciones web. Se actualiza **cada 4 años**. Edición actual (2021): Inyección, Fallos de Autenticación, Exposición de Datos Sensibles, XXE, Control de Acceso Roto, Configuraciones Incorrectas, XSS, Deserialización Insegura, Componentes Vulnerables, Monitoreo Insuficiente |
+| **ASVS** (Application Security Verification Standard) | Estándar de verificación de seguridad para aplicaciones. **Versión 5.0.0 (2025)**, estructurada en **17 apartados** que cubren arquitectura, autenticación, control de acceso, validación de entradas, criptografía, gestión de errores, etc. |
+| **WSTG** (Web Security Testing Guide) | Guía completa de pruebas de seguridad en aplicaciones web. **Versión 5.0.0 (2025)**. Disponible para descarga desde el repositorio oficial de **GitHub** de OWASP |
+| **API Security Top 10** | Lista específica de riesgos de seguridad en APIs. **Versión 2023**. Cubre riesgos como Broken Object Level Authorization, Broken Authentication, Excessive Data Exposure, Lack of Resources & Rate Limiting, etc. |
 
 ### 5.2 WAF (Web Application Firewall)
 
@@ -320,16 +369,64 @@ Fundación sin ánimo de lucro que desarrolla y mantiene recursos gratuitos para
 | **Listas blancas** | Solo permite tráfico que cumple reglas definidas como válidas |
 | **Modo detección** | Monitoriza y registra, pero no bloquea (útil en fase de tuning) |
 | **Modo prevención** | Bloquea activamente el tráfico malicioso |
-| **Proxy inverso** | El WAF se sitúa delante del servidor web como proxy inverso, filtrando antes de que el tráfico llegue a la aplicación |
+
+#### Modos de despliegue
+
+| Modo | Descripción |
+|---|---|
+| **Proxy inverso** | El WAF se sitúa delante del servidor web como proxy inverso, filtrando antes de que el tráfico llegue a la aplicación. Es la configuración más común. El tráfico pasa físicamente a través del WAF |
+| **Modo inline (transparente)** | El WAF se sitúa en línea con el tráfico de red, actuando como un puente transparente a nivel 2. No modifica las direcciones IP de origen/destino. Puede bloquear tráfico malicioso |
+| **Port mirroring (SPAN)** | El tráfico se copia a un puerto de monitorización donde el WAF analiza de forma pasiva. No puede bloquear tráfico, solo detectar y alertar. Útil para análisis sin impacto en producción |
+
+#### Servidor único vs Cluster
+
+| Configuración | Descripción |
+|---|---|
+| **Servidor único** | Un solo nodo WAF. Sencillo de desplegar pero introduce un punto único de fallo (SPOF - Single Point of Failure) |
+| **Cluster** | Varios nodos WAF trabajando en conjunto. Proporciona: **balanceo de carga** (distribución del tráfico entre nodos), **redundancia** (alta disponibilidad: si un nodo falla, los demás asumen el tráfico) y **sincronización de reglas** (todas las políticas de seguridad se replican automáticamente entre los nodos del cluster) |
+
+#### Cloud WAF
+
+- Servicio **SaaS** (Software as a Service) gestionado íntegramente por el proveedor (Cloudflare WAF, AWS WAF, Azure WAF, Imperva Cloud WAF)
+- **Ventajas**: despliegue sencillo (cambio de DNS), no requiere mantenimiento de infraestructura, actualizaciones automáticas de reglas, escalabilidad gestionada
+- **Desventaja crítica**: se **cede el tráfico a un tercero**, lo que implica consideraciones de confidencialidad, soberanía del dato y cumplimiento normativo (RGPD)
+
+#### Problema crítico: descifrado TLS
+
+- Para analizar el tráfico HTTPS, el WAF necesita **descifrar el contenido** de las peticiones
+- El WAF actúa como un **"man-in-the-middle" legal**: descifra el tráfico del cliente con su propio certificado, analiza la petición, y la vuelve a cifrar hacia el servidor de origen
+- Para ello, el WAF debe tener un **certificado propio** de confianza instalado y aceptado por la infraestructura
+- **Introduce latencia** adicional en cada petición debido al proceso de descifrado/análisis/cifrado
 
 ### 5.3 ModSecurity
 
-> **Referencia de WAF open source.** Originalmente desarrollado por Trustwave, ahora es un proyecto bajo el paraguas de **OWASP**.
+> **Referencia de WAF open source.** Desarrollado originalmente por **Trustwave**, desde **2024** es un proyecto bajo el paraguas de la **OWASP Foundation**.
 
 - Motor de detección de intrusiones para aplicaciones web (también llamado "IDS/IPS para HTTP")
 - Funciona como módulo de Apache, Nginx o IIS
-- Usa el lenguaje de reglas **ModSecurity Rule Language** y el **OWASP Core Rule Set (CRS)**
-- Permite crear reglas personalizadas y es altamente configurable
+- Usa su propio lenguaje de reglas: **SecLang** (ModSecurity Rule Language)
+- Utiliza el **OWASP Core Rule Set (CRS)** como conjunto de reglas base
+
+#### Proyectos bajo OWASP Foundation
+
+OWASP gestiona tres proyectos complementarios relacionados con WAF:
+
+| Proyecto | Descripción |
+|---|---|
+| **ModSecurity** | WAF original escrito en C/C++. Maduro, ampliamente probado en producción, pero con limitaciones de rendimiento en entornos de alto tráfico |
+| **Coraza** | WAF alternativo escrito en **Go** (Golang). Mayor rendimiento y menor consumo de recursos, diseñado para entornos cloud, contenedores y Kubernetes |
+| **OWASP Core Rule Set (CRS)** | Conjunto de reglas genéricas que cubren el **OWASP Top 10**: protección contra SQLi, XSS, inyección de código, RFI/LFI, etc. Es independiente del motor WAF utilizado |
+
+#### Retos operativos
+
+| Reto | Descripción |
+|---|---|
+| **Falsos positivos** | El CRS genérico puede bloquear tráfico legítimo. Requiere una fase de **tuning** (ajuste de reglas) para cada aplicación, desactivando o modificando reglas que generen falsos positivos en el contexto específico |
+| **Descifrado TLS** | Mismo problema que cualquier WAF: necesidad de descifrar el tráfico HTTPS para analizarlo, actuando como man-in-the-middle con certificado propio |
+| **Mantenimiento del CRS** | Las reglas deben actualizarse periódicamente para cubrir nuevas amenazas, vectores de ataque y vulnerabilidades. Un CRS desactualizado deja puntos ciegos |
+| **Rendimiento** | El análisis de cada petición HTTP consume CPU y añade latencia. **Coraza** (Go) mejora el rendimiento respecto a ModSecurity (C) en entornos de alto tráfico |
+
+> **CONCEPTO CLAVE:** "Un WAF **no sustituye al desarrollo seguro** ni al parcheo de vulnerabilidades. Es una capa de protección adicional (**parche virtual**) que reduce la **ventana de exposición** mientras se desarrolla y despliega el parche definitivo en el código."
 
 ### 5.4 Inyección SQL — Prevención
 
@@ -382,6 +479,40 @@ Son exclusivamente centros de respuesta a **incidentes de seguridad informática
 | **CCN** | Centro Criptológico Nacional | Organismo adscrito al **CNI** encargado de la seguridad de las TIC en el sector público y sistemas clasificados |
 | **INCIBE** | Instituto Nacional de Ciberseguridad (antes **INTECO**) | Investigación, formación, concienciación y respuesta a incidentes para empresas y ciudadanos. Con sede en León |
 | **AEPD** | Agencia Española de Protección de Datos | Autoridad de control independiente que vela por el cumplimiento de la normativa de protección de datos (RGPD, LOPDGDD) |
+
+### 6.4 Mando Conjunto de Ciberdefensa
+
+Creado en **2014**, dependiente del **JEMAD** (Jefe del Estado Mayor de la Defensa). Responsable de la **planificación y ejecución** de las operaciones de ciberdefensa militar en las Fuerzas Armadas españolas. Actúa como mando operativo de las capacidades de ciberdefensa del Ministerio de Defensa.
+
+### 6.5 SOCs (Security Operation Center)
+
+Centros de operaciones de seguridad que **monitorizan 24x7x365** las redes y sistemas en busca de amenazas e incidentes de ciberseguridad.
+
+| SOC | Ámbito |
+|---|---|
+| **SOC AGE** (Administración General del Estado) | Gestionado por el **CCN**. Monitoriza los sistemas y redes de la Administración General del Estado, proporcionando vigilancia continua y respuesta temprana ante ciberamenazas |
+| **SOCs privados** | Empresas de ciberseguridad que ofrecen servicios de monitorización gestionada (MSSP - Managed Security Service Provider) a organizaciones que no disponen de SOC propio |
+
+### 6.6 CERTs autonómicos y privados
+
+Los **CERTs autonómicos** y **CERTs privados** actúan como **primer escalón** en la respuesta a incidentes de ciberseguridad. Gestionan incidentes de su ámbito competencial y derivan los casos más graves o que exceden sus capacidades a los CERTs nacionales de referencia (CCN-CERT, INCIBE-CERT).
+
+### 6.7 CNPIC — Detalle adicional
+
+Creado en **2007**, el **Centro Nacional de Protección de Infraestructuras Críticas** (CNPIC) es el responsable de impulsar, coordinar y supervisar la protección de las infraestructuras críticas en España.
+
+**Objetivos clave:**
+- Proteger **12 sectores** estratégicos: energía, agua, transporte, telecomunicaciones/TIC, sistema financiero, salud, alimentación, espacio, industria nuclear, industria química, administración, instalaciones de investigación
+- Mantener el **Catálogo Nacional de Infraestructuras Críticas**, que inventaría y cataloga los activos esenciales del país cuya perturbación o destrucción tendría un grave impacto en los servicios esenciales
+
+### 6.8 AEPD — Detalle adicional
+
+La **Agencia Española de Protección de Datos** (AEPD) opera a nivel nacional como autoridad de control independiente en materia de protección de datos.
+
+Existen **agencias autonómicas** de protección de datos en:
+- **Madrid** (Agencia de Protección de Datos de la Comunidad de Madrid)
+- **Cataluña** (Autoritat Catalana de Protecció de Dades - APDCAT)
+- **País Vasco** (Euskal Autonomia Erkidegoko Datuen Babeserako Agentzia - AVPD)
 
 ---
 
