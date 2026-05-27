@@ -1,8 +1,11 @@
-# UA 2 — Fundamentos en Seguridad Digital: Criptografía
+# UA 2 - Fundamentos en Seguridad Digital: Criptografia
 
-> **Asignatura:** Seguridad de la Información  
-> **Unidad de Aprendizaje 2:** Fundamentos en Seguridad Digital  
-> **Tema central:** Criptografía, algoritmos, protocolos y aplicaciones
+> **Navegacion:**
+> - [← README](../README.md)
+> - [← Tema 1](01-conceptos-fundamentales.md)
+> - [GLOSARIO](../GLOSARIO.md)
+> - [Chuleta numerica](08-cheat-sheet-numeros.md)
+> - [Tema 3 →](03-amenazas-sistemas.md)
 
 ---
 
@@ -426,6 +429,74 @@ GCM = CTR (cifrado) + GHASH (autenticación con aritmética en GF(2^128))
 | **CFB** | ✅ Sí | ✅ Sí | No | Solo descifrado | ❌ No | ⚠️ Precaución IV |
 | **CTR** | ✅ Sí | ✅ Sí | No | Sí | ❌ No | ✅ (con cuidado) |
 | **GCM** | ✅ Sí | ✅ Sí | No | Sí | ✅ Sí | ✅ Recomendado |
+
+### 4.9 Padding en cifradores de bloque: PKCS#7 a fondo
+
+#### ¿Por que existe el padding?
+
+Un cifrador de **bloque** (AES, DES) opera sobre bloques de tamanio fijo. AES siempre cifra bloques de **128 bits (16 bytes)**. Si un mensaje no es multiplo exacto del bloque, el ultimo bloque queda incompleto. Hay que **rellenarlo** con algo: eso es el padding.
+
+```
+Mensaje: "HOLA MUNDO" (10 bytes)
+
+Cifrador de flujo (RC4):
+  [H][O][L][A][ ][M][U][N][D][O] → 10 bytes cifrados
+  Tamanio final: 10 bytes (IDENTICO)
+
+Cifrador de bloque (AES, bloque = 16 bytes):
+  [H][O][L][A][ ][M][U][N][D][O][?][?][?][?][?][?]
+  └─────── 10 bytes utiles ──────┘└── 6 bytes de padding ──┘
+  Tamanio final: 16 bytes (1 bloque)
+```
+
+#### PKCS#7: el estandar de OpenSSL
+
+**PKCS#7** (Public Key Cryptography Standards #7) es el esquema de padding por defecto. Regla:
+
+> Cada byte de padding contiene el **numero total de bytes de padding** anadidos.
+
+| Bytes que faltan | Valor de cada byte | Aspecto del padding |
+|:----------------:|:------------------:|---------------------|
+| 1 | 0x01 | `[01]` |
+| 2 | 0x02 | `[02][02]` |
+| 3 | 0x03 | `[03][03][03]` |
+| 7 | 0x07 | `[07][07][07][07][07][07][07]` |
+| 15 | 0x0F | `[0F]...[0F]` (15 bytes) |
+| 0 (multiplo exacto) | 0x10 | `[10]...[10]` (16 bytes, 1 bloque entero) |
+
+**Caso critico: el mensaje ya es multiplo de 16.** Se anade un bloque ENTERO de padding (16 bytes con valor 0x10). ¿Por que? Porque al descifrar, OpenSSL necesita encontrar padding SIEMPRE. Si no hubiera padding, no podria distinguir entre "no habia padding" y "el ultimo byte de datos valia 0x01 por casualidad".
+
+**Al descifrar:**
+```
+1. Descifrar → obtienes datos + padding
+2. Leer el ULTIMO byte. Ej: 0x05
+3. Quitar 5 bytes de padding
+4. Verificar que los 5 bytes son todos 0x05
+   Si no coinciden → "bad padding" (mensaje manipulado o clave incorrecta)
+```
+
+#### Calculo del tamanio final en OpenSSL
+
+**Con contrasenia** (`openssl enc -aes-256-cbc -pass pass:...`):
+```
+Tamanio_final = original + 16 (cabecera "Salted__") + padding hasta multiplo de 16
+```
+La cabecera son 16 bytes fijos: 8 de texto "Salted__" + 8 de salt aleatoria.
+
+**Con clave + IV directos** (`openssl enc -aes-256-cbc -K ... -iv ...`):
+```
+Tamanio_final = original + padding hasta multiplo de 16
+```
+Sin cabecera porque clave e IV ya los proporcionas tu.
+
+**Ejemplos para el examen:**
+- 5 bytes con contrasenia → 5 + 16 + 11 = **32 bytes** (2 bloques)
+- 16 bytes con clave directa → 16 + 16 = **32 bytes** (bloque completo + bloque de padding)
+- 100 bytes con RC4 → **100 bytes** (identico, cifrador de flujo)
+
+#### Padding Oracle Attack (concepto)
+
+Si un servidor responde diferente ante "padding OK" vs "padding incorrecto", un atacante puede descifrar el mensaje entero sin la clave. **Mitigacion:** usar modos AEAD (GCM, ChaCha20-Poly1305) que autentican antes de verificar el padding. TLS 1.3 elimino CBC por esto.
 
 ---
 

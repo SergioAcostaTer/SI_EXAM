@@ -1,6 +1,11 @@
 # UA 4: Mecanismos de Defensa
 
-> Guía completa de referencia — Seguridad de la Información
+> **Navegacion:**
+> - [← README](../README.md)
+> - [← Tema 3](03-amenazas-sistemas.md)
+> - [GLOSARIO](../GLOSARIO.md)
+> - [Chuleta numerica](08-cheat-sheet-numeros.md)
+> - [Tema 5 →](05-gestion-seguridad.md)
 
 ---
 

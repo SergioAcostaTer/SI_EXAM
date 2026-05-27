@@ -1,4 +1,10 @@
-# UA 6 — Legislación y Normativa en Seguridad de la Información
+# UA 6 - Legislacion y Normativa en Seguridad de la Informacion
+
+> **Navegacion:**
+> - [← README](../README.md)
+> - [← Tema 5](05-gestion-seguridad.md)
+> - [GLOSARIO](../GLOSARIO.md)
+> - [Chuleta numerica](08-cheat-sheet-numeros.md)
 
 ---
 

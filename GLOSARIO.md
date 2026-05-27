@@ -1,6 +1,14 @@
-> **Navegación:** [← README](README.md) | [Tema 1](01_conceptos-fundamentales.md) | [Tema 2](02_criptografia-fundamentos.md) | [Tema 3](03_amenazas-sistemas.md) | [Tema 4](04_mecanismos-defensa.md) | [Tema 5](05_gestion-seguridad.md) | [Tema 6](06_legislacion-normativa.md)
+> **Navegacion:**
+> - [← README](README.md)
+> - [T1: Conceptos](temas/01-conceptos-fundamentales.md)
+> - [T2: Criptografia](temas/02-criptografia-fundamentos.md)
+> - [T3: Amenazas](temas/03-amenazas-sistemas.md)
+> - [T4: Defensa](temas/04-mecanismos-defensa.md)
+> - [T5: Gestion](temas/05-gestion-seguridad.md)
+> - [T6: Legislacion](temas/06-legislacion-normativa.md)
+> - [Chuleta numerica](temas/08-cheat-sheet-numeros.md)
 
-# GLOSARIO – Seguridad de la Información
+# GLOSARIO - Seguridad de la Informacion
 
 ---
 

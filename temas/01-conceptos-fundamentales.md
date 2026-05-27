@@ -1,6 +1,10 @@
-# Tema 1: Seguridad de la Información — Una Visión Integral
+# Tema 1: Seguridad de la Informacion - Una Vision Integral
 
-> **Navegación:** [← README](README.md) | [GLOSARIO](GLOSARIO.md) | [Tema 2 →](02_criptografia-fundamentos.md)
+> **Navegacion:**
+> - [← README](../README.md)
+> - [GLOSARIO](../GLOSARIO.md)
+> - [Chuleta numerica](08-cheat-sheet-numeros.md)
+> - [Tema 2 →](02-criptografia-fundamentos.md)
 
 ---
 

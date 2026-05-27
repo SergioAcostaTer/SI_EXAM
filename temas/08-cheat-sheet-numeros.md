@@ -1,8 +1,16 @@
-> 📚 **Navegación:** [← README](README.md) | [T1](01_conceptos-fundamentales.md) | [T2](02_criptografia-fundamentos.md) | [T3](03_amenazas-sistemas.md) | [T4](04_mecanismos-defensa.md) | [T5](05_gestion-seguridad.md) | [T6](06_legislacion-normativa.md) | [📖 GLOSARIO](GLOSARIO.md)
+> **Navegacion:**
+> - [← README](../README.md)
+> - [T1: Conceptos](01-conceptos-fundamentales.md)
+> - [T2: Criptografia](02-criptografia-fundamentos.md)
+> - [T3: Amenazas](03-amenazas-sistemas.md)
+> - [T4: Defensa](04-mecanismos-defensa.md)
+> - [T5: Gestion](05-gestion-seguridad.md)
+> - [T6: Legislacion](06-legislacion-normativa.md)
+> - [📖 GLOSARIO](../GLOSARIO.md)
 
-# 🔢 Chuleta Numérica — Seguridad de la Información
+# Chuleta Numerica - Seguridad de la Informacion
 
-> TODOS los datos numéricos, fechas, tamaños y tiempos que aparecen en preguntas de examen.
+> TODOS los datos numericos, fechas, tamanios y tiempos que aparecen en preguntas de examen.
 
 ---
 
