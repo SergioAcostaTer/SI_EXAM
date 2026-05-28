@@ -203,11 +203,11 @@
 - C) Biometría
 - D) En ninguna de las indicadas
 
-> **Respuesta: C**
+> **Respuesta: A**
 >
-> **Explicación:** El principio de **Kerckhoffs** (1880) establece que "un criptosistema debe ser seguro incluso si todo lo relacionado con su funcionamiento, excepto la clave, es de conocimiento público". Es lo opuesto a la "seguridad por oscuridad". La **Biometría** NO aplica este principio porque no se basa en conocimiento (claves secretas) sino en **rasgos fisiológicos o conductuales** (algo que se ES).
+> **Explicación:** La **Esteganografía** clásica se apoya en gran parte en ocultar el método o la existencia del mensaje (seguridad por oscuridad), por lo que no sigue el principio de seguridad basada en conocimiento público del sistema. En cambio, la criptología moderna (Kerckhoffs) asume algoritmos públicos y seguridad sustentada en la clave.
 >
-> **Por qué no las otras:** A (Esteganografía) tradicionalmente se basa en seguridad por oscuridad: ocultar la existencia misma del mensaje, no en claves públicas. B (Criptología moderna) SÍ aplica el principio de Kerckhoffs: algoritmos públicos, seguridad en la clave. D es falsa porque la biometría no aplica seguridad a través del conocimiento.
+> **Por qué no las otras:** B es incorrecta porque la criptología moderna SÍ aplica explícitamente Kerckhoffs. C (Biometría) se basa en rasgos del usuario, pero la pregunta apunta al contraste clásico entre criptografía abierta y seguridad por oscuridad. D es falsa porque sí hay una técnica donde no aplica de forma canónica: la esteganografía tradicional.
 
 ---
 
@@ -350,11 +350,11 @@
 - C) El intercambio de las claves públicas entre los agentes que establecen la comunicación
 - D) La pérdida o sustracción de la clave privada
 
-> **Respuesta: D**
+> **Respuesta: C**
 >
-> **Explicación:** La **pérdida o sustracción de la clave privada** es un problema crítico en sistemas asimétricos. Si alguien obtiene tu clave privada, puede: descifrar todos tus mensajes, suplantar tu identidad (firmar como tú) y descifrar sesiones pasadas si capturó el tráfico. Es la clave maestra de tu identidad digital. Por eso existen medidas como tarjetas criptográficas (DNIe) donde la clave privada nunca sale del chip.
+> **Explicación:** El problema clásico en sistemas de clave pública es **cómo intercambiar y verificar de forma auténtica** las claves públicas para evitar suplantaciones (ataques MitM). Si no confías en que la clave pública recibida pertenece realmente al destinatario, puedes cifrar para el atacante creyendo que cifrabas para el receptor legítimo. Por eso se usan PKI, certificados y autoridades de certificación.
 >
-> **Por qué no las otras:** A es falso: desde el punto de vista del usuario, usar criptografía asimétrica es transparente. B es un inconveniente real (los algoritmos asimétricos son ~1000�: más lentos) pero es un problema de rendimiento, no de seguridad. C se resuelve con PKI y certificados.
+> **Por qué no las otras:** A no es la respuesta esperada. La complejidad de uso se abstrae en herramientas y protocolos (TLS, clientes de correo, gestores de certificados), mientras que el reto de seguridad real sigue siendo validar la autenticidad de la clave pública. B es un coste de rendimiento, no el reto conceptual de seguridad. D es un riesgo crítico operativo, pero no el problema estructural característico que plantea el uso de criptografía de clave pública frente al modelo simétrico.
 
 ---
 
