@@ -354,7 +354,7 @@
 >
 > **Explicación:** El problema clásico en sistemas de clave pública es **cómo intercambiar y verificar de forma auténtica** las claves públicas para evitar suplantaciones (ataques MitM). Si no confías en que la clave pública recibida pertenece realmente al destinatario, puedes cifrar para el atacante creyendo que cifrabas para el receptor legítimo. Por eso se usan PKI, certificados y autoridades de certificación.
 >
-> **Por qué no las otras:** A no es el problema principal de estos sistemas. B es un coste de rendimiento, no el reto conceptual de seguridad. D es un riesgo crítico operativo, pero no el problema estructural característico que plantea el uso de criptografía de clave pública frente al modelo simétrico.
+> **Por qué no las otras:** A no es la respuesta esperada porque la complejidad de uso se abstrae en herramientas y protocolos (TLS, clientes de correo, gestores de certificados), mientras que el reto de seguridad real sigue siendo validar la autenticidad de la clave pública. B es un coste de rendimiento, no el reto conceptual de seguridad. D es un riesgo crítico operativo, pero no el problema estructural característico que plantea el uso de criptografía de clave pública frente al modelo simétrico.
 
 ---
 
