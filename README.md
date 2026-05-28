@@ -3,11 +3,11 @@
 **4º Grado en Ingeniería Informática: Universidad de Las Palmas de Gran Canaria**
 
 > 📚 **Navegación rápida:**
-> - [📋 Temario completo](temas/)
+> - [📋 Temario completo](temas/README.md)
 > - [📖 GLOSARIO de siglas](GLOSARIO.md)
 > - [🔢 Chuleta numérica](temas/08-cheat-sheet-numeros.md)
 > - [🎯 Simulacros de examen](simulacros/)
-> - [📁 Material original](material/)
+> - [📁 Material original](pdfs/)
 
 ---
 
@@ -29,7 +29,7 @@
 
 ## UA 1. SEGURIDAD DE LA INFORMACIÓN: UNA VISIÓN INTEGRAL
 
-📖 _Referencia completa:_ [temas/01-conceptos-fundamentales.md](01_conceptos-fundamentales.md)
+📖 _Referencia completa:_ [temas/01-conceptos-fundamentales.md](temas/01-conceptos-fundamentales.md)
 
 ---
 
@@ -213,7 +213,7 @@
 
 ## UA 2. FUNDAMENTOS EN SEGURIDAD DIGITAL
 
-📖 _Referencia completa:_ [temas/02-criptografia-fundamentos.md](02_criptografia-fundamentos.md)
+📖 _Referencia completa:_ [temas/02-criptografia-fundamentos.md](temas/02-criptografia-fundamentos.md)
 
 ---
 
@@ -835,7 +835,7 @@
 
 ## UA 3. AMENAZAS A LOS SISTEMAS DE INFORMACIÓN
 
-📖 _Referencia completa:_ [temas/03-amenazas-sistemas.md](03_amenazas-sistemas.md)
+📖 _Referencia completa:_ [temas/03-amenazas-sistemas.md](temas/03-amenazas-sistemas.md)
 
 ---
 
@@ -989,7 +989,7 @@
 
 ## UA 4. MECANISMOS DE DEFENSA
 
-📖 _Referencia completa:_ [temas/04-mecanismos-defensa.md](04_mecanismos-defensa.md)
+📖 _Referencia completa:_ [temas/04-mecanismos-defensa.md](temas/04-mecanismos-defensa.md)
 
 ---
 
@@ -1180,7 +1180,7 @@
 
 ## UA 5. INSTRUMENTOS PARA LA GESTIÓN DE LA SEGURIDAD
 
-📖 _Referencia completa:_ [temas/05-gestion-seguridad.md](05_gestion-seguridad.md)
+📖 _Referencia completa:_ [temas/05-gestion-seguridad.md](temas/05-gestion-seguridad.md)
 
 ---
 
@@ -1641,7 +1641,7 @@
 
 ## UA 6. LEGISLACIÓN Y NORMATIVA EN SEGURIDAD DE LA INFORMACIÓN
 
-📖 _Referencia completa:_ [temas/06-legislacion-normativa.md](06_legislacion-normativa.md)
+📖 _Referencia completa:_ [temas/06-legislacion-normativa.md](temas/06-legislacion-normativa.md)
 
 ---
 

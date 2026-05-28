@@ -359,4 +359,4 @@ Whirlp. = 512 bits               ✅
 
 ---
 
-> 📚 **Navegación:** [← README](README.md) | [T1](01_conceptos-fundamentales.md) | [T2](02_criptografia-fundamentos.md) | [T3](03_amenazas-sistemas.md) | [T4](04_mecanismos-defensa.md) | [T5](05_gestion-seguridad.md) | [T6](06_legislacion-normativa.md) | [📖 GLOSARIO](GLOSARIO.md)
+> 📚 **Navegación:** [← README](../README.md) | [📋 Temario](README.md) | [Tema 1](01-conceptos-fundamentales.md) | [Tema 2](02-criptografia-fundamentos.md) | [Tema 3](03-amenazas-sistemas.md) | [Tema 4](04-mecanismos-defensa.md) | [Tema 5](05-gestion-seguridad.md) | [Tema 6](06-legislacion-normativa.md) | [📖 GLOSARIO](../GLOSARIO.md)
