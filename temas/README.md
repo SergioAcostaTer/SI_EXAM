@@ -1,4 +1,4 @@
-# 📋 Temario completo
+# 📋 Índice de temas
 
 > **Navegación:**
 > - [← README principal](../README.md)

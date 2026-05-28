@@ -785,7 +785,7 @@ Argumentos a favor de un cifrado fuerte y sin puertas traseras:
 
 ---
 
-> **Referencia cruzada:** Los conceptos de criptografía se desarrollan en [Tema 2 - Criptografía: Fundamentos](02-criptografia-fundamentos.md). Las amenazas a sistemas en [Tema 3](03-amenazas-sistemas.md). Los mecanismos de defensa en [Tema 4](04-mecanismos-defensa.md). La gestión de seguridad en [Tema 5](05-gestion-seguridad.md). La legislación en [Tema 6](06-legislacion-normativa.md).
+> **Referencia cruzada:** Los conceptos de criptografía se desarrollan en [Tema 2](02-criptografia-fundamentos.md). Las amenazas a sistemas en [Tema 3](03-amenazas-sistemas.md). Los mecanismos de defensa en [Tema 4](04-mecanismos-defensa.md). La gestión de seguridad en [Tema 5](05-gestion-seguridad.md). La legislación en [Tema 6](06-legislacion-normativa.md).
 
 ---
 
